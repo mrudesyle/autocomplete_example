@@ -10,39 +10,2379 @@
   <script>document.createElement( "picture" );</script>
   <script class="picturefill" async="async" src="js/picturefill.min.js"></script>
   <link rel="stylesheet" href="css/main.css">
-  
+  <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 
 <body>
   <div>
   <label>Your preferred programming language: </label>
-  <select class="select" id="combobox">
-  <option value>Select one...</option>
-  <option value="ActionScript">ActionScript</option>
-  <option value="AppleScript">AppleScript</option>
-  <option value="Asp">Asp</option>
-  <option value="BASIC">BASIC</option>
-  <option value="C">C</option>
-  <option value="C++">C++</option>
-  <option value="Clojure">Clojure</option>
-  <option value="COBOL">COBOL</option>
-  <option value="ColdFusion">ColdFusion</option>
-  <option value="Erlang">Erlang</option>
-  <option value="Fortran">Fortran</option>
-  <option value="Groovy">Groovy</option>
-  <option value="Haskell">Haskell</option>
-  <option value="Java">Java</option>
-  <option value="JavaScript">JavaScript</option>
-  <option value="Lisp">Lisp</option>
-  <option value="Perl">Perl</option>
-  <option value="PHP">PHP</option>
-  <option value="Python">Python</option>
-  <option value="Ruby">Ruby</option>
-  <option value="Scala">Scala</option>
-  <option value="Scheme">Scheme</option>
+  <select id="combobox" class="select">
+
+    <option selected="selected" value="-1"></option>
+    <option value="1000299" data-enertiaeqpcode="100/100/001" data-lastcost="530.99">ELECTRONIC MODULE</option>
+    <option value="1000301" data-enertiaeqpcode="100/105/002" data-lastcost="365.8">Tubing, 4 1/2" x 2 3/8" 9.5-13.5#
+      43BA.1001</option>
+    <option value="1000302" data-enertiaeqpcode="100/105/003" data-lastcost="797">Tubing, 5 1/2" x 2-3/8" 13-23#
+      45BA.1001</option>
+    <option value="1000303" data-enertiaeqpcode="100/105/004" data-lastcost="21.86">Gas, 1" x 10' 3069-120</option>
+    <option value="1000643" data-enertiaeqpcode="100/105/005" data-lastcost="2.35">Tubing 2 3/8 x 4.7# J55 EUE 8rd R2
+      Production Tubing (IN JOINTS)</option>
+    <option value="1000718" data-enertiaeqpcode="100/105/006" data-lastcost="1.25">2 3/8 4.7#Drfit &amp; Tested Tubing
+      (in feet) (LRM)</option>
+    <option value="1000751" data-enertiaeqpcode="100/105/007" data-lastcost="2.75">2 1/16" IJ Tubulars (Rocky Mountain
+      Inspection Services)</option>
+    <option value="1000819" data-enertiaeqpcode="100/105/008" data-lastcost="38.86">KPK 404A031 Centrifuge Tube, 100ml
+      Short cone (Robinson Manufacturing)</option>
+    <option value="1001001" data-enertiaeqpcode="100/105/009" data-lastcost="0.83">KPK 1007237 Tubing Copper
+      Refrigeration 1/4 IN (DNOW)</option>
+    <option value="1001002" data-enertiaeqpcode="100/105/010" data-lastcost="0.88">KPK 1007240 Tubing Copper
+      Refrigeration 3/8 IN (DNOW)</option>
+    <option value="1001078" data-enertiaeqpcode="100/105/011" data-lastcost="0.84">KWS 1007239 Tubing Copper
+      Refrigeratin 5/16 IN OD 0.32 in Wall Soft ASnnealed (DNOW)</option>
+    <option value="1001098" data-enertiaeqpcode="100/105/012" data-lastcost="3.4">KWS 26984 SHRNK Tube (Kimball
+      Midwest)</option>
+    <option value="1001528" data-enertiaeqpcode="100/105/013" data-lastcost="126.3">C70030A SQ Tube 2X2X 1/4" X 24'
+      (130LBS)</option>
+    <option value="1001191" data-enertiaeqpcode="100/110/002" data-lastcost="222.4">0624-0100-0609 Top Sub 2.375 EUE,
+      8rd, Hydrostatic Bailer</option>
+    <option value="1000304" data-enertiaeqpcode="100/110/001" data-lastcost="0">Sand, 3-1/16" OD 2-3/8"</option>
+    <option value="1000305" data-enertiaeqpcode="100/115/001" data-lastcost="1.25">Valve 0.750 440C Stnls Stl Hardness
+      58-61 HRC 1012075 10DS 194917</option>
+    <option value="1000306" data-enertiaeqpcode="100/115/002" data-lastcost="3.4">15/16" SS BALL (1012093 BH) (10FS
+      Quinn)</option>
+    <option value="1000307" data-enertiaeqpcode="100/115/003" data-lastcost="3.99">1 1/8" SS BALL (1012112 BH) (10HS
+      Quinn) 181539</option>
+    <option value="1000308" data-enertiaeqpcode="100/115/004" data-lastcost="6.9">1 1/4" SS BALL (1012125 BH) (10MS
+      Quinn)</option>
+    <option value="1000309" data-enertiaeqpcode="100/115/005" data-lastcost="5.89">1 3/8" SS BALL (1012137 BH) (10KS
+      Quinn)</option>
+    <option value="1000311" data-enertiaeqpcode="100/115/007" data-lastcost="38.09">2-1/4, API 11A 1012225</option>
+    <option value="1000641" data-enertiaeqpcode="100/115/008" data-lastcost="12.56">Omnimarker Gas Marker Balls 60769
+    </option>
+    <option value="1001423" data-enertiaeqpcode="100/115/010" data-lastcost="12.8">01B043 3/4" Titanium Carbide Ball
+    </option>
+    <option value="1001424" data-enertiaeqpcode="100/115/011" data-lastcost="28.29">01B047 1-1/8" Titanium Carbide
+      Ball</option>
+    <option value="1001554" data-enertiaeqpcode="100/115/012" data-lastcost="1.69">01B123 3/4" Stainless Ball</option>
+    <option value="1001816" data-enertiaeqpcode="100/115/013" data-lastcost="25.43">01B046 1" Titanium Carbide Ball
+      (Don-Nan)</option>
+    <option value="1001817" data-enertiaeqpcode="100/115/014" data-lastcost="18.83">01B044 7/8" Titanium Carbide Ball
+      (Don-Nan)</option>
+    <option value="1001941" data-enertiaeqpcode="100/115/015" data-lastcost="47.81">201630 BALL, VALVE 2.250 440C
+      STNLS STL HARDNESS: 58-61 HRC 1012225</option>
+    <option value="1000658" data-enertiaeqpcode="100/117/001" data-lastcost="2">2 3/8"X4.7# J55 EUE 8rd Yellow &amp;
+      White Band Mix @70000PSI (25 joints) 238yel Band</option>
+    <option value="1000312" data-enertiaeqpcode="100/120/001" data-lastcost="281.89">RH 1 1/4x12 STL CRMPLATED
+      26075-12 16D12C 213960</option>
+    <option value="1000314" data-enertiaeqpcode="100/120/003" data-lastcost="636.4">RW 1 1/2 x 16 STL CRM Plated
+      33055-16 BH (1 1/2"X16' STEEL CHROME BARREL 16F16C Quinn)</option>
+    <option value="1000315" data-enertiaeqpcode="100/120/004" data-lastcost="941.07">RH 1-3/4 x 18 STL CRM Plated
+      46075-18 BH (1 3/4"X18' STEEL CHROME BARREL 16H18C Quinn)</option>
+    <option value="1000316" data-enertiaeqpcode="100/120/005" data-lastcost="1265.74">Bbl-Stl CID-Th-B13-225-20
+      65095-20 BH (2 1/4"X20' STEEL CHROME BARREL 16M20C Quinn)</option>
+    <option value="1001928" data-enertiaeqpcode="100/120/018" data-lastcost="1787.81">18K30C BARREL, RXB, STEEL CHROME
+      ID</option>
+    <option value="1001929" data-enertiaeqpcode="100/120/019" data-lastcost="284.87">16D10C BARREL RH 1-5/8" X 1-1/4"
+      X10' CS CID</option>
+    <option value="1001930" data-enertiaeqpcode="100/120/020" data-lastcost="280.3">16F10C BARREL RH 1-7/8" OD X
+      1-1/2" ID</option>
+    <option value="1001931" data-enertiaeqpcode="100/120/021" data-lastcost="445.42">16H10C BARREL RH 2-1/8" OD X
+      1-3/4"ID</option>
+    <option value="1001853" data-enertiaeqpcode="100/120/017" data-lastcost="492.48">BT0810C Barrel 2-1/8 x 1-3/4 X 10
+      SCRH (F4) (Don-Nan)</option>
+    <option value="1001557" data-enertiaeqpcode="100/120/013" data-lastcost="337.96">BT0516C Barrek 1-3/4 X 1-1/2 X16
+      SCRW [J3]</option>
+    <option value="1001559" data-enertiaeqpcode="100/120/014" data-lastcost="540.56">BT05167C Barrel 1-3/4 x 1-1/2 x
+      16' SSC [N4]</option>
+    <option value="1001574" data-enertiaeqpcode="100/120/015" data-lastcost="1026.83">BT1520C Barrel 2-3/4 X 2-1/4 X
+      20 SCTH</option>
+    <option value="1001588" data-enertiaeqpcode="100/120/016" data-lastcost="337.96">BT0510C Barrel 1-3/4 x 1-1/2 x 10
+      SCRW [C3]</option>
+    <option value="1001428" data-enertiaeqpcode="100/120/011" data-lastcost="486.57">BT0412C Barrel 1-5/8 X 1-1/4 X 12
+      SCRH [E2]</option>
+    <option value="1001419" data-enertiaeqpcode="100/120/010" data-lastcost="82.72">CF471 1-3/4" Cage, Barrel 1.850
+      S39H1</option>
+    <option value="1001516" data-enertiaeqpcode="100/120/012" data-lastcost="867.15">BTO5163C Barrel 1-3/4 X 1-1/2 X
+      16 BCRW</option>
+    <option value="1001973" data-enertiaeqpcode="100/120/022" data-lastcost="188.4">213831 BARREL, RW 1.250 X 10 4130
+      ALLOY NITRIDED (WEATHERFORD)</option>
+    <option value="1001722" data-enertiaeqpcode="100/121/004" data-lastcost="186.84">47PLT Battery (OReilly)</option>
+    <option value="1001742" data-enertiaeqpcode="100/121/005" data-lastcost="127.9">31-5T Kubota Battery</option>
+    <option value="1000715" data-enertiaeqpcode="100/121/002" data-lastcost="4.87">262408 BATTERY CABLE</option>
+    <option value="1000716" data-enertiaeqpcode="100/121/003" data-lastcost="4.87">262409 BATTERY CABLE</option>
+    <option value="1000702" data-enertiaeqpcode="100/122/005" data-lastcost="31.24">8633*BX60* Torque Flex</option>
+    <option value="1000705" data-enertiaeqpcode="100/122/006" data-lastcost="35.84">8633*BX74 TORQUE FLEX</option>
+    <option value="1000661" data-enertiaeqpcode="100/122/001" data-lastcost="12.99">Torque FLE Belts for Pumping Unit
+      8633*BX45*</option>
+    <option value="1000662" data-enertiaeqpcode="100/122/002" data-lastcost="10.02">Gatorback EDI Motor Belt
+      8633*15356*</option>
+    <option value="1000663" data-enertiaeqpcode="100/122/003" data-lastcost="24.92">HY-T Wedge 8633*2BX43*</option>
+    <option value="1000664" data-enertiaeqpcode="100/122/004" data-lastcost="27.91">HY-T Wedge 8633*2BX46*</option>
+    <option value="1001410" data-enertiaeqpcode="100/122/007" data-lastcost="22.45">BX72 Torque-Flex (DXP)</option>
+    <option value="1001249" data-enertiaeqpcode="100/123/007" data-lastcost="359.81">MHW-160 Pillow Block Double Row
+      Roller</option>
+    <option value="1001250" data-enertiaeqpcode="100/123/008" data-lastcost="465.9">MHW-194 Pillow Block Double Row
+      Roller</option>
+    <option value="1001748" data-enertiaeqpcode="100/123/009" data-lastcost="45.18">QC16656PR ROD BEARINGS PR. STD
+      (NEW#2024224450) REMARKS (Compression Leasing)</option>
+    <option value="1000690" data-enertiaeqpcode="100/123/003" data-lastcost="250.25">2" Mounted Spherical Bearing
+      EPB22432H</option>
+    <option value="1000673" data-enertiaeqpcode="100/123/001" data-lastcost="40.56">NSK 6206 18 DDU Bearing</option>
+    <option value="1000682" data-enertiaeqpcode="100/123/002" data-lastcost="207.02">1 1/4" Mounted Spherical Roller
+      Bearing PB22420H/PEB22420H</option>
+    <option value="1000738" data-enertiaeqpcode="100/123/004" data-lastcost="28.59">WTD-10-041 Bearning, Polot, Sealed
+      30MMx62MM x 23.8MM TD Style MPTO (Mac's Mountain States)</option>
+    <option value="1001076" data-enertiaeqpcode="100/123/006" data-lastcost="201.91">1 1/4" Pillowblk PB2242DH
+      (Goldend Industrial Supply)</option>
+    <option value="1000824" data-enertiaeqpcode="100/123/005" data-lastcost="98.21">KWS WTD-14-075 Bearing, sealed
+      roller 80MM (SP114) RA 156-EBL (Mac's Mountain States, Inc.)</option>
+    <option value="1001105" data-enertiaeqpcode="100/125/011" data-lastcost="5.08">KWS 827509 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001106" data-enertiaeqpcode="100/125/012" data-lastcost="4.96">KWS 827508 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001107" data-enertiaeqpcode="100/125/013" data-lastcost="5.4">KWS 827510 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001108" data-enertiaeqpcode="100/125/014" data-lastcost="5.56">KWS 827511 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001109" data-enertiaeqpcode="100/125/015" data-lastcost="11.37">KWS 827517 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001110" data-enertiaeqpcode="100/125/016" data-lastcost="11.53">KWS 827518 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001111" data-enertiaeqpcode="100/125/017" data-lastcost="20.33">KWS 827524 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001112" data-enertiaeqpcode="100/125/018" data-lastcost="23.8">KWS 827526 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001113" data-enertiaeqpcode="100/125/019" data-lastcost="26.82">KWS 827527 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001059" data-enertiaeqpcode="100/125/005" data-lastcost="27.03">KWS 852532 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001066" data-enertiaeqpcode="100/125/006" data-lastcost="7.22">KWS 827513 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001067" data-enertiaeqpcode="100/125/007" data-lastcost="9.23">KWS 827516 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001068" data-enertiaeqpcode="100/125/008" data-lastcost="30.78">KWS 827529 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001069" data-enertiaeqpcode="100/125/009" data-lastcost="32.19">KWS 827530 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001070" data-enertiaeqpcode="100/125/010" data-lastcost="34.33">KWS 827531 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1000603" data-enertiaeqpcode="100/125/004" data-lastcost="206.82">2 7/8 CS Blade Bit 4 Thread N Rod
+      V-2 7/8 CS</option>
+    <option value="1000318" data-enertiaeqpcode="100/125/001" data-lastcost="725.93">3 7/8 Varel 3 Cone Rock Bit L-2
+      1213687</option>
+    <option value="1001848" data-enertiaeqpcode="100/125/024" data-lastcost="244.38">2 7/8 Bit (BlitzedAgain Welding)
+    </option>
+    <option value="1001849" data-enertiaeqpcode="100/125/025" data-lastcost="329.38">3 7/8 Bit (BlitzedAgain Welding)
+    </option>
+    <option value="1001850" data-enertiaeqpcode="100/125/026" data-lastcost="329.38">3 7/8 Shoe (BlitzedAgain Welding)
+    </option>
+    <option value="1001226" data-enertiaeqpcode="100/125/021" data-lastcost="6.77">KWS 827512 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001227" data-enertiaeqpcode="100/125/022" data-lastcost="7.95">KWS 827514 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001228" data-enertiaeqpcode="100/125/023" data-lastcost="23.07">KWS 827525 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1001150" data-enertiaeqpcode="100/125/020" data-lastcost="34.65">KWS 827532 Drill Bit (Kimball
+      Midwest)</option>
+    <option value="1000634" data-enertiaeqpcode="100/127/001" data-lastcost="61.46">Block, Drag DB 550 CRBD TBD OIN X
+      OIN</option>
+    <option value="1001035" data-enertiaeqpcode="100/135/002" data-lastcost="24.39">KWS 20800022 Bracket (EDI)
+    </option>
+    <option value="1001094" data-enertiaeqpcode="100/135/004" data-lastcost="1.44">KWS 502610 Clamp (Kimball Midwest)
+    </option>
+    <option value="1001095" data-enertiaeqpcode="100/135/005" data-lastcost="1.01">KWS 502510 Clamp (Kimball Midwest)
+    </option>
+    <option value="1001096" data-enertiaeqpcode="100/135/006" data-lastcost="1.01">KWS 502512 Clamp (Kimball Midwest)
+    </option>
+    <option value="1001058" data-enertiaeqpcode="100/135/003" data-lastcost="0.85">KWS 502504 Clamp (Kimball Midwest)
+    </option>
+    <option value="1000322" data-enertiaeqpcode="100/140/002" data-lastcost="115.38">RDK F/4 1/2" (9.5-13.5#) AS
+      72545050</option>
+    <option value="1000323" data-enertiaeqpcode="100/140/003" data-lastcost="460">Model A-1</option>
+    <option value="1000324" data-enertiaeqpcode="100/140/004" data-lastcost="430">PHM</option>
+    <option value="1000549" data-enertiaeqpcode="100/143/001" data-lastcost="19.37">Flue 1-1/4 Barrel STL 800D12015
+    </option>
+    <option value="1001917" data-enertiaeqpcode="100/143/002" data-lastcost="17.14">186381 Brush, Flue 1-1/4 Barrel
+      Stl</option>
+    <option value="1001919" data-enertiaeqpcode="100/145/053" data-lastcost="24.45">63601 Bushing Hex U 4 IN x 1 IN
+      Cast Iron Class 125 Threaded Black</option>
+    <option value="1001890" data-enertiaeqpcode="100/145/051" data-lastcost="36.69">MAUMA SK-1-3/8 QD Bushing (DXP)
+    </option>
+    <option value="1001891" data-enertiaeqpcode="100/145/052" data-lastcost="19.34">MDRV SK2-2 QD Bushing (DXP)
+    </option>
+    <option value="1001927" data-enertiaeqpcode="100/145/054" data-lastcost="1.95">89537 BUSHING HEX U 1 IN X 3/4 IN
+      CLASS 3000/6000 THREADED A/SA105 FORGED CARBON STEEL BLACK ASME B16.11 (DNOW)</option>
+    <option value="1001743" data-enertiaeqpcode="100/145/050" data-lastcost="51.07">MAR SF 2 Bushing QD (DXP)</option>
+    <option value="1001658" data-enertiaeqpcode="100/145/049" data-lastcost="28.07">BC1 Bushing, 15/16" HVR to Cage Ad
+      (don-nan)</option>
+    <option value="1001630" data-enertiaeqpcode="100/145/048" data-lastcost="1.08">89532 BUSHING HEX U 3/4 IN X 1/2 IN
+      CLASS 3000/6000 THREADED A105 BLACK (Dnow)</option>
+    <option value="1001612" data-enertiaeqpcode="100/145/046" data-lastcost="132.37">MDRV 3C50SK QD Sheave C Section 3
+      Groove (DXP)</option>
+    <option value="1001613" data-enertiaeqpcode="100/145/047" data-lastcost="99.25">MDRV 2B136SK QD Sheave A/B Section
+      2 Groove (DXP)</option>
+    <option value="1001575" data-enertiaeqpcode="100/145/042" data-lastcost="17.51">DNU BR2-1-D bushing, .875VR,
+      1-1/16" Pin</option>
+    <option value="1001567" data-enertiaeqpcode="100/145/041" data-lastcost="56.45">KWS 89556 Bushing Hex U 4 IN X 3
+      IN Class 3000/6000 Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001578" data-enertiaeqpcode="100/145/043" data-lastcost="125.56">MDRV 3C70SF QD Sheave C Section 3
+      Groove</option>
+    <option value="1001579" data-enertiaeqpcode="100/145/044" data-lastcost="30.78">MDRV SF 1 1/4 QD Bushing</option>
+    <option value="1001585" data-enertiaeqpcode="100/145/045" data-lastcost="36.01">UST SK-1-7/8 SK 1-7/8 QD Bushing
+    </option>
+    <option value="1001545" data-enertiaeqpcode="100/145/040" data-lastcost="5.37">89551 Bushing Hex U 2 IN X 1-1/2 IN
+      Class 3000/6000 Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001153" data-enertiaeqpcode="100/145/022" data-lastcost="1.95">KPK 89536 Bushing Hex U 1 IN X 1/2
+      IN CLASS 3000/60000 THREADED A105 BLACK FORGED CARBON STEEL</option>
+    <option value="1001262" data-enertiaeqpcode="100/145/023" data-lastcost="5.05">89549 Bushing Hex U 2 IN X 1 IN
+      Class 3000/6000 Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001284" data-enertiaeqpcode="100/145/024" data-lastcost="23.2">89554 Bushing Hex U 3 IN X 2 IN
+      Class 3k/6k Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001321" data-enertiaeqpcode="100/145/025" data-lastcost="22.86">KWS 89553 Bushing Hex U 3 IN X 1
+      IN Class 3k/6k Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001338" data-enertiaeqpcode="100/145/026" data-lastcost="0.9">KPK 89525 Bushing Hex U 3/8 In X 1/4
+      In Class 3k/6k threaded A105 Black</option>
+    <option value="1001407" data-enertiaeqpcode="100/145/029" data-lastcost="133.63">MDRV 3C60SF Sheave and SFx2" QD
+      Bushing</option>
+    <option value="1001368" data-enertiaeqpcode="100/145/027" data-lastcost="3.83">KWS 89544 Bushing Hex U 1-1/2 IN X
+      1 IN Class 3000/6000</option>
+    <option value="1001409" data-enertiaeqpcode="100/145/030" data-lastcost="36.69">MAR SK 2 Bushing QD (DXP)</option>
+    <option value="1001418" data-enertiaeqpcode="100/145/032" data-lastcost="14.51">BS2-3 Bushing, 1-3/4" Seat, 1"GAC
+    </option>
+    <option value="1001415" data-enertiaeqpcode="100/145/031" data-lastcost="16.78">BH102 Bushing, 2" Top Holddown
+      Adapter 25kf 3030 215949</option>
+    <option value="1001447" data-enertiaeqpcode="100/145/033" data-lastcost="68.25">KWS 83444 Bushing Hex U 4 IN X 1
+      IN Class 3000/6000 Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001514" data-enertiaeqpcode="100/145/038" data-lastcost="23.61">BH1110 Bushing, 2-1/2" Holddown
+    </option>
+    <option value="1001504" data-enertiaeqpcode="100/145/036" data-lastcost="59.98">KWS 89555 Bushing Hex U 4 In X 2
+      IN Class 3000/6000 Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001507" data-enertiaeqpcode="100/145/037" data-lastcost="3.3">89540 Bushing Hex U 1-1/4 IN X 1 IN
+      Class 3000/6000 Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001519" data-enertiaeqpcode="100/145/039" data-lastcost="12.6">BR1-1-D Bushing, .687 VR, 1-1/16"
+      Pin 3X50-2 23k 214870</option>
+    <option value="1001472" data-enertiaeqpcode="100/145/034" data-lastcost="0.8">KPK 89523 Bushing Hex U 1/4 IN X 1/8
+      IN Class 3000/6000 Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001474" data-enertiaeqpcode="100/145/035" data-lastcost="17.51">BR2-1-D Bushing,.875 VR, 1-1/16"
+      Pin</option>
+    <option value="1000792" data-enertiaeqpcode="100/145/011" data-lastcost="1.95">KPK 89534 Bushing Hex U 1 IN x 1/4
+      IN Class 3000/6000 Threaded A105 Black Forged (DNOW)</option>
+    <option value="1000325" data-enertiaeqpcode="100/145/001" data-lastcost="12.8">Seat, Bbl Cage 2.50 R 6X85</option>
+    <option value="1000326" data-enertiaeqpcode="100/145/002" data-lastcost="22.73">Seating Cup 2.50 R 5035</option>
+    <option value="1000327" data-enertiaeqpcode="100/145/003" data-lastcost="18.41">use1st - Seating Cup 2.00 R 3030
+    </option>
+    <option value="1000328" data-enertiaeqpcode="100/145/004" data-lastcost="24.42">Adapter, 2.50 F/1.50 Bbl 3035
+    </option>
+    <option value="1000330" data-enertiaeqpcode="100/145/006" data-lastcost="13.81">DNU Valve Rod STD 2 3/8 1026 STL
+      OD 1 1/2" -18 3X50-2 23k</option>
+    <option value="1000331" data-enertiaeqpcode="100/145/007" data-lastcost="20.2">Adpt, Cage Thd. 1.75 R 4026
+    </option>
+    <option value="1000332" data-enertiaeqpcode="100/145/008" data-lastcost="16.08">Seat, Bbl Cage 2.00 R 4X86 26k 50k
+      216110</option>
+    <option value="1000333" data-enertiaeqpcode="100/145/009" data-lastcost="17.46">Valve Rod STD 2 7/8 1026 STL 1
+      5/8-14 5X50-2</option>
+    <option value="1001126" data-enertiaeqpcode="100/145/019" data-lastcost="22.85">KPK-737450 ADPT FBG 2 IN X 2 IN
+      Bell X GRV 450 LB R (DNOW)</option>
+    <option value="1001127" data-enertiaeqpcode="100/145/020" data-lastcost="38.66">737443 ADPT 3 IN X 3 IN Bell X GRV
+      300 LB REINF</option>
+    <option value="1001128" data-enertiaeqpcode="100/145/021" data-lastcost="24.64">737443 ADPT 3 IN X 3 IN Bell X GRV
+      300 LB REINF</option>
+    <option value="1001123" data-enertiaeqpcode="100/145/017" data-lastcost="23.01">KPK 589979 ADPT 2 IN MN Bell X Thd
+      (DNOW)</option>
+    <option value="1001124" data-enertiaeqpcode="100/145/018" data-lastcost="29.65">KPK 737446 ADPT FBG 3 IN X 3 IN
+      Bell X Thd 300 LB (DNOW)</option>
+    <option value="1001036" data-enertiaeqpcode="100/145/015" data-lastcost="15.35">KWS 60270- Lower radiator bushings
+      (EDI)</option>
+    <option value="1001050" data-enertiaeqpcode="100/145/016" data-lastcost="0.79">KWS 89527 Bushing Hex U 1/2 IN x
+      1/4 IN Class 3000/6000 Threaded A105 Black Forged (DNOW)</option>
+    <option value="1001026" data-enertiaeqpcode="100/145/013" data-lastcost="1.58">KWS 89534 Bushing Hex U 1 IN x 1/4
+      IN Class 3000/6000 Threaded A105 Black Forged (DNOW)</option>
+    <option value="1001027" data-enertiaeqpcode="100/145/014" data-lastcost="0.79">KWS 89527 Bushing Hex U 1/2 IN x
+      1/4 IN Class 3000/6000 Threaded A105 Black Forged (DNOW)</option>
+    <option value="1000920" data-enertiaeqpcode="100/145/012" data-lastcost="1">KPK 89527 Bushing Hex U 1/2 IN x 1/4
+      IN Class 3000/6000 Threaded A105 Black Forged (DNOW)</option>
+    <option value="1000335" data-enertiaeqpcode="100/155/001" data-lastcost="71.99">Clsd BBL BE AHL 20X1 24871 (S39H1
+      quinn)</option>
+    <option value="1000336" data-enertiaeqpcode="100/155/002" data-lastcost="34.72">Plunger Closed 1.250 Alloy
+      Hardlined 2X771 39D-QS 201862 CF215</option>
+    <option value="1000337" data-enertiaeqpcode="100/155/003" data-lastcost="61.47">Clsd Plgr 1.50 HL, R 3X771
+    </option>
+    <option value="1000338" data-enertiaeqpcode="100/155/004" data-lastcost="48.71">Clsd Bbl 2.00 HL, R 3X871</option>
+    <option value="1000339" data-enertiaeqpcode="100/155/005" data-lastcost="62.17">Double Valve Closed 1.750 4140
+      Alloy Hardlined 40271</option>
+    <option value="1000340" data-enertiaeqpcode="100/155/006" data-lastcost="71.45">Clsd Bbl-Ahl-C14-25 5X871</option>
+    <option value="1000341" data-enertiaeqpcode="100/155/007" data-lastcost="14.72">Dbl Vlv, 2.25 HL, R 60271</option>
+    <option value="1000342" data-enertiaeqpcode="100/155/008" data-lastcost="61.5">Std Vlv 2.25 HL 654271</option>
+    <option value="1000343" data-enertiaeqpcode="100/155/009" data-lastcost="71.84">Clsd Plgr 2.25 Hl,R 6X771</option>
+    <option value="1000344" data-enertiaeqpcode="100/155/010" data-lastcost="31.41">Top Open 2.75 3/4 SR 8000-2
+    </option>
+    <option value="1000345" data-enertiaeqpcode="100/155/011" data-lastcost="70.79">Clsd Plgr 2.75 HL, R 8X771
+    </option>
+    <option value="1000346" data-enertiaeqpcode="100/155/012" data-lastcost="108.54">Top Open 3.75 1" SR 9000-4
+    </option>
+    <option value="1000347" data-enertiaeqpcode="100/155/013" data-lastcost="219.56">Clsd Plgr 3.75 HL, R 9X771
+    </option>
+    <option value="1000349" data-enertiaeqpcode="100/155/015" data-lastcost="99.95">Lknt-325/375 YLP335</option>
+    <option value="1000563" data-enertiaeqpcode="100/155/017" data-lastcost="77.51">PE Plunger Closed 2 Alloy
+      Hardlined 5X771</option>
+    <option value="1000564" data-enertiaeqpcode="100/155/018" data-lastcost="56.59">Double Valve Closed 2 4140 Alloy
+      Hardlined 5X271</option>
+    <option value="1001520" data-enertiaeqpcode="100/155/024" data-lastcost="63.87">CF315 1-1/2" Cage, Plng, Clsd, SSL
+    </option>
+    <option value="1001512" data-enertiaeqpcode="100/155/022" data-lastcost="94.79">CF425 1-3/4" Cage, Bbl, Clsd, SSL
+    </option>
+    <option value="1001513" data-enertiaeqpcode="100/155/023" data-lastcost="94.8">CF435 1-3/4" Cage, DV, SSL</option>
+    <option value="1001416" data-enertiaeqpcode="100/155/021" data-lastcost="68.14">CF215 1-1/4" Cage, Clsd Plng, SSL
+    </option>
+    <option value="1001556" data-enertiaeqpcode="100/155/025" data-lastcost="10">CF335 1-1/2" Cage, DV, Clsd, SSL
+    </option>
+    <option value="1001659" data-enertiaeqpcode="100/155/026" data-lastcost="65.99">CF445-1 1-3/4" Cage, Open, 1-1/16"
+      Pin, SSL (don-nan)</option>
+    <option value="1001857" data-enertiaeqpcode="100/155/029" data-lastcost="81.76">CF405 1-3/4" Cage, Barrel Fem.,
+      SSL</option>
+    <option value="1001818" data-enertiaeqpcode="100/155/027" data-lastcost="203.37">01T444150 1-1/2" Bypass Trav
+      Valve Cage 7/8 Ball (don-nan)</option>
+    <option value="1001819" data-enertiaeqpcode="100/155/028" data-lastcost="203.57">01T731200 1-3/4" Pin Type Bypass
+      Standing Vlv Cage (Don-Nan)</option>
+    <option value="1001855" data-enertiaeqpcode="100/160/007" data-lastcost="51.05">75100 CAP END 4 IN GRV DI /
+      GRUVLOK 7074 (DNOW)</option>
+    <option value="1001593" data-enertiaeqpcode="100/160/006" data-lastcost="47.53">74044 CAP 2 IN / GRULOK 7074
+      (DNOW)</option>
+    <option value="1001394" data-enertiaeqpcode="100/160/005" data-lastcost="387.52">C91240S Pipe Cap 24" SCH80 (.500)
+    </option>
+    <option value="1001221" data-enertiaeqpcode="100/160/004" data-lastcost="33.11">KWS 4079 Cap BLNKG 2 IN GRV DI ST
+      60/ VICTAULIC</option>
+    <option value="1001038" data-enertiaeqpcode="100/160/002" data-lastcost="9.7">KWS MHW-504 New style radiator
+      cushion (EDI)</option>
+    <option value="1001040" data-enertiaeqpcode="100/160/003" data-lastcost="52.35">KWS 74045 Cap End 3 IN GRV DI
+      (DNOW)</option>
+    <option value="1000351" data-enertiaeqpcode="100/165/001" data-lastcost="51.44">Closed Plunger, 1.75 HL,R 4X771
+    </option>
+    <option value="1001699" data-enertiaeqpcode="100/166/001" data-lastcost="43.82">ZNIPI10 3" x 12" repair clamp
+      (DNOW)</option>
+    <option value="1001887" data-enertiaeqpcode="100/166/002" data-lastcost="1.54">77535 CLAMP GROUND 5/8 IN G5 (DNOW)
+    </option>
+    <option value="1000869" data-enertiaeqpcode="100/167/001" data-lastcost="12.25">KWS 247027 Chemical Cure 3 IN
+      (DNOW)</option>
+    <option value="1001969" data-enertiaeqpcode="100/167/002" data-lastcost="5.11">8152 CLNR HAND 14 OZ PLAS TB ALL
+      PURP / JOES NOT HAZARDOUS FOR DOT (DNOW)</option>
+    <option value="1001115" data-enertiaeqpcode="100/168/001" data-lastcost="44.69">KWS WTD-11-001 Disc, Friction,
+      Solid, TD C/SP 11" Mechanical Power (Mac's Mountain States)</option>
+    <option value="1001116" data-enertiaeqpcode="100/168/002" data-lastcost="70.52">KWS WTD-11-075 BGR, Pilot, Sealed
+      Rolller, 72MM TD Style (Mac's Mountain States)</option>
+    <option value="1000991" data-enertiaeqpcode="100/174/001" data-lastcost="13.47">KPK 67987 CMPD THD 1 LB Can Brsh
+      Top (Thread Compound) (DNOW)</option>
+    <option value="1000996" data-enertiaeqpcode="100/174/002" data-lastcost="16.85">KWS 67987 CMPD THD 1 LB Can Brsh
+      Top (Thread Compound) (DNOW)</option>
+    <option value="1001196" data-enertiaeqpcode="100/174/003" data-lastcost="56.94">KWS 64680 CMPD THD 1 GAL PAIL
+      HIGHLY REFINED</option>
+    <option value="1001895" data-enertiaeqpcode="100/175/012" data-lastcost="26.19">QC18161A St. Ring Piston Standard
+      Size</option>
+    <option value="1001896" data-enertiaeqpcode="100/175/013" data-lastcost="31.43">QC18166A St. Ring Piston Standard
+      Size</option>
+    <option value="1001897" data-enertiaeqpcode="100/175/014" data-lastcost="200.07">QC17277X Valve Suction for
+      325/340 (old 7277X1)</option>
+    <option value="1001898" data-enertiaeqpcode="100/175/015" data-lastcost="183.42">QC17271X004 AY, Valve, Discharge
+      240 QRNG</option>
+    <option value="1001899" data-enertiaeqpcode="100/175/016" data-lastcost="36.6">QC1111878 Seals Crank</option>
+    <option value="1001900" data-enertiaeqpcode="100/175/017" data-lastcost="8.79">QC122749040 O-Ring, Viton. 0.06W,
+      2.88ID</option>
+    <option value="1001815" data-enertiaeqpcode="100/175/011" data-lastcost="421.66">QC1112222G Assy Piston Standard
+      (compression)</option>
+    <option value="1001668" data-enertiaeqpcode="100/175/010" data-lastcost="10300">QRNG 4125NG Quincy Model Natural
+      Gas Compressor with unloaders COMP-001 (EDI)</option>
+    <option value="1001649" data-enertiaeqpcode="100/175/003" data-lastcost="296.95">QC16671X1G Valve Suction (CLS)
+    </option>
+    <option value="1001650" data-enertiaeqpcode="100/175/004" data-lastcost="209.6">QC16670X1G Valve Discharge (CLS)
+    </option>
+    <option value="1001651" data-enertiaeqpcode="100/175/005" data-lastcost="71.91">QC1160079001 Kit Oil Pump Viton
+      (CLS)</option>
+    <option value="1001652" data-enertiaeqpcode="100/175/006" data-lastcost="121.14">QC1111425270 VALVE RELIEF 025PT
+      270 PSI, MCDNA (CLS)</option>
+    <option value="1001653" data-enertiaeqpcode="100/175/007" data-lastcost="203.28">QC17277G VALVE SUCTION 325 &amp;
+      340 QRNG (2024300456) (CLS)</option>
+    <option value="1001654" data-enertiaeqpcode="100/175/008" data-lastcost="189.09">QC17271G VALVE SUCTION 325 &amp;
+      340 QRNG (2024301154) (CLS)</option>
+    <option value="1001655" data-enertiaeqpcode="100/175/009" data-lastcost="111.77">QC1160078001 KIT PUMP OIL LUBE
+      SYNTHETIC (CLS)</option>
+    <option value="1000353" data-enertiaeqpcode="100/175/001" data-lastcost="13.19">Rg 1-1/2 IN F/SB/ Rmenergy 3284
+    </option>
+    <option value="1000684" data-enertiaeqpcode="100/175/002" data-lastcost="2990">QRNG, 325P, Nat Gas Plain QC1112041
+    </option>
+    <option value="1000354" data-enertiaeqpcode="100/180/001" data-lastcost="14.53">Barrel, 2" Upper 3x009</option>
+    <option value="1000355" data-enertiaeqpcode="100/180/002" data-lastcost="28.45">Barrel UPR 2.000 Alloy 5X009
+    </option>
+    <option value="1000356" data-enertiaeqpcode="100/180/003" data-lastcost="180.01">Lwr-Cage-3-1/2-8Eur YLP331-1
+    </option>
+    <option value="1001047" data-enertiaeqpcode="100/180/008" data-lastcost="0.84">KWS 63803 Conn M 1/4 in TB X 1/4 in
+      M NPT Brss (DNOW)</option>
+    <option value="1000911" data-enertiaeqpcode="100/180/005" data-lastcost="1.1">KPK 63803 Conn M 1/4 in TB X 1/4 in
+      M NPT Brss (DNOW)</option>
+    <option value="1000875" data-enertiaeqpcode="100/180/004" data-lastcost="13.59">KWS 73390 T Pipe 3 IN BW DR-11
+      (DNOW)</option>
+    <option value="1000915" data-enertiaeqpcode="100/180/006" data-lastcost="1.63">KPK 63806 Conn M 3/8 IN TB X 1/4 IN
+      M NPT Brss (DNOW)</option>
+    <option value="1000984" data-enertiaeqpcode="100/180/007" data-lastcost="1.19">KPK 63805 Conn M 5/16 IN TB X 1/4
+      IN M NPT Brss (DNOW)</option>
+    <option value="1001623" data-enertiaeqpcode="100/180/011" data-lastcost="435.45">261627 JT SWVL 1-1/2 IN 6000 CWP
+      ST 50 KMPR 621 / KEMPER 6215SJ50 dnow</option>
+    <option value="1001210" data-enertiaeqpcode="100/180/009" data-lastcost="2.31">KWS 89152 CONN 1/4 IN 1/8 IN TB X
+      MNPT BRSS PRKR</option>
+    <option value="1001517" data-enertiaeqpcode="100/180/010" data-lastcost="16.52">C222 2" Connector, Up, Bbl, 7/8"
+      VR</option>
+    <option value="1001861" data-enertiaeqpcode="100/185/003" data-lastcost="13.1">DIX 2HF2, 1/4 ISO-B COUPLER, 1/4
+      NPTF, STEEL 200018-2 (DXP)</option>
+    <option value="1001862" data-enertiaeqpcode="100/185/004" data-lastcost="11.96">DIX 2KF2, STEEL 1/4 ISO-A COUPLER,
+      1/4 NPTF, 200043-2 (DXP)</option>
+    <option value="1001934" data-enertiaeqpcode="100/185/005" data-lastcost="0.73">63756 GASKET HOSE COUPLER 3 IN
+      BUNA-N GLOBALLY SOURCED</option>
+    <option value="1001956" data-enertiaeqpcode="100/185/006" data-lastcost="0.65">65537 GASKET HOSE COUPLER 2 IN
+      BUNA-N GLOBALLY SOURCED</option>
+    <option value="1001963" data-enertiaeqpcode="100/185/007" data-lastcost="1">67810 GASKET HOSE COUPLER 4 IN BUNA-N
+      400-G-BU (DNOW)</option>
+    <option value="1000357" data-enertiaeqpcode="100/185/001" data-lastcost="15.22">Seating 20-15</option>
+    <option value="1000358" data-enertiaeqpcode="100/185/002" data-lastcost="11.82">Seating 2.50 R 25.15</option>
+    <option value="1000359" data-enertiaeqpcode="100/190/001" data-lastcost="8">DNU - Sucker Rod 3/4 Box FS T
+      0001.10.0342</option>
+    <option value="1000360" data-enertiaeqpcode="100/190/002" data-lastcost="9.15">Sucker Rod 7/8 Box SH T 1.625OD
+      0001.10.0781</option>
+    <option value="1000361" data-enertiaeqpcode="100/190/003" data-lastcost="14.75">Sucker Rod 1Box X 1Box SM SH
+      2.0000OD 0002.10.0101</option>
+    <option value="1000363" data-enertiaeqpcode="100/190/005" data-lastcost="11.46">Sucker Rod 5/8 FS SM 0002.10.0582
+    </option>
+    <option value="1000367" data-enertiaeqpcode="100/190/009" data-lastcost="45.03">Sub, 7/8 x 3/4 In SH 0002.17.8341
+    </option>
+    <option value="1000368" data-enertiaeqpcode="100/190/010" data-lastcost="14.31">Setg-S16-20 Seating 20-151
+    </option>
+    <option value="1000369" data-enertiaeqpcode="100/190/011" data-lastcost="50.79">Sucker Rod 1PIN x 7/8Box 235Y12508
+      209145</option>
+    <option value="1000370" data-enertiaeqpcode="100/190/012" data-lastcost="8.52">DNU Top Plunger 1.250 4140 Alloy
+      11/16 STD 2X65 47D1</option>
+    <option value="1000371" data-enertiaeqpcode="100/190/013" data-lastcost="30.53">Cage Top Open 3/4-25 6000-2A
+    </option>
+    <option value="1000372" data-enertiaeqpcode="100/190/014" data-lastcost="30.44">Barrel TH 2.50 STL 2 7/8 6503-1
+    </option>
+    <option value="1000373" data-enertiaeqpcode="100/190/015" data-lastcost="3000">Barrel TH 2.50 STL 2 7/8
+      CBP-36-FRAC10KMT</option>
+    <option value="1000379" data-enertiaeqpcode="100/190/021" data-lastcost="27.7">Adapter, TP Plg 1.50 11/1 3X65
+    </option>
+    <option value="1000380" data-enertiaeqpcode="100/190/022" data-lastcost="31.36">Adapter, TP Plg 1.75 7/8 4X65
+    </option>
+    <option value="1000381" data-enertiaeqpcode="100/190/023" data-lastcost="43.72">Ext, 2.0 x 1.25 x 36 26101-36"
+      45D36</option>
+    <option value="1000382" data-enertiaeqpcode="100/190/024" data-lastcost="37.84">Ext, 2.5 x 1.75 x 12 46101-1
+    </option>
+    <option value="1000383" data-enertiaeqpcode="100/190/025" data-lastcost="26.8">Ext, 1.750 X 6I N stl 2-1/4 OD
+      461015-6</option>
+    <option value="1000384" data-enertiaeqpcode="100/190/026" data-lastcost="10.6">Ext, 2.0 x 1.25 x 12 26101-1
+    </option>
+    <option value="1000554" data-enertiaeqpcode="100/190/027" data-lastcost="55.71">Ext. 1.250 x 36in stl 1-3/4 OK
+      26101-3</option>
+    <option value="1000617" data-enertiaeqpcode="100/190/029" data-lastcost="138.84">Extension 1.062 X 36In STL 1.475
+      OD 16102-3</option>
+    <option value="1000631" data-enertiaeqpcode="100/190/031" data-lastcost="0">Coupling, Sucker Rod 5/8Box FS T
+      0001.10.0582</option>
+    <option value="1000632" data-enertiaeqpcode="100/190/032" data-lastcost="43.84">Coupling, Extension 1.062 X 3IN
+      STL 1.475 OD 161025-0</option>
+    <option value="1000774" data-enertiaeqpcode="100/190/038" data-lastcost="7.85">KWS 89565 Coupling U 2 IN Class
+      3000 Threaded A105 Black Forged Carbon Steel (DNOW)</option>
+    <option value="1000775" data-enertiaeqpcode="100/190/039" data-lastcost="1.61">KWS 71464 Cplg 1 IN SKT FUSN (DNOW)
+    </option>
+    <option value="1000756" data-enertiaeqpcode="100/190/033" data-lastcost="5.53">KPS 89565 Coupling U 2 IN Class
+      3000 Threaded A105 Black Forged Carbon Steel (DNOW)</option>
+    <option value="1000757" data-enertiaeqpcode="100/190/034" data-lastcost="46.8">KPS 74064 CPLG RGD 3 IN GR T GSKT
+      (DNOW)</option>
+    <option value="1000758" data-enertiaeqpcode="100/190/035" data-lastcost="36.67">KPS 74063 CPLG RGD 2 IN GR T GSKT
+      (DNOW)</option>
+    <option value="1000759" data-enertiaeqpcode="100/190/036" data-lastcost="2.66">KPS 96718 Coupling Poly 2 IN SDR11
+      Socket Fusion 1003750 (DNOW)</option>
+    <option value="1000766" data-enertiaeqpcode="100/190/037" data-lastcost="58.89">KWS 74064 CPLG 3 IN GR T GSKT
+      (DNOW)</option>
+    <option value="1000865" data-enertiaeqpcode="100/190/041" data-lastcost="22.31">KWS 1187 Coupling U 3 IN Threaded
+      API Black (DNOW)</option>
+    <option value="1000866" data-enertiaeqpcode="100/190/042" data-lastcost="46.2">KWS 74063 CPLG RGD 2 IN GR T GSKT
+      (DNOW)</option>
+    <option value="1000830" data-enertiaeqpcode="100/190/040" data-lastcost="2.65">KWS 89562 Coupling U 1 IN Class
+      3000 Threaded A105 Black Forged Carbon Steel (DNOW)</option>
+    <option value="1001039" data-enertiaeqpcode="100/190/044" data-lastcost="2.83">KWS 96718 Coupling Poly 2 IN SDR11
+      Socket Fusion 1003750 (DNOW)</option>
+    <option value="1001005" data-enertiaeqpcode="100/190/043" data-lastcost="1.43">KPK 52488 Coupling Merchant U 1/4
+      IN Threaded Std Black (DNOW)</option>
+    <option value="1001121" data-enertiaeqpcode="100/190/045" data-lastcost="19.4">KPK 737452 CPLG SLV 2 IN Red Thd
+      &amp; Bonded (DNOW)</option>
+    <option value="1001122" data-enertiaeqpcode="100/190/046" data-lastcost="23.75">KPK 737448 CPLG SLV 3 IN Red Thd
+      &amp; Bonded (DNOW)</option>
+    <option value="1001139" data-enertiaeqpcode="100/190/047" data-lastcost="16.82">KPK 68466 CPLG 3 IN FBGS SLV GRN
+      SM/ SMITH</option>
+    <option value="1001950" data-enertiaeqpcode="100/190/079" data-lastcost="31.27">COUPLING, TOP PLUNGER 1.250 X
+      11/16 VR 8620 ALLOY 2x65 212969</option>
+    <option value="1001951" data-enertiaeqpcode="100/190/080" data-lastcost="32.23">COUPLING, PR 3/4 BOX X 7/8 BOX
+      203255 (Weatherford)</option>
+    <option value="1001911" data-enertiaeqpcode="100/190/078" data-lastcost="28.4">1185 COUPLING LINE PIPE U 2 IN
+      RECESSED THREADED API BLACK (DNOW)</option>
+    <option value="1001858" data-enertiaeqpcode="100/190/077" data-lastcost="4.85">403V Coupling (DXP)</option>
+    <option value="1001767" data-enertiaeqpcode="100/190/075" data-lastcost="23.2">89567 COUPLING U 3 IN CLASS 3000
+      THREADED A105 BLACK FORGED CARBON STEEL (dnow)</option>
+    <option value="1001800" data-enertiaeqpcode="100/190/076" data-lastcost="1.79">89561 3/4"Coupling</option>
+    <option value="1001616" data-enertiaeqpcode="100/190/070" data-lastcost="6.75">3/4" FST Rod Coupling (Don-Nan
+      0708-T) (0001.10.0342 WEATHERFORD) (Luftkin 54W) (Quinn 54W) (213707)</option>
+    <option value="1001656" data-enertiaeqpcode="100/190/072" data-lastcost="25.5">CT111 Coupling, 15/16", 1-1/4 Plug
+      (Don-Nan)</option>
+    <option value="1001561" data-enertiaeqpcode="100/190/069" data-lastcost="23.59">05B21 2-7/8" 8RD EUE J55 Tbg Cplg
+    </option>
+    <option value="1001690" data-enertiaeqpcode="100/190/073" data-lastcost="7.75">0702 3/4" SHT Rod Coupling</option>
+    <option value="1001729" data-enertiaeqpcode="100/190/074" data-lastcost="34.09">0724-T 7/8 X 3/4 SHT Combo
+      cross-over Coupling, Tenaris (Don-Nan)</option>
+    <option value="1001495" data-enertiaeqpcode="100/190/065" data-lastcost="25.85">2X65000000 2X65 WFT Coupling (WB
+      Supply)</option>
+    <option value="1001540" data-enertiaeqpcode="100/190/066" data-lastcost="65.38">KWS 1188 Coupling Line Pipe U 4 IN
+      Recessed Threaded API Black</option>
+    <option value="1001541" data-enertiaeqpcode="100/190/067" data-lastcost="1.79">KPK Coupling U 3.4 IN Class 3000
+      Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001543" data-enertiaeqpcode="100/190/068" data-lastcost="85.56">KWS 74065 CPLG RGD 4 IN GR T GSKT
+      / GRUVLOK</option>
+    <option value="1001476" data-enertiaeqpcode="100/190/064" data-lastcost="33.09">0725-T 7/8 x 3/4 FSt Combo
+      Coupling, Tenaris</option>
+    <option value="1001463" data-enertiaeqpcode="100/190/061" data-lastcost="43.63">38065-T 3/4" X 2 D Alloy Pony
+      L/Cplg Tenaris</option>
+    <option value="1001464" data-enertiaeqpcode="100/190/062" data-lastcost="43.66">38066-T 3/4" X 4' D Alloy Pony
+      L/Cplg Tenaris</option>
+    <option value="1001465" data-enertiaeqpcode="100/190/063" data-lastcost="8.03">0703-T 7/8" SHT Rod Coupling,
+      Tenaris</option>
+    <option value="1001380" data-enertiaeqpcode="100/190/059" data-lastcost="74.38">Coupling, SR, BSHG, 1PRB 77/8 SRP
+      , SHT 0001.41.0781</option>
+    <option value="1001430" data-enertiaeqpcode="100/190/060" data-lastcost="31.27">PA21-TS 1-1/4" Top Plunger PLng,
+      Cplg .6875 2X65 47D1 (WF 212969)</option>
+    <option value="1001203" data-enertiaeqpcode="100/190/051" data-lastcost="10.02">SUCKER ROD 7/8 FS T1.813OD
+      0001.10.0782</option>
+    <option value="1001204" data-enertiaeqpcode="100/190/052" data-lastcost="60.42">SUCKER ROD 1BOX X 7/8BOX SH SM
+      0002.11.0781</option>
+    <option value="1001266" data-enertiaeqpcode="100/190/053" data-lastcost="64.06">KWS 89568 Coupling U 4 IN CLASS
+      3000 threaded A105 Black forged Carbon</option>
+    <option value="1001157" data-enertiaeqpcode="100/190/048" data-lastcost="45.13">Sucker Rod 3/4 Box X7/8Box SM FS
+      0002.17.8342</option>
+    <option value="1001158" data-enertiaeqpcode="100/190/049" data-lastcost="60.42">SUCKER ROD 1 BOX X 3/4BOX SH SM
+      0002.11.0341</option>
+    <option value="1001159" data-enertiaeqpcode="100/190/050" data-lastcost="25.01">PR 3/4 Box X 7/8 Box SH T
+      0001.17.8341</option>
+    <option value="1001339" data-enertiaeqpcode="100/190/057" data-lastcost="1.45">KPK 89559 Coupling U 3/8 In Class
+      3000 Threaded A105 Black</option>
+    <option value="1001352" data-enertiaeqpcode="100/190/058" data-lastcost="4">KWS 721996 CPLG 2 IN BW FB SDR11
+      PE3408</option>
+    <option value="1001297" data-enertiaeqpcode="100/190/055" data-lastcost="2.3">KPK 721923 CPLG 1 IN SKT NON S
+      PE3408 PE4710 D3261 / CENTRAL</option>
+    <option value="1001302" data-enertiaeqpcode="100/190/056" data-lastcost="1.2">KWS 89560 Coupling U 1/2 IN Class
+      3000 Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001285" data-enertiaeqpcode="100/190/054" data-lastcost="1.43">KPK 89558 Coupling U 1/4 IN Class
+      3000 Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001420" data-enertiaeqpcode="100/200/012" data-lastcost="3.3">SC0644 1-25/32 +30 Seating Cup
+    </option>
+    <option value="1001478" data-enertiaeqpcode="100/200/013" data-lastcost="4.98">SC0874 2-1/4 +70 Seating Cup
+    </option>
+    <option value="1000625" data-enertiaeqpcode="100/200/010" data-lastcost="5.55">Seat HR 1-1/2 + 30 (A2) Composition
+      17-16-32</option>
+    <option value="1000557" data-enertiaeqpcode="100/200/008" data-lastcost="0">Cup, Seat HR 2-1/4 +70 (A2)
+      Composition 25-16-52</option>
+    <option value="1000561" data-enertiaeqpcode="100/200/009" data-lastcost="4.97">Cup, Seat HR 2-1/4 +70 (A1) Plastic
+      25-16P-52 BH (2 1/4" SEATING CUPS 625M+70 Quinn)</option>
+    <option value="1000386" data-enertiaeqpcode="100/200/001" data-lastcost="1.82">Seat HR 1 25/32 +30 (A1) Plastic,
+      Qty 100 Ea 20-161P-32 625J+30P 1192343</option>
+    <option value="1000388" data-enertiaeqpcode="100/200/003" data-lastcost="2.44">Seat HR 1-25/32 +30 (A2) Hi-Temp
+      Composition 250J60082</option>
+    <option value="1000389" data-enertiaeqpcode="100/200/004" data-lastcost="7.79">Seat HR Hi-Temp 250M60086</option>
+    <option value="1000390" data-enertiaeqpcode="100/200/005" data-lastcost="3.31">Seat HR 2 1/4 -10 (A1) Plastic
+      25-16P-12 11994466</option>
+    <option value="1000391" data-enertiaeqpcode="100/200/006" data-lastcost="2.94">Seat Hard TY HR 1-25/32 ZNIPF10
+    </option>
+    <option value="1001381" data-enertiaeqpcode="100/202/003" data-lastcost="1000">48"x 25' Tornado ECD (SN #1005)
+      -Anadarko</option>
+    <option value="1001382" data-enertiaeqpcode="100/202/004" data-lastcost="1000">48"x 25' Tornado ECD (SN #1482)
+      -Anadarko</option>
+    <option value="1001383" data-enertiaeqpcode="100/202/005" data-lastcost="1000">48"x 25' Tornado ECD (SN #1205)
+      -Anadarko</option>
+    <option value="1001384" data-enertiaeqpcode="100/202/006" data-lastcost="1000">48"x 25' Tornado ECD (SN #1368)
+      -Anadarko</option>
+    <option value="1001385" data-enertiaeqpcode="100/202/007" data-lastcost="1000">48"x 25' Tornado ECD (SN #1750)
+      -Anadarko</option>
+    <option value="1001386" data-enertiaeqpcode="100/202/008" data-lastcost="1000">48"x 25' Tornado ECD (SN #1680)
+      -Anadarko</option>
+    <option value="1001387" data-enertiaeqpcode="100/202/009" data-lastcost="1000">48"x 25' Tornado ECD (SN #1074)
+      -Anadarko</option>
+    <option value="1001388" data-enertiaeqpcode="100/202/010" data-lastcost="1000">48"x 25' Tornado ECD
+      (SN#1228)-Anadarko</option>
+    <option value="1001389" data-enertiaeqpcode="100/202/011" data-lastcost="1000">48"x 25' Tornado ECD
+      (SN#1235)-Anadarko</option>
+    <option value="1001390" data-enertiaeqpcode="100/202/012" data-lastcost="1000">48"x 25' Tornado ECD
+      (SN#1133)-Anadarko</option>
+    <option value="1001391" data-enertiaeqpcode="100/202/013" data-lastcost="1000">48"x 25' Tornado ECD
+      (SN#1510)-Anadarko</option>
+    <option value="1001392" data-enertiaeqpcode="100/202/014" data-lastcost="1000">48"x 25' Tornado ECD
+      (SN#1716)-Anadarko</option>
+    <option value="1001348" data-enertiaeqpcode="100/202/001" data-lastcost="750">48X10 EDC (Anadarko)</option>
+    <option value="1001349" data-enertiaeqpcode="100/202/002" data-lastcost="500">30X10 ECD (Anadarko)</option>
+    <option value="1001351" data-enertiaeqpcode="100/203/017" data-lastcost="2.6">KPK 89571 Elbow U 1/4 IN Degree
+      Class 2000 Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001353" data-enertiaeqpcode="100/203/018" data-lastcost="6.81">KWS 721986 EL2 IN 90 DEG BUTT FUSN
+      SDR-11</option>
+    <option value="1001291" data-enertiaeqpcode="100/203/016" data-lastcost="2.76">KPK 89585 ELBOW U 1/2 IN 90 DEGREE
+      CLASS 3000 THREADED A105 BLACK FORGED CARBON STEEL</option>
+    <option value="1001267" data-enertiaeqpcode="100/203/015" data-lastcost="8.62">KWS 89603 Elbow St U 1IN 90 DEGREE
+      CLASS 3000 THREADED A105 BLACK FORGED CAROBN STEEL</option>
+    <option value="1001365" data-enertiaeqpcode="100/203/019" data-lastcost="40.72">KWS 74047 EL 2 IN 90 DEG FIG 7050
+      GRV STD / GRUVLOK</option>
+    <option value="1001457" data-enertiaeqpcode="100/203/020" data-lastcost="6.19">KPK 63672 Elbow Street U 1/2 IN 90
+      Degree Class 3000 Threaed A105 Black Forged Carbon Steel</option>
+    <option value="1001458" data-enertiaeqpcode="100/203/021" data-lastcost="6.42">KPK 89600 Elbow Street U 1/4 IN 90
+      Degree class 3000 threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001470" data-enertiaeqpcode="100/203/024" data-lastcost="2.05">KPK ZNIPF30 Elbow Street 1/8 IN 45
+      DRG THD Brass</option>
+    <option value="1001467" data-enertiaeqpcode="100/203/022" data-lastcost="2.2">KPK 3942 Elbo Street U 1/8 IN 90
+      Degree Threaded class 150 Cast Malleable Iron Black</option>
+    <option value="1001468" data-enertiaeqpcode="100/203/023" data-lastcost="7.82">KPK 89602 Elbow Street U 3/4 In 90
+      Degree Class 3000 Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001803" data-enertiaeqpcode="100/203/025" data-lastcost="15.68">89582 ELBOW U 2 IN 45 DEGREE CLASS
+      2000 THREADED A105 BLACK FORGED CARBON STEEL (DNOW)</option>
+    <option value="1001804" data-enertiaeqpcode="100/203/026" data-lastcost="67.68">89680 ELBOW U 3 IN 45 DEGREE CLASS
+      2000 THREADED A105 BLACK FORGED CARBON STEEL (DNOW)</option>
+    <option value="1001962" data-enertiaeqpcode="100/203/027" data-lastcost="72.51">3940 ELBOW U 4 IN 90 DEGREE
+      THREADED CLASS 150 CAST MALLEABLE IRON (DNOW)</option>
+    <option value="1000768" data-enertiaeqpcode="100/203/001" data-lastcost="13.25">KWS 89578 Elbow U 2 IN 90 Degree
+      Class 2000 Threaded A105 Black Forged Carbon (DNOW)</option>
+    <option value="1000769" data-enertiaeqpcode="100/203/002" data-lastcost="94.4">KWS 107321 EL IN 90 Degree FIG 7050
+      GBE Std (DNOW)</option>
+    <option value="1001000" data-enertiaeqpcode="100/203/010" data-lastcost="23.66">KWS 3939 Elbow U 3 IN 90 Degree
+      Threaded Clas 150 Cast Malleable Iron Black (DNOW)</option>
+    <option value="1001003" data-enertiaeqpcode="100/203/011" data-lastcost="9.44">KPK 89578 Elbow U 2 IN 90 Degree
+      Class 2000 Threaded A105 Black Forged Carbon (DNOW)</option>
+    <option value="1001007" data-enertiaeqpcode="100/203/012" data-lastcost="1.65">KPK 3930 Elow U 1/4 IN 90 Degree
+      Threaded Class 150 Cast Malleable Iron Black (DNOW)</option>
+    <option value="1001012" data-enertiaeqpcode="100/203/013" data-lastcost="2.82">KPK 89575 Elbow U 1 IN 90 Degree
+      Class 2000 Threaded A105 Black Forged Carbon (DNOW)</option>
+    <option value="1001048" data-enertiaeqpcode="100/203/014" data-lastcost="1.45">KWS 63811 EL M 1/4 IN TB X 1/4 in M
+      NPT 90 Deg Brs (DNOW)</option>
+    <option value="1000872" data-enertiaeqpcode="100/203/004" data-lastcost="14.75">KWS 721987 Elbow 3 IN 90 Degree
+      Butt Fusion SR-11 PE-3408 Polyethylene Black (DNOW)</option>
+    <option value="1000873" data-enertiaeqpcode="100/203/005" data-lastcost="6.18">KWS 73383 ElL 2 IN 90 Degree Poly
+      Blk SDR-11 (DNOW)</option>
+    <option value="1000849" data-enertiaeqpcode="100/203/003" data-lastcost="4.1">KWS 89575 Elbow U 1 IN 90 Degree
+      Class 2000 Threaded A105 Black Forged Carbon (DNOW)</option>
+    <option value="1000976" data-enertiaeqpcode="100/203/009" data-lastcost="35.25">KPK 3939 Elbow U 3 IN 90 Degree
+      Threaded Clas 150 Cast Malleable Iron Black (DNOW)</option>
+    <option value="1000912" data-enertiaeqpcode="100/203/006" data-lastcost="1.85">KPK 63811 EL M 1/4 IN TB X 1/4 in M
+      NPT 90 Deg Brs (DNOW)</option>
+    <option value="1000913" data-enertiaeqpcode="100/203/007" data-lastcost="3.05">KPK 63812 EL M 5/16 IN X 1/4 in
+      Brss (DNOW)</option>
+    <option value="1000914" data-enertiaeqpcode="100/203/008" data-lastcost="2.95">KPK 207551 EL 90 Deg 3/8 IN X 1/4
+      in TB X MNPT Brss (DNOW)</option>
+    <option value="1000393" data-enertiaeqpcode="100/205/001" data-lastcost="20.62">Center 80 Duro 4 /12" ACT Model R
+      240-3771-80C</option>
+    <option value="1000394" data-enertiaeqpcode="100/205/002" data-lastcost="30.53">80 Duro 4 1/2" (9.5-13.5#) ACT
+      Model AD-1 220-3771-80D</option>
+    <option value="1000395" data-enertiaeqpcode="100/205/003" data-lastcost="20.03">End 90 Duro 4 /12" ACT Model R
+      9.5-13.5# 240-3771-90D</option>
+    <option value="1000644" data-enertiaeqpcode="100/207/001" data-lastcost="6568.86">Engine, CH740 Kohler EMC
+      Complete Package ENGINE25HPKEMC</option>
+    <option value="1000645" data-enertiaeqpcode="100/207/002" data-lastcost="5766.67">Engine, CH740 Kohler EMC
+      Complete Package ENGINEPKG-003</option>
+    <option value="1000687" data-enertiaeqpcode="100/207/003" data-lastcost="7250">Engine, Kubota 31hp Compressor
+      Engin ENGINEC31HPK</option>
+    <option value="1000697" data-enertiaeqpcode="100/207/004" data-lastcost="2053.08">Engine, PA-CH740-0101 Kohler
+      27hp rate Engine-026</option>
+    <option value="1001820" data-enertiaeqpcode="100/207/011" data-lastcost="126.38">FPA-PUMP01 Front Panel Assembly
+      Pumpmatic (EDI)</option>
+    <option value="1001580" data-enertiaeqpcode="100/207/010" data-lastcost="839.94">GRENO GX240UT2HA2 Honda Engine
+      8HP 6:1 Red</option>
+    <option value="1001496" data-enertiaeqpcode="100/207/009" data-lastcost="395.03">PCBA-PUMP-05 Board Pumpmatic
+      CH740 Kohler</option>
+    <option value="1001282" data-enertiaeqpcode="100/207/005" data-lastcost="150">Engine, Kubota (Anadarko)</option>
+    <option value="1001283" data-enertiaeqpcode="100/207/006" data-lastcost="600">Engines, Pumping Unit (Anadarko)
+    </option>
+    <option value="1001331" data-enertiaeqpcode="100/207/007" data-lastcost="746.01">KWS PUMPMATICKU Pumpmatic
+      controller 3 cyl</option>
+    <option value="1001332" data-enertiaeqpcode="100/207/008" data-lastcost="393.18">PCBA-PUMP-02 Board Pumpmatic 3cyl
+      Kubota</option>
+    <option value="1000396" data-enertiaeqpcode="100/210/001" data-lastcost="16.86">3/4-7/8 Rod Plates EE-REP-1 10
+    </option>
+    <option value="1000397" data-enertiaeqpcode="100/210/002" data-lastcost="29.78">3" 261015-0 - COUPLING, EXT 1.25 X
+      0IN STL 1-3/4 OD (ITEM#207824) (WTRFD)</option>
+    <option value="1000698" data-enertiaeqpcode="100/213/007" data-lastcost="9.02">Oil Filter (Gold) 1032 Napa
+    </option>
+    <option value="1000704" data-enertiaeqpcode="100/213/008" data-lastcost="8.49">2191*P822686* AIR PRMYRS</option>
+    <option value="1000694" data-enertiaeqpcode="100/213/004" data-lastcost="4.54">2191 P530639</option>
+    <option value="1000695" data-enertiaeqpcode="100/213/005" data-lastcost="4.19">2191 P550162 Lube Spin</option>
+    <option value="1000696" data-enertiaeqpcode="100/213/006" data-lastcost="11.57">Air Prmy 2191 P607273</option>
+    <option value="1000683" data-enertiaeqpcode="100/213/003" data-lastcost="4.67">5839*AF25340* Air Filter</option>
+    <option value="1000675" data-enertiaeqpcode="100/213/001" data-lastcost="2.88">2191 P550335 Lube Spin Well Motor
+      Filter</option>
+    <option value="1000676" data-enertiaeqpcode="100/213/002" data-lastcost="13.28">2191 P607255 Air Prmy Well Motor
+      Filters</option>
+    <option value="1001312" data-enertiaeqpcode="100/213/016" data-lastcost="4.4">2191 P502568 Lube Spin New</option>
+    <option value="1001466" data-enertiaeqpcode="100/213/017" data-lastcost="6.67">2191 P553400 LUBE SPI New</option>
+    <option value="1001549" data-enertiaeqpcode="100/213/018" data-lastcost="6.94">51334 Oil Filter</option>
+    <option value="1001550" data-enertiaeqpcode="100/213/019" data-lastcost="17.48">46449 Air Filter</option>
+    <option value="1001551" data-enertiaeqpcode="100/213/020" data-lastcost="5.89">51348 Oil Filter</option>
+    <option value="1001552" data-enertiaeqpcode="100/213/021" data-lastcost="7.98">42297 Air Filter</option>
+    <option value="1001553" data-enertiaeqpcode="100/213/022" data-lastcost="8.61">51032 Oil Filter</option>
+    <option value="1001824" data-enertiaeqpcode="100/213/023" data-lastcost="10.39">WL10091 Oil Filter for Quincy
+      NG270 Motor (O'Reilly)</option>
+    <option value="1000398" data-enertiaeqpcode="100/215/001" data-lastcost="199.7">Baby Red, Complete BR11-20
+    </option>
+    <option value="1000727" data-enertiaeqpcode="100/216/001" data-lastcost="3.09">521198 Fitting (Kimball Midwest)
+    </option>
+    <option value="1000728" data-enertiaeqpcode="100/216/002" data-lastcost="2.77">52020 Fitting (Kiimball Midwest)
+    </option>
+    <option value="1000729" data-enertiaeqpcode="100/216/003" data-lastcost="3.73">3220X4X2 Brass Fitting (Kimball
+      Midwest)</option>
+    <option value="1000815" data-enertiaeqpcode="100/216/004" data-lastcost="6.74">KWS 10508B108 Brass Fit (Kimball
+      Midwest)</option>
+    <option value="1001054" data-enertiaeqpcode="100/216/009" data-lastcost="1.33">KWS 52131 Fitting (Kimball Midwest)
+    </option>
+    <option value="1001055" data-enertiaeqpcode="100/216/010" data-lastcost="7.59">KWS 1462X4 Brass Fit (Kimball
+      Midwest)</option>
+    <option value="1001056" data-enertiaeqpcode="100/216/011" data-lastcost="6.46">KWS 1469X6 Brass Fit (Kimball
+      Midwest)</option>
+    <option value="1001057" data-enertiaeqpcode="100/216/012" data-lastcost="12.69">KWS 1862X6 Dot Fit (Kimball
+      Midwest)</option>
+    <option value="1001013" data-enertiaeqpcode="100/216/005" data-lastcost="3.39">KWS 29370 Cond Fitting (Kimball
+      Midwest)</option>
+    <option value="1001014" data-enertiaeqpcode="100/216/006" data-lastcost="1.62">KWS 29360 Cond Fitting (Kimball
+      Midwest)</option>
+    <option value="1001015" data-enertiaeqpcode="100/216/007" data-lastcost="2.39">KWS 10504B102 Brass Fit (Kimball
+      Midwest)</option>
+    <option value="1001016" data-enertiaeqpcode="100/216/008" data-lastcost="2.79">KWS 10504B104 Brass Fit (Kimball
+      Midwest)</option>
+    <option value="1001099" data-enertiaeqpcode="100/216/013" data-lastcost="16.73">KWS 1868X8 Dot Fit (Kimball
+      Midwest)</option>
+    <option value="1001100" data-enertiaeqpcode="100/216/014" data-lastcost="6.82">KWS 1868X4X4 Dot Fit (Kimball
+      Midwest)</option>
+    <option value="1001101" data-enertiaeqpcode="100/216/015" data-lastcost="13.38">KWS 1472X4 Brass Fit (Kimball
+      Midwest)</option>
+    <option value="1001102" data-enertiaeqpcode="100/216/016" data-lastcost="2.79">KWS 10506B104 Brass Fit (Kimball
+      Midwest)</option>
+    <option value="1001087" data-enertiaeqpcode="100/217/019" data-lastcost="110.46">KPK 615398 GSKT Vac VTN WD Dia
+      Hole (DNOW)</option>
+    <option value="1000784" data-enertiaeqpcode="100/217/010" data-lastcost="46.55">KPK 84241 CG KMRY 212SOA304 (DNOW)
+    </option>
+    <option value="1000789" data-enertiaeqpcode="100/217/011" data-lastcost="43.15">KPK 86291 CG VLV 2 IN (DNOW)
+    </option>
+    <option value="1000834" data-enertiaeqpcode="100/217/012" data-lastcost="16.4">KWS 85084 Gasket 2 IN Buna-N Grade
+      (DNOW)</option>
+    <option value="1000835" data-enertiaeqpcode="100/217/013" data-lastcost="198.33">KPK 1060345 GSKT PRSR BLU VTN
+      70-HV (DNOW)</option>
+    <option value="1000836" data-enertiaeqpcode="100/217/014" data-lastcost="160.71">KPK 554126 Gasket, Thief Hatch
+      (DNOW)</option>
+    <option value="1000899" data-enertiaeqpcode="100/217/017" data-lastcost="2.25">KPK 492130 ST 3 IN B-N (Gasket)
+      -(DNOW)</option>
+    <option value="1000880" data-enertiaeqpcode="100/217/015" data-lastcost="0.96">KPK 291677 ST 2 IN (Rubber Gasket)
+      -(DNOW)</option>
+    <option value="1000892" data-enertiaeqpcode="100/217/016" data-lastcost="74.8">KPK 242892 CG VLV 3 IN (DNOW)
+    </option>
+    <option value="1000979" data-enertiaeqpcode="100/217/018" data-lastcost="160.71">KWS ZNIPP20 Gskts 8 IN ES660 Blue
+      Viton Base (DNOW)</option>
+    <option value="1000712" data-enertiaeqpcode="100/217/005" data-lastcost="2.11">15263-12370 Gasket, Muffler
+    </option>
+    <option value="1000719" data-enertiaeqpcode="100/217/006" data-lastcost="2.81">16871-73430 Gasket WATER PUMP
+    </option>
+    <option value="1000754" data-enertiaeqpcode="100/217/007" data-lastcost="198.33">KPS 1060345 GSKT PRSR BLU VTN
+      70-HV (DNOW)</option>
+    <option value="1000755" data-enertiaeqpcode="100/217/008" data-lastcost="139.95">KPS 1057447 GSKT VAC BLU VTN
+      F/ES-660-HF- Thief Hatch (DNOW)</option>
+    <option value="1000781" data-enertiaeqpcode="100/217/009" data-lastcost="27.05">KWS 85080 Gasket 3 IN Buna-N Grade
+      (DNOW)</option>
+    <option value="1000706" data-enertiaeqpcode="100/217/001" data-lastcost="3.34">1G962-12350 Gasket, EX-MAINF
+    </option>
+    <option value="1000707" data-enertiaeqpcode="100/217/002" data-lastcost="1.31">15841-72923 Gasket, W/FLANGE
+    </option>
+    <option value="1000708" data-enertiaeqpcode="100/217/003" data-lastcost="4.62">1G962-14522 Gasket, HEAD COVER
+    </option>
+    <option value="1000709" data-enertiaeqpcode="100/217/004" data-lastcost="0.81">16221-73270 Gasket</option>
+    <option value="1001755" data-enertiaeqpcode="100/217/028" data-lastcost="198.39">QC17087G SET GASKET QRNG 270
+      (compression leasing)</option>
+    <option value="1001879" data-enertiaeqpcode="100/217/029" data-lastcost="6.17">MHW-037 Gasket valve cover for 31hp
+      Kubota (EDI)</option>
+    <option value="1001933" data-enertiaeqpcode="100/217/035" data-lastcost="28.35">751923 CG F/ 1 IN SMS / KIMRAY
+      1981</option>
+    <option value="1001912" data-enertiaeqpcode="100/217/034" data-lastcost="1.87">85827 GASKET SPIRAL WOUND CG/WR 3
+      IN CLASS 150 304 STAINLESS STEEL WINDING FLEXIBLE GRAPHITE FILLER CARBON STEEL OUTER RING (DNOW)</option>
+    <option value="1001901" data-enertiaeqpcode="100/217/033" data-lastcost="22.08">89644 FLANGE THREADED U 3 IN CLASS
+      150 RAISED FACE A105 FORGED CARBON STEEL (DNOW)</option>
+    <option value="1001893" data-enertiaeqpcode="100/217/031" data-lastcost="27.05">ZMIL 3 T ONLY GASKET
+      F/7000-4&amp;7400-01 (DNOW)</option>
+    <option value="1001894" data-enertiaeqpcode="100/217/032" data-lastcost="37.89">ZMIL 4 T ONLY GASKET
+      F/7000-4&amp;7400-01</option>
+    <option value="1001886" data-enertiaeqpcode="100/217/030" data-lastcost="50.95">84307 ST VLV W/387 GSKT KMRY 384 /
+      KIMRAY 384 (DNOW)</option>
+    <option value="1001601" data-enertiaeqpcode="100/217/026" data-lastcost="112.88">QC17126G Set Gasket 325 NG
+      (compression)</option>
+    <option value="1001589" data-enertiaeqpcode="100/217/025" data-lastcost="37.89">KWS 85075 GSKT 4 IN B-N T /
+      GRUVLOK 7000</option>
+    <option value="1001503" data-enertiaeqpcode="100/217/024" data-lastcost="1.08">KPK 727998 GSKT GGE 5/8 IN RBR/
+      SCHOTTSCI</option>
+    <option value="1001446" data-enertiaeqpcode="100/217/023" data-lastcost="53.26">KPK 87915 ST REM W/388 GSKT F/3 IN
+      KMRY</option>
+    <option value="1001324" data-enertiaeqpcode="100/217/021" data-lastcost="1.15">KPK 144602 GSKT 5/8 IN RBR F / GGE
+      VLV CNBRC</option>
+    <option value="1001120" data-enertiaeqpcode="100/217/020" data-lastcost="8.08">KWS 62065 Gasket Tank Strip 1-3/4 W
+      1/2 Hse Utex (DNOW)</option>
+    <option value="1001881" data-enertiaeqpcode="100/220/003" data-lastcost="78.3">21B031 (1 1/4) - 1-1/4" Upper Gland
+      Assembly (Don-Nan)</option>
+    <option value="1001882" data-enertiaeqpcode="100/220/004" data-lastcost="78.3">21B031 (1-1/2) - 1-1/2' Upper Gland
+      Assembly (Don-Nan)</option>
+    <option value="1001883" data-enertiaeqpcode="100/220/005" data-lastcost="3.55">21B008 (2/Set) Upper Gland Bolts
+      (Don-Nan)</option>
+    <option value="1001189" data-enertiaeqpcode="100/225/004" data-lastcost="320">841A-I BORE UT GRAPPLY THREADS AND
+      THREAD 4v 8" DEEP</option>
+    <option value="1000401" data-enertiaeqpcode="100/225/001" data-lastcost="113">Control Spiral F/ Overshot Bowen
+    </option>
+    <option value="1000833" data-enertiaeqpcode="100/226/001" data-lastcost="57.85">KWS 74054 Groove Lock 3 IN X 2 IN
+      (DNOW)</option>
+    <option value="1001084" data-enertiaeqpcode="100/226/002" data-lastcost="102.5">KWS 74059 T 3 In GRV STD (DNOW)
+    </option>
+    <option value="1001136" data-enertiaeqpcode="100/226/003" data-lastcost="33.11">74044 Cap 2 In/ Groove Lock
+    </option>
+    <option value="1001408" data-enertiaeqpcode="100/226/004" data-lastcost="107.08">2B136SK QD Sheave A/B Section 2
+      Groove</option>
+    <option value="1001544" data-enertiaeqpcode="100/226/005" data-lastcost="154.6">KWS 74060 T 4 IN GRV STD / GRUVLOK
+    </option>
+    <option value="1001889" data-enertiaeqpcode="100/226/009" data-lastcost="76.86">Mauma 2B8.0 SK QD Sheave (DXP)
+    </option>
+    <option value="1001605" data-enertiaeqpcode="100/226/008" data-lastcost="77.04">74058 T 2 IN GRV STD / GRUVLOK
+      (DNOW)</option>
+    <option value="1001583" data-enertiaeqpcode="100/226/006" data-lastcost="71.64">MDRV 2B110SK QD Sheave A/B Section
+      2 Groove</option>
+    <option value="1001584" data-enertiaeqpcode="100/226/007" data-lastcost="57.5">MDRV 2B80SK QD Sheave A/B Section 2
+      Groove</option>
+    <option value="1001749" data-enertiaeqpcode="100/228/024" data-lastcost="19.39">QC1110822 Gauge Oil Pressure 2" x
+      1/4" LM 0-30# LF (compression leasing)</option>
+    <option value="1001921" data-enertiaeqpcode="100/228/026" data-lastcost="21.95">103709 GLASS GAUGE 5/8 X 48
+      PLASTIC (DNOW)</option>
+    <option value="1001866" data-enertiaeqpcode="100/228/025" data-lastcost="296.55">ZNIPI10 Murphy Pressure Switch
+      OPLC-S-2000 (DNOW)</option>
+    <option value="1001542" data-enertiaeqpcode="100/228/023" data-lastcost="20.98">KPK 76492 GGE PRSR 2-1/2 IN 0-5000
+      1/4 IN NPT LM 3</option>
+    <option value="1001506" data-enertiaeqpcode="100/228/022" data-lastcost="104.99">KPK 75223 GGE PRSR 4 IN 0-5000
+      1/2 IN NPT LM 304 S / WIKA</option>
+    <option value="1001448" data-enertiaeqpcode="100/228/021" data-lastcost="56.3">KPK 375366 GLS GGE HVY WALL 5/8 In
+      X 36 IN 500</option>
+    <option value="1001206" data-enertiaeqpcode="100/228/017" data-lastcost="0.15">KWS 728421 WIRE TRACER 12 GAUGE 30
+      MIL 2500 FT REEL</option>
+    <option value="1001340" data-enertiaeqpcode="100/228/020" data-lastcost="10.39">KPK 103711 Glass Gauge 5/8 x 72
+      Plastic</option>
+    <option value="1001335" data-enertiaeqpcode="100/228/019" data-lastcost="23.42">KPK 3227 GLS GGE 5/8 IN x 36 IN
+      PYREX</option>
+    <option value="1001318" data-enertiaeqpcode="100/228/018" data-lastcost="29.83">ZNIPI20 GAUGE 10,000 2-1/2 PACE
+      1/4" NPT LM LP</option>
+    <option value="1001118" data-enertiaeqpcode="100/228/016" data-lastcost="21.27">KPK 7187 GGE PRSR 2-1/2 IN 0-3000
+      1 /4 IN NPT (DNOW)</option>
+    <option value="1001028" data-enertiaeqpcode="100/228/009" data-lastcost="12.17">KWS 478237 Guage Pressure 2-1/2 In
+      0-30 1 /4 IN NPT LM Blk(DNOW)</option>
+    <option value="1001029" data-enertiaeqpcode="100/228/010" data-lastcost="33.24">KWS 478274 Guage IND 2-1/2 IN Face
+      300 1 /4 IN NPT (DNOW)</option>
+    <option value="1001030" data-enertiaeqpcode="100/228/011" data-lastcost="33.24">KWS 478277 Guage IND 2-1/2 IN Face
+      600 1/4 IN NPT (DNOW)</option>
+    <option value="1001031" data-enertiaeqpcode="100/228/012" data-lastcost="17.44">KWS 76488 Guage Pressure 2-1/2 In
+      0-1000 1/4 IN NPT (DNOW)</option>
+    <option value="1001051" data-enertiaeqpcode="100/228/014" data-lastcost="12.17">KWS 478238 Guage Pressure 2-1/2 In
+      0-60 1 /4 IN NPT LM Blk(DNOW)</option>
+    <option value="1001052" data-enertiaeqpcode="100/228/015" data-lastcost="12.65">KWS 478239 Guage Pressure 2-1/2 In
+      0-100 /4 IN NPT (DNOW)</option>
+    <option value="1001037" data-enertiaeqpcode="100/228/013" data-lastcost="100.35">KWS MHW-336 Guage Water
+      temperature swichg (EDI)</option>
+    <option value="1000929" data-enertiaeqpcode="100/228/005" data-lastcost="12.65">KPK 478237 Guage Pressure 2-1/2 In
+      0-30 1 /4 IN NPT LM Blk(DNOW)</option>
+    <option value="1000930" data-enertiaeqpcode="100/228/006" data-lastcost="12.65">KPK 478238 Guage Pressure 2-1/2 In
+      0-60 1 /4 IN NPT LM Blk(DNOW)</option>
+    <option value="1000933" data-enertiaeqpcode="100/228/007" data-lastcost="18.6">KPK 76488 Guage Pressure 2-1/2 In
+      0-1000 1/4 IN NPT (DNOW)</option>
+    <option value="1000947" data-enertiaeqpcode="100/228/008" data-lastcost="74.5">KPK 66044 GGE Water Set L/ GLS
+      &amp; RD-water guage (DNOW)</option>
+    <option value="1000793" data-enertiaeqpcode="100/228/001" data-lastcost="12.65">KPK 478239 Guage Pressure 2-1/2 In
+      0-100 /4 IN NPT (DNOW)</option>
+    <option value="1000794" data-enertiaeqpcode="100/228/002" data-lastcost="33.24">KPK 478274 Guage IND 2-1/2 IN Face
+      300 1 /4 IN NPT (DNOW)</option>
+    <option value="1000795" data-enertiaeqpcode="100/228/003" data-lastcost="33.24">KPK 478277 Guage IND 2-1/2 IN Face
+      600 1/4 IN NPT (DNOW)</option>
+    <option value="1000796" data-enertiaeqpcode="100/228/004" data-lastcost="20.35">KPK 76490 Guage Pressure 2-1/2 In
+      0-2000 1/4 IN NPT (DNOW)Guage</option>
+    <option value="1000404" data-enertiaeqpcode="100/230/001" data-lastcost="43.42">Valve, Rod Sand 20-114</option>
+    <option value="1000406" data-enertiaeqpcode="100/230/003" data-lastcost="28.42">Valve Rod Box End 2 3/8 11/16 1026
+      CS 20-1199 70K1 203918 194504</option>
+    <option value="1000407" data-enertiaeqpcode="100/230/004" data-lastcost="28.93">Valve Rod, -Aht-G11-25</option>
+    <option value="1000408" data-enertiaeqpcode="100/230/005" data-lastcost="35.23">Valve Rod Box End 2 7/8 7/8 1026
+      CS 25-1199 GR211</option>
+    <option value="1001412" data-enertiaeqpcode="100/230/007" data-lastcost="28.29">2" Guide, .687 VR, Female GR211
+    </option>
+    <option value="1001577" data-enertiaeqpcode="100/230/008" data-lastcost="27.1">GR321 2-1/2" Guide, .875 VR, Fem.
+      Fl</option>
+    <option value="1001657" data-enertiaeqpcode="100/230/009" data-lastcost="61.61">GT119 Guide, HVR, 15/16 Pull Tube
+      (don-nan)</option>
+    <option value="1001859" data-enertiaeqpcode="100/234/009" data-lastcost="3.77">4BX Hose COUPL 2SN-1/4 (DXP)
+    </option>
+    <option value="1001498" data-enertiaeqpcode="100/234/008" data-lastcost="1.46">KPK ZNIPH10 Brass Hose Barb X MNPT
+      4-4MP-B</option>
+    <option value="1001165" data-enertiaeqpcode="100/234/007" data-lastcost="3.1">67735 Clamp Hose 5 IN SAW STAINLESS
+      5/8 BAND WIDTH</option>
+    <option value="1000665" data-enertiaeqpcode="100/234/001" data-lastcost="7.82">Hose H10404</option>
+    <option value="1000666" data-enertiaeqpcode="100/234/002" data-lastcost="235.06">Collet T4002C</option>
+    <option value="1000667" data-enertiaeqpcode="100/234/003" data-lastcost="7.61">Hose End KMJ0404</option>
+    <option value="1000668" data-enertiaeqpcode="100/234/004" data-lastcost="12.33">Hose End KMPX0404</option>
+    <option value="1001072" data-enertiaeqpcode="100/234/005" data-lastcost="112.05">KWS KFFX1620 Hose End (Kimball
+      Midwest)</option>
+    <option value="1001114" data-enertiaeqpcode="100/234/006" data-lastcost="172.14">KWS KFFX901620 Hose End (Kimball
+      Midwest)</option>
+    <option value="1000410" data-enertiaeqpcode="100/235/002" data-lastcost="155.8">5-1/2" Weldment 45BA07</option>
+    <option value="1001060" data-enertiaeqpcode="100/240/002" data-lastcost="0.86">KWS 283040 Fuse (Kimnball Midwest)
+    </option>
+    <option value="1001022" data-enertiaeqpcode="100/246/024" data-lastcost="16.52">KWS 609574 KT Rep (DNOW)</option>
+    <option value="1001085" data-enertiaeqpcode="100/246/025" data-lastcost="34.85">KPK 322675 Rep KT 3 IN 212 DB PO
+      (DNOW)</option>
+    <option value="1000949" data-enertiaeqpcode="100/246/021" data-lastcost="128.75">ZNIPI10 REPAIR KIT WELLMARK
+      03500-2836 (DNOW)</option>
+    <option value="1000952" data-enertiaeqpcode="100/246/022" data-lastcost="28.69">KPK ZNIPI10 Dumpkit Repair Kit 3
+      IN(DNOW)</option>
+    <option value="1000953" data-enertiaeqpcode="100/246/023" data-lastcost="9.3">KPK ZNIPI10 Plate Kimray (DNOW)
+    </option>
+    <option value="1000944" data-enertiaeqpcode="100/246/020" data-lastcost="78.2">KPK 1090986 Rep KT F/Snaptrol
+      (DNOW)</option>
+    <option value="1000885" data-enertiaeqpcode="100/246/011" data-lastcost="43.22">KPK 250501 Rep Kit 2 IN GD RDG
+      (DNOW)</option>
+    <option value="1000900" data-enertiaeqpcode="100/246/012" data-lastcost="1.86">KPK 795010 KT REP KMRY T125B f
+      Thermastat (DNOW)</option>
+    <option value="1000901" data-enertiaeqpcode="100/246/013" data-lastcost="6.1">KPK 84758 Rep KT F/1 IN Mt-Dab KMRY
+      RHE (DNOW)</option>
+    <option value="1000902" data-enertiaeqpcode="100/246/014" data-lastcost="10.05">KPK 83750 Rep KT F/1 IN MHPMV MTR
+      VLV (DNOW)</option>
+    <option value="1000903" data-enertiaeqpcode="100/246/015" data-lastcost="14.25">KPK 84759 Rep KT F/2 IN MHPMV MTR
+      VLV (DNOW)</option>
+    <option value="1000904" data-enertiaeqpcode="100/246/016" data-lastcost="2.66">KPK 67534 Rep KT KMRY 3 MP
+      RMN(DNOW)</option>
+    <option value="1000905" data-enertiaeqpcode="100/246/017" data-lastcost="23.78">KPK 44877 Rep KT VLV 3 IN O Oil
+      (DNOW)</option>
+    <option value="1000906" data-enertiaeqpcode="100/246/018" data-lastcost="29.66">KPK 44875 Rep KT Reg 3 IN GS
+      (DNOW)</option>
+    <option value="1000908" data-enertiaeqpcode="100/246/019" data-lastcost="24.31">KPK 71183 Rep KT VLV F/ 26 SWA
+      Dump Vlv (DNOW)</option>
+    <option value="1000868" data-enertiaeqpcode="100/246/010" data-lastcost="29.55">KWS 737413 Kit -Adhesive Cleaner
+      Kit 6.35 oz (DNOW)</option>
+    <option value="1000787" data-enertiaeqpcode="100/246/007" data-lastcost="19.83">KPK 487311 Valve Repair Kit 2 IN M
+      PB-D B-N (DNOW)</option>
+    <option value="1000788" data-enertiaeqpcode="100/246/008" data-lastcost="26.25">KPK 71182 Repair Kit f/212 SGT BK
+      Prsr Reg (DNOW)</option>
+    <option value="1000828" data-enertiaeqpcode="100/246/009" data-lastcost="16.52">KPK 609574 Value Repair Kit (DNOW)
+    </option>
+    <option value="1000582" data-enertiaeqpcode="100/246/001" data-lastcost="200.72">Kit, Elastomer TS-U 5.5IN
+      14-17LB/FT 90-70-90 NBR 724-55-050</option>
+    <option value="1000730" data-enertiaeqpcode="100/246/002" data-lastcost="48.54">24755147-S Kit, Cylinderhea (H.G.
+      Makelim)</option>
+    <option value="1000731" data-enertiaeqpcode="100/246/003" data-lastcost="20.31">24 843 04-S Kit, Cylinderhea (H.G.
+      Makelim)</option>
+    <option value="1000732" data-enertiaeqpcode="100/246/004" data-lastcost="9.86">25 351 11-S Kit, Lifter (H.G.
+      Makelim)</option>
+    <option value="1000733" data-enertiaeqpcode="100/246/005" data-lastcost="16.02">24755140-S Kit, Valvecover H.G.
+      Makelim)</option>
+    <option value="1000734" data-enertiaeqpcode="100/246/006" data-lastcost="52.98">17 853 13-S Kit, Carburetor (H.G.
+      Makelim)</option>
+    <option value="1001248" data-enertiaeqpcode="100/246/027" data-lastcost="334.32">MHW-533 Muffler Kit for Kohler
+      PA-CH74</option>
+    <option value="1001219" data-enertiaeqpcode="100/246/026" data-lastcost="25.5">KPK 75632 REP KT F/2 IN RFL KMRY
+      212-MA-DB-PO /KIMRAY</option>
+    <option value="1001306" data-enertiaeqpcode="100/246/029" data-lastcost="107.37">MHW-428 Muffler (right exit) for
+      31hp</option>
+    <option value="1001287" data-enertiaeqpcode="100/246/028" data-lastcost="80.82">KPK ZNIPI10 POT DRIP 2000 LB YXT
+      DP 200</option>
+    <option value="1001343" data-enertiaeqpcode="100/246/030" data-lastcost="44.45">MHW-534 Throttle cable, choke kit
+      Kohle</option>
+    <option value="1001454" data-enertiaeqpcode="100/246/032" data-lastcost="99.92">KPK ZNIPI10 Kit Repair Wellmark
+      21447</option>
+    <option value="1001455" data-enertiaeqpcode="100/246/033" data-lastcost="50">KPK 250430 REP KT 3 IN G-D RDH KMRY /
+      Kimray</option>
+    <option value="1001493" data-enertiaeqpcode="100/246/034" data-lastcost="87">Handle Kit (M&amp;C Sales)</option>
+    <option value="1001505" data-enertiaeqpcode="100/246/035" data-lastcost="73.55">KPK 1154270 Thermostat KT MSTR /
+      Kimray</option>
+    <option value="1001445" data-enertiaeqpcode="100/246/031" data-lastcost="47.19">KPK 44879 REP KIT VLV 3 IN WTR /
+      Kimray</option>
+    <option value="1001846" data-enertiaeqpcode="100/246/040" data-lastcost="20.85">258214 REP KT / KIMRAY RHX (DNOW)
+    </option>
+    <option value="1001867" data-enertiaeqpcode="100/246/041" data-lastcost="36.75">REP KT 3 IN O-D REP KT / KIMRAY
+      RTK (DNOW)</option>
+    <option value="1001752" data-enertiaeqpcode="100/246/039" data-lastcost="201.29">724-45-050 KIT, ELASTOMER TS-U
+      4.5IN 9.5-13.5LB/FT 90-70-90 NBR-NBR Part# 169541 (weatherford)</option>
+    <option value="1001938" data-enertiaeqpcode="100/246/044" data-lastcost="36.2">485457 REP KT 3 IN 500 LB KMRY RNB
+      / KIMRAY RNB</option>
+    <option value="1001923" data-enertiaeqpcode="100/246/042" data-lastcost="44.8">520949 REG REP KT P627 BELGAS
+      971-627-000 / BELGAS 971627000 (DNOW)</option>
+    <option value="1001924" data-enertiaeqpcode="100/246/043" data-lastcost="28.7">ZMIL REG REP KIT P143 BELGAS
+      804-265-001 (DNOW)</option>
+    <option value="1001592" data-enertiaeqpcode="100/246/036" data-lastcost="52.3">250430 REP KT 3 IN G-D RDH KMRY /
+      KIMRAY RDH (DNOW)</option>
+    <option value="1001631" data-enertiaeqpcode="100/246/037" data-lastcost="5.76">ZNIPI10 TIP / ORIFICE CLEANING KIT
+      (DNOW)</option>
+    <option value="1001667" data-enertiaeqpcode="100/246/038" data-lastcost="924.85">QC12022132307 KIT REPAIR PUMP
+      LUBE 4125/5120 (CLS)</option>
+    <option value="1001936" data-enertiaeqpcode="100/250/006" data-lastcost="194.92">201716 LINER, POLISHED ROD,
+      1-1/2X1-1/4X10 WELD STL SM WITH HEAD 39903010</option>
+    <option value="1001937" data-enertiaeqpcode="100/250/007" data-lastcost="175.43">192287 LINER, POLISHED ROD,
+      1-1/2X1-1/4X9 WELD STL SM WITH HEAD 39903009</option>
+    <option value="1001806" data-enertiaeqpcode="100/250/005" data-lastcost="66.79">70665 FILM CONSTRUCTION 100 FT
+      LONG 20 FT WIDE 6 MIL POLYETHYLENE BLACK C201006BK (DNOW)</option>
+    <option value="1000414" data-enertiaeqpcode="100/250/001" data-lastcost="411.35">Polished Rod 1 1/2x1 1/4x12 Weld
+      STL SM w/Head 39903012 (05-PL125X15012 Quinn)</option>
+    <option value="1000415" data-enertiaeqpcode="100/250/002" data-lastcost="267.49">Polished Rod 1 1/2x1 1/4x14 Weld
+      STL SM w/Head 39903014 191517</option>
+    <option value="1001663" data-enertiaeqpcode="100/253/002" data-lastcost="640.42">ZNIPI10 WELLMARK FLEXLEVER LIQUID
+      LEVELCONTROLPN 06500-6955 kimray part (DNOW)</option>
+    <option value="1001411" data-enertiaeqpcode="100/255/011" data-lastcost="30.16">HM41 2" Holddown Mandrel Don-Nan
+      20-128 BH
+      85k Quinn
+      90007864</option>
+    <option value="1001508" data-enertiaeqpcode="100/255/012" data-lastcost="36.18">HM51 2-1/2" Holddown Mandrel, HR
+    </option>
+    <option value="1000419" data-enertiaeqpcode="100/255/001" data-lastcost="33.08">DNU - Seating 3 Cup 1026 STL 2 3/8
+      Lock Nut 20-128 85K</option>
+    <option value="1000420" data-enertiaeqpcode="100/255/002" data-lastcost="41.66">Seating 3 Cup 1026 STL 2 3/8 Lock
+      Nut 25-12</option>
+    <option value="1000421" data-enertiaeqpcode="100/255/003" data-lastcost="33.05">Seating Cup 25-22A</option>
+    <option value="1000423" data-enertiaeqpcode="100/255/005" data-lastcost="133.54">(73MM) 45BA03</option>
+    <option value="1000750" data-enertiaeqpcode="100/255/009" data-lastcost="375.82">Mandrel, Body, Upper Slip TS-BP
+      5.5IN -725-55-320 (Weatherford)</option>
+    <option value="1000586" data-enertiaeqpcode="100/255/006" data-lastcost="462.11">Mandrel, Upper TS-BP 5.5IN TBD
+      725-55-210</option>
+    <option value="1001017" data-enertiaeqpcode="100/255/010" data-lastcost="287.54">Cone, Upper TS-BP 5.5I00
+      -725-55-415 (Weatherford)</option>
+    <option value="1000820" data-enertiaeqpcode="100/257/005" data-lastcost="25.43">KWS EG273-63590 Starter Switch
+      (H.G. Makelim)</option>
+    <option value="1000680" data-enertiaeqpcode="100/257/001" data-lastcost="579">10 HP 1800 RPM 215T TEFC
+      PE215T-10-4C/EM10-18-2</option>
+    <option value="1000681" data-enertiaeqpcode="100/257/002" data-lastcost="1029">15 hp 1200rpm 284T TEFC Oil Field
+      Pump Three Phase Motor WO15-12</option>
+    <option value="1000686" data-enertiaeqpcode="100/257/003" data-lastcost="2218">Electric WFT 20 HP 6P 60HZ 286T
+      230-460V 1770477</option>
+    <option value="1000739" data-enertiaeqpcode="100/257/004" data-lastcost="234.75">KEARS-67980 Starter Assy (H.G.
+      Makelim)</option>
+    <option value="1001483" data-enertiaeqpcode="100/257/009" data-lastcost="1029">15HP Pumping Unit Electric Motor
+      (Advantage Manufacturing)</option>
+    <option value="1001393" data-enertiaeqpcode="100/257/008" data-lastcost="969">PEXP215T-5-6 5HP 1200RPM 215T
+      Explosion Proof T-frame Motor</option>
+    <option value="1001344" data-enertiaeqpcode="100/257/006" data-lastcost="2499">OWP404T-50-6 50HP 1200RPM 404T. Oil
+      Well Pump Motor</option>
+    <option value="1001345" data-enertiaeqpcode="100/257/007" data-lastcost="1499">OWP324T-25-6 25 HP 1200 RPM 324T
+      Frame TEFC Oil Field Pump Three Phase Motor</option>
+    <option value="1001669" data-enertiaeqpcode="100/257/010" data-lastcost="7.27">MHW-065 Valve Cover Gasket-4 Bolt
+      (EDI)</option>
+    <option value="1001670" data-enertiaeqpcode="100/257/011" data-lastcost="1.79">MHW-039 Gasket exhaust manifold for
+      31hp Kubota (EDI)</option>
+    <option value="1001671" data-enertiaeqpcode="100/257/012" data-lastcost="3.07">MHW-036 Gasket muffler for Kubota
+      Engine (EDI)</option>
+    <option value="1001672" data-enertiaeqpcode="100/257/013" data-lastcost="0.43">ZZMHW-071 Muffler stud for Kubota
+      (EDI)</option>
+    <option value="1001673" data-enertiaeqpcode="100/257/014" data-lastcost="369.36">MHW-149 Alternator assembly for
+      31hp Kubota (EDI)</option>
+    <option value="1001674" data-enertiaeqpcode="100/257/015" data-lastcost="294">MHW-117 Starter for 31hp Kubota
+      DF972E (EDI)</option>
+    <option value="1001675" data-enertiaeqpcode="100/257/016" data-lastcost="39.15">MHW-718 Bracket for Kubota air
+      cleaner (EDI)</option>
+    <option value="1001676" data-enertiaeqpcode="100/257/017" data-lastcost="28.43">MHW-282 Thermostat for 31hp Kubota
+      (EDI)</option>
+    <option value="1001677" data-enertiaeqpcode="100/257/018" data-lastcost="1.69">ZZMHW-283 Gasket thermostat for
+      31hp Kubota (EDI)</option>
+    <option value="1001678" data-enertiaeqpcode="100/257/019" data-lastcost="133.14">MHW-519 Water pump for 31hp
+      Kubota DG972 (EDI)</option>
+    <option value="1001679" data-enertiaeqpcode="100/257/020" data-lastcost="5.47">MHW-042 Gasket for water pump on
+      31hp Kubota DG972 (EDI)</option>
+    <option value="1001680" data-enertiaeqpcode="100/257/021" data-lastcost="68.11">MHW-008 Coil for Kubota
+      EG561-68900 (EDI)</option>
+    <option value="1001681" data-enertiaeqpcode="100/257/022" data-lastcost="0.29">B-8MMX1.25X20 Bolt, 8mm x 1.25 x
+      20mm long (EDI)</option>
+    <option value="1001682" data-enertiaeqpcode="100/257/023" data-lastcost="90.5">MHW-271 Wiring harness for 31hp
+      Kubota (EDI)</option>
+    <option value="1001683" data-enertiaeqpcode="100/257/024" data-lastcost="11.28">MHW-436 Connector for alternator
+      on Kubota (EDI)</option>
+    <option value="1001684" data-enertiaeqpcode="100/257/025" data-lastcost="0.31">CN-013 Female blade connector
+      10-12AW (EDI)</option>
+    <option value="1001685" data-enertiaeqpcode="100/257/026" data-lastcost="0.29">CN-008 Faston .250wd. Red, 22-18
+      awg (EDI)</option>
+    <option value="1001686" data-enertiaeqpcode="100/257/027" data-lastcost="0.85">CN-022 Connector round female 16-14
+      (EDI)</option>
+    <option value="1001687" data-enertiaeqpcode="100/257/028" data-lastcost="1382.25">XHHI10-12-256T Electric Motor
+      (Worldwide electric)</option>
+    <option value="1001750" data-enertiaeqpcode="100/257/034" data-lastcost="776.2">OW10-12-256T Motor (Worldwide
+      Electric)</option>
+    <option value="1001751" data-enertiaeqpcode="100/257/035" data-lastcost="455.59">OW5-12-215T Motor (Worldwide
+      Electric)</option>
+    <option value="1001694" data-enertiaeqpcode="100/257/029" data-lastcost="929.33">IXPEWWE5-12-215T 5 HP electric
+      motor</option>
+    <option value="1001695" data-enertiaeqpcode="100/257/030" data-lastcost="1659.75">OW30-12-326T 30 HP low voltage
+      electric motor</option>
+    <option value="1001696" data-enertiaeqpcode="100/257/031" data-lastcost="975.32">OW15-12-284T 15 HP low voltage
+      electric motor</option>
+    <option value="1001723" data-enertiaeqpcode="100/257/032" data-lastcost="447.63">PEWWE10-36-215T 10HP 3600 RMP
+      Motor (Worldwide Electric Corp)</option>
+    <option value="1001724" data-enertiaeqpcode="100/257/033" data-lastcost="512.52">PEWWE10-18-215TC 10HP 1800 RPM
+      Motor</option>
+    <option value="1001796" data-enertiaeqpcode="100/257/036" data-lastcost="136.42">MHW-793 Denso 12V 9T Str
+      aftermarket (EDI)</option>
+    <option value="1001864" data-enertiaeqpcode="100/257/037" data-lastcost="395.66">90-29-5295 Alternator for Kubota
+      Motor (O'Reilly)</option>
+    <option value="1001865" data-enertiaeqpcode="100/257/038" data-lastcost="241.87">91-29-5554 Starter for Kubota
+      Motor (O'Reilly)</option>
+    <option value="1001851" data-enertiaeqpcode="100/260/079" data-lastcost="9.8">3456 NIPPLE U 3 IN X 4 IN THREADED
+      BOTH ENDS WELDED STD A53 BLACK CARBON STEEL (DNOW)</option>
+    <option value="1001860" data-enertiaeqpcode="100/260/080" data-lastcost="7.71">DIX H2F2 1/4 ISO-B NIPPLE, 1/4
+      NPTF, STEEL 100018-2 (DXP)</option>
+    <option value="1001863" data-enertiaeqpcode="100/260/081" data-lastcost="5.41">DIX K2F2, 1/4 ISO-A NIPPLE, 1/4
+      NPTF, STEEL 100043-2 (DXP)</option>
+    <option value="1001797" data-enertiaeqpcode="100/260/078" data-lastcost="3.09">97278 TEE 1 IN IPS SOCKET BLACK PE
+      3408 B44002569B (DNOW)</option>
+    <option value="1001793" data-enertiaeqpcode="100/260/077" data-lastcost="1.35">3501 NIPPLE U 3/4 IN X 2 IN
+      THREADED BOTH ENDS SEAMLESS XS A106 BLACK (DNOW)</option>
+    <option value="1001958" data-enertiaeqpcode="100/260/086" data-lastcost="14.48">3461 NIPPLE U 4 IN X CLOSE
+      THREADED BOTH ENDS WELDED STD A53 BLACK CARBON STEEL (DNOW)</option>
+    <option value="1001959" data-enertiaeqpcode="100/260/087" data-lastcost="16.76">3462 NIPPLE U 4 IN X 4 IN THREADED
+      BOTH ENDS WELDED STD A53 BLACK (DNOW)</option>
+    <option value="1001960" data-enertiaeqpcode="100/260/088" data-lastcost="19.54">3463 NIPPLE U 4 IN X 6 IN THREADED
+      BOTH ENDS WELDED STD A53 BLACK (DNOW)</option>
+    <option value="1001932" data-enertiaeqpcode="100/260/085" data-lastcost="11.8">4391 NIPPLE ADAPTER 2 IN X 4 IN STD
+      GROOVED X THREADED A106 BLACK CARBON STEEL</option>
+    <option value="1001884" data-enertiaeqpcode="100/260/082" data-lastcost="0.7">3407 NIPPLE U 1/2 IN X 3 IN THREADED
+      BOTH ENDS WELDED STD A53 BLACK CARBON STEEL (DNOW)</option>
+    <option value="1001885" data-enertiaeqpcode="100/260/083" data-lastcost="1.7">4014 TEE U 1/2 IN CLASS 150 THREADED
+      MALLEABLE IRON BLACK (DNOW)</option>
+    <option value="1001892" data-enertiaeqpcode="100/260/084" data-lastcost="1.71">3500 Nipple U 3/4 in x Close
+      Threaded Both ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1001697" data-enertiaeqpcode="100/260/075" data-lastcost="1.59">3503 NIPPLE U 3/4 IN X 3 IN
+      THREADED BOTH ENDS SEAMLESS XS A106 BLACK (DNOW)</option>
+    <option value="1001698" data-enertiaeqpcode="100/260/076" data-lastcost="5.85">79254 TEE 1 IN BUTT FUSION SDR-11
+      POLYETHYLENE PE3408/BLACK CENTRAL PLASTICS (DNOW)</option>
+    <option value="1001627" data-enertiaeqpcode="100/260/073" data-lastcost="6.39">89631 TEE U 3/4 IN CLASS 3000
+      THREADED A105 BLACK FORGED CARBON STEEL (dnow)</option>
+    <option value="1001628" data-enertiaeqpcode="100/260/074" data-lastcost="4.27">4367 NIPPLE U 1-1/2 IN X 4 IN
+      THREADED BOTH ENDS SEAMLESS XS A106 BLACK CARBON STEEL (dnow)</option>
+    <option value="1001573" data-enertiaeqpcode="100/260/071" data-lastcost="38.74">80SN1 2-3/8" Seat Nipple, Steel
+    </option>
+    <option value="1001555" data-enertiaeqpcode="100/260/069" data-lastcost="44.49">EN215 1-1/4" X 36" Extension
+      Nipple</option>
+    <option value="1001539" data-enertiaeqpcode="100/260/068" data-lastcost="13.59">KWS 71278 Tee 3 IN Poly SDR11 Butt
+      Fusion Molded PE3408</option>
+    <option value="1001560" data-enertiaeqpcode="100/260/070" data-lastcost="45.81">80SN2 2-7/8" Seat Nipple, Steel
+      25-30-1</option>
+    <option value="1001347" data-enertiaeqpcode="100/260/065" data-lastcost="11.42">Strainer Nipple 1In X 6In 1026 STL
+      (3069-6 BH) (93A06 Quinn) (37A106 Don-Nan) (200366 WF)</option>
+    <option value="1001292" data-enertiaeqpcode="100/260/058" data-lastcost="1.12">KPK 3490 NIPPLE U 1/2 IN X 1-1/12
+      IN THREADED BOTH ENDS SEAMLESS X2 A106</option>
+    <option value="1001293" data-enertiaeqpcode="100/260/059" data-lastcost="1.23">KPK 3491 NIPPLE U 1/2 IN X 2 IN
+      THREADED BOH ENDS SEAMLESS XS A106</option>
+    <option value="1001294" data-enertiaeqpcode="100/260/060" data-lastcost="1.36">KPK 3492 NIPPLE U 1/2 IN X 2 IN
+      THREADED BOTH ENDS SEAMLESS XS A106</option>
+    <option value="1001295" data-enertiaeqpcode="100/260/061" data-lastcost="1.49">KPK 3493 NIPPLE U 1/2 IN X 3 IN
+      THREADED BOTH ENDS SEAMLESS XS A106</option>
+    <option value="1001296" data-enertiaeqpcode="100/260/062" data-lastcost="3.94">KPK 89630 TEE U 1/2 IN CLASS 3000
+      THREADED A105 BLACK CARBON FORGED STEEL</option>
+    <option value="1001304" data-enertiaeqpcode="100/260/064" data-lastcost="1.05">KPK 3489 Nipple U 1/2 IN X Close
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel</option>
+    <option value="1001299" data-enertiaeqpcode="100/260/063" data-lastcost="1.86">KPK 3494 Nipple U 1/2 IN X 4 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel</option>
+    <option value="1001362" data-enertiaeqpcode="100/260/066" data-lastcost="29.45">KWS MHW-495 Joint gas nipple used
+      on regulator</option>
+    <option value="1001490" data-enertiaeqpcode="100/260/067" data-lastcost="1.9">KPK 3471 Nipple U 1/4 IN X Close
+      Threaded Both ends Seamless XS A106 Black Forged Carbon Steel</option>
+    <option value="1000782" data-enertiaeqpcode="100/260/013" data-lastcost="31.7">KWS 84241 CG KMRY 212SOA304 (DNOW)
+    </option>
+    <option value="1000765" data-enertiaeqpcode="100/260/009" data-lastcost="16.83">KWS 3459 Nipple U 3 IN x 10 In
+      Threaded both ends welded std A53 Black Carbon (DNOW)</option>
+    <option value="1000772" data-enertiaeqpcode="100/260/010" data-lastcost="3.8">KWS 3535 Nipple U 2 IN X 3 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000773" data-enertiaeqpcode="100/260/011" data-lastcost="5.65">KWS 3537 Nipple U 2 IN X 5 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000424" data-enertiaeqpcode="100/260/001" data-lastcost="38.74">STD Cup RP 2.0 8Rx12R 20-31-1 89k
+      127719</option>
+    <option value="1000425" data-enertiaeqpcode="100/260/002" data-lastcost="57.69">Seating Cup, RP 2.5 8Rx12" 25-31-1
+    </option>
+    <option value="1000428" data-enertiaeqpcode="100/260/005" data-lastcost="56.65">Seating, 2-7/8 8RD EUE STL 2 Cup
+      65969-1</option>
+    <option value="1000831" data-enertiaeqpcode="100/260/016" data-lastcost="18.35">KWS 4402 Nipple Adapter 3 IN x 6
+      IN Std Grooved X Threaded A106 Black Carbon (DNOW)</option>
+    <option value="1000832" data-enertiaeqpcode="100/260/017" data-lastcost="10.81">KWS 65024 Nipple Adapter 2 IN x 6
+      IN Std Grooved X Threaded A106 Black Carbon (DNOW)</option>
+    <option value="1000780" data-enertiaeqpcode="100/260/012" data-lastcost="16.55">KWS 64988 Nipple U 3 IN X 4 IN Std
+      Threaded X Grooved Seamless B A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000790" data-enertiaeqpcode="100/260/014" data-lastcost="3.45">KPK 89617 Tee U 1/4 IN Class 2000
+      Threaded A105 Black Forged Carbon Steel(DNOW)</option>
+    <option value="1000791" data-enertiaeqpcode="100/260/015" data-lastcost="2.25">KPK 3472 Nipple U 1/14 IN X 2 IN
+      Threaded both ends seamless XS A106 Black Carbon Steel(DNOW)</option>
+    <option value="1000864" data-enertiaeqpcode="100/260/035" data-lastcost="38.1">KWS 4021 Tee U 3 IN Class 150
+      Threaded Malleable Iron Black (DNOW)</option>
+    <option value="1000874" data-enertiaeqpcode="100/260/036" data-lastcost="7.62">KWS 73384 Tee U 2 IN SDR-11
+      Polyethylene PE 3408(DNOW)</option>
+    <option value="1000839" data-enertiaeqpcode="100/260/018" data-lastcost="4.5">KWS 3536 Nipple U 2 IN X 4 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000840" data-enertiaeqpcode="100/260/019" data-lastcost="1.6">KWS 3510 Nipple U 1 IN Close
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000841" data-enertiaeqpcode="100/260/020" data-lastcost="1.75">KWS 3511 Nipple U 1 IN X 2 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000842" data-enertiaeqpcode="100/260/021" data-lastcost="2.2">KWS 3513 Nipple U 1 IN X 3 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000843" data-enertiaeqpcode="100/260/022" data-lastcost="2.75">KWS 3514 Nipple U 1 IN X 4 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000844" data-enertiaeqpcode="100/260/023" data-lastcost="6.88">KWS 3519 Nipple U 1 IN X 12 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000851" data-enertiaeqpcode="100/260/024" data-lastcost="17.18">KWS 89625 Tee U 2 IN Class 2000
+      Threaded A105 Black Forged Carbon Steel(DNOW)</option>
+    <option value="1000852" data-enertiaeqpcode="100/260/025" data-lastcost="2.85">KWS 3533 Nipple U 2 IN X Close
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000853" data-enertiaeqpcode="100/260/026" data-lastcost="6.95">KWS 3538 Nipple U 2 IN X 6 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000854" data-enertiaeqpcode="100/260/027" data-lastcost="9.3">KWS 70681 Nipple U 2 IN X 7 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000855" data-enertiaeqpcode="100/260/028" data-lastcost="10.35">KWS 3539 Nipple U 2 IN X 8 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000856" data-enertiaeqpcode="100/260/029" data-lastcost="10.85">KWS 6297 Nipple U 2 IN X 9 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000857" data-enertiaeqpcode="100/260/030" data-lastcost="11.6">KWS 3540 Nipple U 2 IN X 10 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000858" data-enertiaeqpcode="100/260/031" data-lastcost="12.5">KWS 6298 Nipple U 2 IN X 11 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000859" data-enertiaeqpcode="100/260/032" data-lastcost="13.6">KWS 3541 Nipple U 2 IN X 12 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1000860" data-enertiaeqpcode="100/260/033" data-lastcost="6.65">KWS 3454 Nipple U 3 IN X Close
+      Threaded Both Ends Welded Std Black Carbon Steel (DNOW)</option>
+    <option value="1000861" data-enertiaeqpcode="100/260/034" data-lastcost="18.65">KWS 3460 Nipple U 3 IN X 12 IN
+      Threaded Both Ends Welded Std Black Carbon Steel (DNOW)</option>
+    <option value="1000916" data-enertiaeqpcode="100/260/037" data-lastcost="2.65">KPK 3474 Nipple U 1/14 IN X 3 IN
+      Threaded both ends seamless XS A106 Black Carbon Steel(DNOW)</option>
+    <option value="1000918" data-enertiaeqpcode="100/260/038" data-lastcost="2.63">KPK 3475 Nipple U 1/14 IN X 4 IN
+      Threaded both ends seamless XS A106 Black Carbon Steel(DNOW)</option>
+    <option value="1000964" data-enertiaeqpcode="100/260/039" data-lastcost="17.28">KPK 3460 Nipple U 3 IN X 12 IN
+      Threaded Both Ends Welded Std Black Carbon Steel (DNOW)</option>
+    <option value="1000968" data-enertiaeqpcode="100/260/040" data-lastcost="15.57">KPK 3459 Nipple U 3 IN x 10 In
+      Threaded both ends welded std A53 Black Carbon (DNOW)</option>
+    <option value="1000971" data-enertiaeqpcode="100/260/041" data-lastcost="8.05">KPK 3455 Nipple U 3 IN X 3 IN
+      Threaded Both Ends Welded Std Black Carbon Steel (DNOW)</option>
+    <option value="1000972" data-enertiaeqpcode="100/260/042" data-lastcost="13.1">KPK 3457 Nipple U 3 IN X 6 IN
+      Threaded Both Ends Welded Std Black Carbon Steel (DNOW)</option>
+    <option value="1000973" data-enertiaeqpcode="100/260/043" data-lastcost="15.35">KPK 3458 Nipple U 3 IN X 8 IN
+      Threaded Both Ends Welded Std Black Carbon Steel (DNOW)</option>
+    <option value="1000977" data-enertiaeqpcode="100/260/044" data-lastcost="11.75">KWS 3457 Nipple U 3 IN X 6 IN
+      Threaded Both Ends Welded (DNOW)</option>
+    <option value="1000978" data-enertiaeqpcode="100/260/045" data-lastcost="13.87">KWS 3458 Nipple U 3 IN X 8 IN
+      Threaded Both Ends Welded Std Black Carbon Steel (DNOW)</option>
+    <option value="1001008" data-enertiaeqpcode="100/260/046" data-lastcost="2.51">KPK 3533 Nipple U 2 IN X Close
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1001009" data-enertiaeqpcode="100/260/047" data-lastcost="8.05">KPK 3519 Nipple U 1 IN X 12 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1001010" data-enertiaeqpcode="100/260/048" data-lastcost="1.48">KPK 3511 Nipple U 1 IN X 2 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1001011" data-enertiaeqpcode="100/260/049" data-lastcost="1.85">KPK 3513 Nipple U 1 IN X 3 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1001019" data-enertiaeqpcode="100/260/050" data-lastcost="3.79">KWS 3516 Nipple U 1 IN X 6 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1001020" data-enertiaeqpcode="100/260/051" data-lastcost="5.99">KWS 3517 Nipple U 1 IN X 8 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1001021" data-enertiaeqpcode="100/260/052" data-lastcost="6.87">KWS 3518 Nipple U 1 IN X 6 IN
+      Threaded Both Ends Seamless XS A106 Black Carbon Steel (DNOW)</option>
+    <option value="1001043" data-enertiaeqpcode="100/260/054" data-lastcost="8.05">KWS 3455 Nipple U 3 IN X 3 IN
+      Threaded Both Ends Welded Std Black Carbon Steel (DNOW)</option>
+    <option value="1001044" data-enertiaeqpcode="100/260/055" data-lastcost="1.76">KWS 3472 Nipple U 1/14 IN X 2 IN
+      Threaded both ends seamless XS A106 Black Carbon Steel(DNOW)</option>
+    <option value="1001080" data-enertiaeqpcode="100/260/056" data-lastcost="5.85">KPK 89622 Tee U 1 Class 2000
+      Threaded A105 Black Forged Carbon Steel (DNOW)</option>
+    <option value="1001025" data-enertiaeqpcode="100/260/053" data-lastcost="2.63">KWS 3475 Nipple U 1/14 IN X 4 IN
+      Threaded both ends seamless XS A106 Black Carbon Steel(DNOW)</option>
+    <option value="1001117" data-enertiaeqpcode="100/260/057" data-lastcost="11.8">KWS 4391 Nipple Adapter 2 IN x 4 IN
+      Std Grooved X Threaded A106 Black Carbon (DNOW</option>
+    <option value="1001065" data-enertiaeqpcode="100/265/017" data-lastcost="7.63">KWS 27926 Magna Lug (Kimball
+      Midwest)</option>
+    <option value="1001091" data-enertiaeqpcode="100/265/018" data-lastcost="0.1">KWS 343804 Nut (Kimball Midwest)
+    </option>
+    <option value="1000998" data-enertiaeqpcode="100/265/015" data-lastcost="39.44">KWS 3801 Union Wing 3 IN Fig 100
+      1000 Pound CWP Threaded (DNOW)</option>
+    <option value="1000999" data-enertiaeqpcode="100/265/016" data-lastcost="63.14">KWS 3808 Union Wing 3 IN Fig 200
+      2000 Pound CWP Threaded (DNOW)</option>
+    <option value="1000847" data-enertiaeqpcode="100/265/013" data-lastcost="11.4">KWS 82035 Union HMR 1 IN 2000 2000
+      THD CS FIG 200 (DNOW)</option>
+    <option value="1000863" data-enertiaeqpcode="100/265/014" data-lastcost="55.1">KWS 3810 Union Wing 2 IN Fig 400
+      4000 Pound CWP Threaded (DNOW)</option>
+    <option value="1000803" data-enertiaeqpcode="100/265/010" data-lastcost="3.15">KWS 343816 NUT (Kimball Midwest)
+    </option>
+    <option value="1000804" data-enertiaeqpcode="100/265/011" data-lastcost="1.84">KWS 343812 NUT (Kimball Midwest)
+    </option>
+    <option value="1000817" data-enertiaeqpcode="100/265/012" data-lastcost="0.52">KWS 343808 Nut (Kimball Midwest)
+    </option>
+    <option value="1000430" data-enertiaeqpcode="100/265/001" data-lastcost="37.43">Body, Left Hand 45BA05</option>
+    <option value="1000431" data-enertiaeqpcode="100/265/002" data-lastcost="9.42">Seating Cup 2.00 R 20-14 95F
+      90007876</option>
+    <option value="1000432" data-enertiaeqpcode="100/265/003" data-lastcost="25">Connector 4 1/2" Csg ACT Model R
+      240-3771-151</option>
+    <option value="1000433" data-enertiaeqpcode="100/265/004" data-lastcost="10.5">Seating, Cup 2.50 R</option>
+    <option value="1000434" data-enertiaeqpcode="100/265/005" data-lastcost="40.04">Body BA-A 4.5IN 43BA05</option>
+    <option value="1000770" data-enertiaeqpcode="100/265/009" data-lastcost="15.95">KWS 3807 Union Wing 2 IN Fig 200
+      2000 Pound CWP Threaded (DNOW)</option>
+    <option value="1000745" data-enertiaeqpcode="100/265/008" data-lastcost="1.98">343812 Nut (Kimball Midwest)
+    </option>
+    <option value="1000714" data-enertiaeqpcode="100/265/007" data-lastcost="0.47">343808 Nut (Kimball Midwest)
+    </option>
+    <option value="1001510" data-enertiaeqpcode="100/265/024" data-lastcost="11.31">HL51 2-1/2" Locknut, Holddown, HR
+      (25-14)</option>
+    <option value="1001511" data-enertiaeqpcode="100/265/025" data-lastcost="19">HB51-4 2-1/2" Bottom Nut, 1-1/4" GAC
+      25-15</option>
+    <option value="1001370" data-enertiaeqpcode="100/265/022" data-lastcost="2.76">KWS 343814 Nut (Kimball Midwest)
+    </option>
+    <option value="1001414" data-enertiaeqpcode="100/265/023" data-lastcost="12.5">HL41 2" Locknut, Holddown, HR
+    </option>
+    <option value="1001220" data-enertiaeqpcode="100/265/020" data-lastcost="7.9">KWS 5468 Union Hex U 1 IN Class 3000
+      Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001261" data-enertiaeqpcode="100/265/021" data-lastcost="4.61">KPK 5568 Union Hex U 1/2 IN Class
+      3000 Threaded A105 Black Forged Carbon Steel</option>
+    <option value="1001199" data-enertiaeqpcode="100/265/019" data-lastcost="11.29">KWS 3438201 Nut (Kimball Midwest)
+    </option>
+    <option value="1001576" data-enertiaeqpcode="100/265/026" data-lastcost="34.32">HB41-3 2" Bottom Nut, 1" GAC
+    </option>
+    <option value="1001624" data-enertiaeqpcode="100/265/030" data-lastcost="255.27">78636 UNION WING 1-1/2 IN 10000
+      LB THD GUB 20719 / GUIBERSON 20719 dnow</option>
+    <option value="1001614" data-enertiaeqpcode="100/265/028" data-lastcost="6.97">392324 UNION HEX U 3/4 IN CLASS
+      3000 THREADED A105 BLACK FORGED CARBON STEEL</option>
+    <option value="1001611" data-enertiaeqpcode="100/265/027" data-lastcost="23.7">3806 UNION WING 1-1/2 IN FIG 200
+      2000 POUND CWP THREADED (DNOW)</option>
+    <option value="1001622" data-enertiaeqpcode="100/265/029" data-lastcost="154.44">178974 UNION WING 1-1/2 IN FIG
+      1002 10000 POUND CWP THREADED dnow</option>
+    <option value="1001968" data-enertiaeqpcode="100/265/032" data-lastcost="11.99">1011471 NUT DIAPH 2 IN SS / KIMRAY
+      1471SS6 (DNOW)</option>
+    <option value="1001587" data-enertiaeqpcode="100/268/004" data-lastcost="14.99">AC18 COMPRS OIL</option>
+    <option value="1001801" data-enertiaeqpcode="100/268/005" data-lastcost="51.39">ZNIPI10 LUBRICANT STICK 625B-01
+      (DNOW)</option>
+    <option value="1000990" data-enertiaeqpcode="100/268/002" data-lastcost="24.13">KPK 4309 Oil Cutting 1 Gal (DNOW)
+    </option>
+    <option value="1000995" data-enertiaeqpcode="100/268/003" data-lastcost="23.7">KWS 4309 Oil Cutting 1 Gal (DNOW)
+    </option>
+    <option value="1000437" data-enertiaeqpcode="100/275/002" data-lastcost="81.9">RDK F/4 1/2" ASI-X 60345050
+    </option>
+    <option value="1000439" data-enertiaeqpcode="100/275/004" data-lastcost="91.58">RDK F/4 1/2"x2 3/8" (9.5-13.5#) HD
+    </option>
+    <option value="1000440" data-enertiaeqpcode="100/275/005" data-lastcost="71.13">Squeeze, RDK F/4 1/2"x2 3/8"
+      (9.5-13.5#) Type T 62145050</option>
+    <option value="1000441" data-enertiaeqpcode="100/275/006" data-lastcost="4.4">Lower Leaf Spring F/4 1/2" ASI ZE901
+      7145901</option>
+    <option value="1001878" data-enertiaeqpcode="100/275/012" data-lastcost="117">RDK F/ 5-1/2" x 2-7/8" (20.0-23.0#)
+      ASI-X 60359050</option>
+    <option value="1001364" data-enertiaeqpcode="100/280/011" data-lastcost="37.4">KPK 765741 PKG SB 1-3/4 IN RG SPLIT
+      COMP H/ NOVHERCULE</option>
+    <option value="1001491" data-enertiaeqpcode="100/280/012" data-lastcost="5.09">KPK 72052 PKG N-ASB Sheet 1/16 In
+      THK 60 IN X 120 / Flangptgsk</option>
+    <option value="1000451" data-enertiaeqpcode="100/280/006" data-lastcost="1.59">Polish Rod Liner Head, Type S,
+      1.250x1.670x0.312 RBR 39923400</option>
+    <option value="1001045" data-enertiaeqpcode="100/280/010" data-lastcost="37.4">KWS 647783 Cone Packing 1-1/4 Inch
+      (DNOW)</option>
+    <option value="1000876" data-enertiaeqpcode="100/280/009" data-lastcost="37.4">KPK 647783 Cone Packing 1-1/4 Inch
+      (DNOW)</option>
+    <option value="1000850" data-enertiaeqpcode="100/280/008" data-lastcost="37.4">KPK 177101 PKG-1 3/4 Cone Packing
+      (DNOW)</option>
+    <option value="1000827" data-enertiaeqpcode="100/280/007" data-lastcost="37.4">KPK 647784 Cone Packing 1-1/2 Inch
+      (DNOW)</option>
+    <option value="1000452" data-enertiaeqpcode="100/285/001" data-lastcost="3.23">Shear Pin 5000 Lb .343 x.350 STL
+      5000 Lb Shear Shear Pin</option>
+    <option value="1000454" data-enertiaeqpcode="100/285/003" data-lastcost="2.07">Shear 43BA11</option>
+    <option value="1001475" data-enertiaeqpcode="100/285/007" data-lastcost="154.24">33A0169 1-1/4 x 22' Pist Rod 7/8
+      Pin</option>
+    <option value="1001473" data-enertiaeqpcode="100/285/006" data-lastcost="1.22">02015 Shear Pin</option>
+    <option value="1001429" data-enertiaeqpcode="100/285/005" data-lastcost="154.25">33A0168 1-1/4 x 22' Pit Rod 3/4
+      Pin [6-9]</option>
+    <option value="1001814" data-enertiaeqpcode="100/285/008" data-lastcost="18.42">4184 PIN WHEEL CUTTER F/1A&amp;2A
+      CUTTER F9 RGD 3 / RIDGID 34780 (DNOW)</option>
+    <option value="1001967" data-enertiaeqpcode="100/285/009" data-lastcost="0.9">ZMIL HANDLE PIN 2" LONG 300-P (DNOW)
+    </option>
+    <option value="1001812" data-enertiaeqpcode="100/287/010" data-lastcost="10.36">4185 PIPE CUTTER WHEEL .312 IN BLD
+      EXPOSURE H / RIDGID 33105 (DNOW)</option>
+    <option value="1001813" data-enertiaeqpcode="100/287/011" data-lastcost="20.14">4186 PIPE CUTTER RLR MDL 1-A 2-A
+      202 2000A 2 / RIDGID 34775 (DNOW)</option>
+    <option value="1001795" data-enertiaeqpcode="100/287/009" data-lastcost="3.92">87719 PIPE POLY 3 IN SDR-7 BLACK
+      PE4710/PE3408 2.058 LB/FT JOINT(DNOW)</option>
+    <option value="1001868" data-enertiaeqpcode="100/287/012" data-lastcost="2.63">71274 PIPE POLY 3 IN SDR-11 BLACK
+      PE4710/PE3408 500 FT COIL 1.394 LB/FT (DNOW)</option>
+    <option value="1001469" data-enertiaeqpcode="100/287/008" data-lastcost="6.6">339204 Pipe 3 IN FBG 800 LB (FKA) -
+      KPK 76759 Pipe 3 IN FBG / CENTRON</option>
+    <option value="1001207" data-enertiaeqpcode="100/287/005" data-lastcost="16.52">KPK 4188 PIPE CUTTER WHEEL .411 IN
+      BLD EXPOSURE</option>
+    <option value="1001251" data-enertiaeqpcode="100/287/006" data-lastcost="9.17">Unused Poly Pipe 4 inch SDR13.5 900
+      Ft.</option>
+    <option value="1001320" data-enertiaeqpcode="100/287/007" data-lastcost="84.5">KWS 64454 PRIM PIPE SCOTCHRAP 1 GAL
+      CAN SCOTCH/ 3M</option>
+    <option value="1001006" data-enertiaeqpcode="100/287/003" data-lastcost="1.67">KPK ZNIPP40 Pipe, G 1/4" Wall
+      (DNOW)</option>
+    <option value="1000997" data-enertiaeqpcode="100/287/002" data-lastcost="2.38">KWS 5389 Pipe U 1.1333 IN S40 STD
+      Continuous Weld (DNOW)</option>
+    <option value="1001077" data-enertiaeqpcode="100/287/004" data-lastcost="2.68">KWS 359341Pipe G .25 .088 IN S40
+      STD ERW A53 A 21 Ft LG Lacquer Threaded &amp; Coupled (DNOW)</option>
+    <option value="1000699" data-enertiaeqpcode="100/288/001" data-lastcost="713.56">Grade 8 Bolts Cainet 1 Planograph
+    </option>
+    <option value="1000700" data-enertiaeqpcode="100/288/002" data-lastcost="871.95">Grade 8 Bolts Cainet 2 Planograph
+    </option>
+    <option value="1000701" data-enertiaeqpcode="100/288/003" data-lastcost="925.8">Grade 8 Bolts Cainet 3 Planograph
+    </option>
+    <option value="1000565" data-enertiaeqpcode="100/290/010" data-lastcost="11.54">Seat 2 1026 STL 5X75</option>
+    <option value="1000779" data-enertiaeqpcode="100/290/014" data-lastcost="32.5">KWS 3644 Plug Bull U 3 IN Threaded
+      Std WPB A234 Zinc Plated Carbon Steel (DNOW)</option>
+    <option value="1000777" data-enertiaeqpcode="100/290/013" data-lastcost="1.45">KWS 89614 Plug Hex U 1 IN Threaded
+      A105 Forges Carbon Steel (DNOW)</option>
+    <option value="1000455" data-enertiaeqpcode="100/290/001" data-lastcost="82.34">Tubing Tester 2837</option>
+    <option value="1000456" data-enertiaeqpcode="100/290/002" data-lastcost="11.12">Use 1st -Seat 1.250 1026 STL 2X75
+      BH 98D ps21</option>
+    <option value="1000457" data-enertiaeqpcode="100/290/003" data-lastcost="22.81">DNU - Bull-Perforated 1" L
+    </option>
+    <option value="1000458" data-enertiaeqpcode="100/290/004" data-lastcost="6.36">Seat 1.50 R 3X75</option>
+    <option value="1000459" data-enertiaeqpcode="100/290/005" data-lastcost="7.67">Seat 1.75 R 4X75</option>
+    <option value="1000460" data-enertiaeqpcode="100/290/006" data-lastcost="79.88">Seat, CL 3.75 R 9X75</option>
+    <option value="1000461" data-enertiaeqpcode="100/290/007" data-lastcost="0">Pipe Stl 3/8 Npt HM1005</option>
+    <option value="1000462" data-enertiaeqpcode="100/290/008" data-lastcost="1.16">Pipe Sh SS 1/16" HM1008</option>
+    <option value="1000463" data-enertiaeqpcode="100/290/009" data-lastcost="9.71">Brass Knock Out Plug</option>
+    <option value="1001081" data-enertiaeqpcode="100/290/029" data-lastcost="0.55">KPK 89612 Plug Hex U 1/2 IN
+      Threaded A105 Forges Carbon Steel (DNOW)</option>
+    <option value="1001097" data-enertiaeqpcode="100/290/030" data-lastcost="1.06">KWS NBSN331 Terminal (Kimball
+      Midwest)</option>
+    <option value="1001103" data-enertiaeqpcode="100/290/031" data-lastcost="1.03">KWS 90660 Plug (Kimball Midwest)
+    </option>
+    <option value="1001061" data-enertiaeqpcode="100/290/026" data-lastcost="0.26">KWS 90616 Plug (Kimball Midwest)
+    </option>
+    <option value="1001062" data-enertiaeqpcode="100/290/027" data-lastcost="0.26">KWS 90617 Plug (Kimball Midwest)
+    </option>
+    <option value="1001071" data-enertiaeqpcode="100/290/028" data-lastcost="2.84">KWS NB93710 Terminal</option>
+    <option value="1000846" data-enertiaeqpcode="100/290/018" data-lastcost="23.65">KWS 3634 Plug Bull 2 IN Threaded
+      XS A234 Carbon Steel (DNOW)</option>
+    <option value="1000862" data-enertiaeqpcode="100/290/019" data-lastcost="15.59">KWS 3635 Plug Bull U 2 IN 1/2 IN
+      Threaded XS WPB A234 Zinc Plated Carbon Steel (DNOW)</option>
+    <option value="1000826" data-enertiaeqpcode="100/290/016" data-lastcost="26.07">KPK 3635 Plug Bull U 2 IN 1/2 IN
+      Threaded XS WPB A234 Zinc Plated Carbon Steel (DNOW)</option>
+    <option value="1000829" data-enertiaeqpcode="100/290/017" data-lastcost="20.28">KPK 85308 Plug Ratio (DNOW)
+    </option>
+    <option value="1000801" data-enertiaeqpcode="100/290/015" data-lastcost="23.11">KPK 405610 Plug Ratio 2 IN # Way
+      (DNOW)</option>
+    <option value="1000893" data-enertiaeqpcode="100/290/020" data-lastcost="24.22">KPK 493377 Plug Ratio (DNOW)
+    </option>
+    <option value="1000922" data-enertiaeqpcode="100/290/021" data-lastcost="1.45">KPK 89614 Plug Hex U 1 IN Threaded
+      A105 Forges Carbon Steel (DNOW)</option>
+    <option value="1000923" data-enertiaeqpcode="100/290/022" data-lastcost="14.1">KPK 3634 Plug Bull 2 IN Threaded XS
+      A234 Carbon Steel (DNOW)</option>
+    <option value="1000924" data-enertiaeqpcode="100/290/023" data-lastcost="0.65">KPK 89610 Plug Hex U 1/4 IN
+      Threaded A105 Forged Cabon Steel (DNOW)</option>
+    <option value="1000980" data-enertiaeqpcode="100/290/024" data-lastcost="14.1">KWS 3634 Plug Bull 2 IN Threaded XS
+      A234 Carbon Steel (DNOW)</option>
+    <option value="1000981" data-enertiaeqpcode="100/290/025" data-lastcost="16.11">KWS 3630 Plug Bull 2 IN Threaded
+      STD WPB A234 Zinc Plated Carbon Steel (DNOW)</option>
+    <option value="1001288" data-enertiaeqpcode="100/290/034" data-lastcost="3.57">KPK ZNIPI10 PLUG RATIO 1346 DAB
+    </option>
+    <option value="1001337" data-enertiaeqpcode="100/290/035" data-lastcost="15.59">KWS 4417 Plug Square Head Cored u
+      4 IN Cast Iron Black</option>
+    <option value="1001222" data-enertiaeqpcode="100/290/033" data-lastcost="31.13">KWS 3646 Plug Bull 2 In Threaded
+      XS WPB A234 Zinc Plated Carbon Steel</option>
+    <option value="1001190" data-enertiaeqpcode="100/290/032" data-lastcost="13.65">0622-0100-06 Hydro Static Bailer
+      Knockout Plugs</option>
+    <option value="1001480" data-enertiaeqpcode="100/290/042" data-lastcost="7.52">KWS 3995 Plug Square Head U 3 In
+      STD Cast Iron Black</option>
+    <option value="1001499" data-enertiaeqpcode="100/290/043" data-lastcost="2.67">KWS 3994 Plug Square Head Cored U 2
+      IN STD Cast Iron Black</option>
+    <option value="1001521" data-enertiaeqpcode="100/290/044" data-lastcost="7.87">PS31 1-1/2" External Seat Plug, Stl
+    </option>
+    <option value="1001417" data-enertiaeqpcode="100/290/038" data-lastcost="7.71">PS21 1-1/4" External Seat Plug 98D
+      2x75 215901</option>
+    <option value="1001431" data-enertiaeqpcode="100/290/039" data-lastcost="58.5">72545920 Follower Spring F/4-1/2"
+      ASW Bridge Plug</option>
+    <option value="1001432" data-enertiaeqpcode="100/290/040" data-lastcost="58.5">72555920 Follower Spring F/5-1/2"
+      AS Bridge Plug</option>
+    <option value="1001433" data-enertiaeqpcode="100/290/041" data-lastcost="24">72555870-40 J-PIN F/5-1/2" AS Bridge
+      Plig 40,000</option>
+    <option value="1001395" data-enertiaeqpcode="100/290/037" data-lastcost="40.35">KWS 3649 Plug Bull U 4 IN Threaded
+      STD WPB A234 Zinc Plated Carbon Steel</option>
+    <option value="1001366" data-enertiaeqpcode="100/290/036" data-lastcost="6.25">KPK 72927 Plug PLT F/1 IN Mt-DAB
+      KMRY REE</option>
+    <option value="1001739" data-enertiaeqpcode="100/290/049" data-lastcost="1.03">89613 PLUG HEX U 3/4 IN THREADED
+      A105 FORGED CARBON STEEL (DNOW)</option>
+    <option value="1001915" data-enertiaeqpcode="100/290/050" data-lastcost="7.77">216721 Plug, Seat 1.250 316 SS
+      2X75J (Wthrfrd)</option>
+    <option value="1001546" data-enertiaeqpcode="100/290/045" data-lastcost="8.2">KWS 3627 Plug Bull Hex 1 IN Threaded
+      XS WPB A234 Zinc Plated Carbon Steel</option>
+    <option value="1001629" data-enertiaeqpcode="100/290/046" data-lastcost="143.25">72555050 RDK F/ 5-1/2"
+      (13.0-20.0#) AS BRIDGEPLUG (D&amp;L)</option>
+    <option value="1001708" data-enertiaeqpcode="100/290/047" data-lastcost="5.14">63712 2" Hex Plug (DNOW)</option>
+    <option value="1001734" data-enertiaeqpcode="100/290/048" data-lastcost="2.84">89615 Plug Hex U 1-1/4 in Threaded
+      A105 Forged Carbon Steel (DNOW)</option>
+    <option value="1001691" data-enertiaeqpcode="100/295/020" data-lastcost="208.34">P712-5 2-1/4" x 2' Plain Pin
+      Plunger (Don-Nan)</option>
+    <option value="1001562" data-enertiaeqpcode="100/295/018" data-lastcost="382.93">01PA11240 1-1/2" 40 Rg PA Plngr
+      W/O Ring</option>
+    <option value="1001563" data-enertiaeqpcode="100/295/019" data-lastcost="3.81">01JF02-D 1-1/2" PA Plunger Ring
+      (XT)</option>
+    <option value="1001564" data-enertiaeqpcode="100/295/020" data-lastcost="124.07">P312-2 1-1/2" X 2' Plain Pin
+      Plunger</option>
+    <option value="1001565" data-enertiaeqpcode="100/295/020" data-lastcost="169.03">P622-3 2" X 2' Plain Pin Plunger
+      Grv Body</option>
+    <option value="1001566" data-enertiaeqpcode="100/295/020" data-lastcost="151.39">P412-3 1-3/4 X 2' Plain Pin
+      Plunger</option>
+    <option value="1001572" data-enertiaeqpcode="100/295/020" data-lastcost="204.84">P315-3 1-1/2" X 5' Plain Pin
+      Plunger</option>
+    <option value="1001617" data-enertiaeqpcode="100/295/020" data-lastcost="238.47">P225-3 1-1/4" X 5' Plain Pin
+      Plunger Grv Body</option>
+    <option value="1001918" data-enertiaeqpcode="100/295/021" data-lastcost="201.07">Plunger, Pin End 1.500 X 2 0.003
+      SM Grooved Pln Pins 3X255-2-M3 (Wthrfd)</option>
+    <option value="1001940" data-enertiaeqpcode="100/295/022" data-lastcost="60.45">237560 PLUGER 3.75 X 4-M4</option>
+    <option value="1001944" data-enertiaeqpcode="100/295/023" data-lastcost="188.06">PLUNGER, PIN END 1.250X5 0.005
+      PLUNGER, PIN END 1.250X5 0.005 2X255-5-M5 792497</option>
+    <option value="1001854" data-enertiaeqpcode="100/295/020" data-lastcost="127.6">P212-3 1-1/4" x 2" Plain End
+      Plunger (Don-Nan)</option>
+    <option value="1001400" data-enertiaeqpcode="100/295/013" data-lastcost="72">Plunger, Pin End 1.250X5 0.003 SM PLN
+      PLN Pins 2X255-5-M4 102DQ5-4</option>
+    <option value="1001427" data-enertiaeqpcode="100/295/014" data-lastcost="211.39">P215-3 1-1/4" X 5' Plain Pin
+      Plunger [A2] 4x265-5-m3 102hq5-3</option>
+    <option value="1001523" data-enertiaeqpcode="100/295/017" data-lastcost="30.06">PA31-TS 1-1/2" Plng, Cplg, .6875"
+    </option>
+    <option value="1001518" data-enertiaeqpcode="100/295/016" data-lastcost="284.89">P325-3 1-1/2" X 5' Plain Pin
+      Plunger Grv Body</option>
+    <option value="1001459" data-enertiaeqpcode="100/295/015" data-lastcost="238.47">P225-4 1-1/4" X5' Plain Pin
+      Plunger Grv Body</option>
+    <option value="1001346" data-enertiaeqpcode="100/295/012" data-lastcost="393.23">Pin End 1.250x5 0.003 SM PLN PLN
+      Pins 2X255-5-M3 223218</option>
+    <option value="1000464" data-enertiaeqpcode="100/295/001" data-lastcost="129.92">Pe-Pa-125-1-M4 2X235-1-M4
+    </option>
+    <option value="1000465" data-enertiaeqpcode="100/295/002" data-lastcost="286.35">Pin End 1.250x2 .003 SM PLN PLN
+      Pings 2X265-2-M3 215696</option>
+    <option value="1000466" data-enertiaeqpcode="100/295/003" data-lastcost="298.44">Pin End 1.250x5 0.003 SM PLN PLN
+      Pins 2X265-5-M3 102DQ5-3-M-G</option>
+    <option value="1000467" data-enertiaeqpcode="100/295/004" data-lastcost="393.45">Pin End 1.500x5 0.003 SM PLN PLN
+      Pins (3X265-5-M3 BH) (102FQ5-3 Quinn)</option>
+    <option value="1000468" data-enertiaeqpcode="100/295/005" data-lastcost="397.18">use1st Pin End 1.750x5 0.003 SM
+      PLN PLN Pins (4X265-5-M3 BH) (102HQ5-3 Quinn) p215-3</option>
+    <option value="1000470" data-enertiaeqpcode="100/295/007" data-lastcost="285.08">Pin End 2.250x4 .003 sm pln pln
+      pins 6X265-4M3 BH (102MW4-6 Quinn) (DonNan P714-3)</option>
+    <option value="1001975" data-enertiaeqpcode="100/295/024" data-lastcost="257.4">PLUNGER, PIN END 2.000X2.004 SM
+      PLN PLN PINS (WEATHERFORD) 216490 5x265-2-m4</option>
+    <option value="1000473" data-enertiaeqpcode="100/300/001" data-lastcost="87">Standing Valve 2.250 Closed Cage 1026
+      Stl 65322</option>
+    <option value="1001660" data-enertiaeqpcode="100/300/002" data-lastcost="63.82">PT1-130 15/16" Steel Pull Tube
+      130" (LOC 8-7 I) (don-nan)</option>
+    <option value="1001053" data-enertiaeqpcode="100/303/001" data-lastcost="78.11">KWS 635 Rack (Kimball Midwest)
+    </option>
+    <option value="1001871" data-enertiaeqpcode="100/305/002" data-lastcost="11.55">67825 RAG DISPENSER BOX 10 POUND
+      ASSORTED COLORS TURKISH ECONOMICAL SOLUTION FOR GENERAL INDUSTRIAL (DNOW)</option>
+    <option value="1001822" data-enertiaeqpcode="100/306/006" data-lastcost="22.65">3770 REDUCER CONCENTRIC U 4 IN X 3
+      IN STD BUTTWELD WPB A/SA234 CARBON Steel (DNOW)</option>
+    <option value="1001791" data-enertiaeqpcode="100/306/004" data-lastcost="112.25">3776 REDUCER CONCENTRIC U 10 IN X
+      6 IN STD BUTTWELD A234 CARBON STEEL (DNOW)</option>
+    <option value="1001662" data-enertiaeqpcode="100/306/002" data-lastcost="16.91">ZNIPF30 REDUCER, 4X3 POLY to POLY
+      SDR11 (DNOW)</option>
+    <option value="1001711" data-enertiaeqpcode="100/306/003" data-lastcost="9.75">721999 RED 3 IN X 2 IN BW FB SDR11
+      PE3408 3261 / CENTRALPLA 10002951 (DNOW)</option>
+    <option value="1001591" data-enertiaeqpcode="100/306/001" data-lastcost="18.53">721897 RED 4 IN X 3 IN BW FB SDR11
+      PE3408 D3261 / CENTRALPLA 10002953 (DNOW)</option>
+    <option value="1001607" data-enertiaeqpcode="100/310/012" data-lastcost="123.82">ZNIPI10 REGULATOR PARKER 1/2" NPT
+      R119-04C</option>
+    <option value="1001664" data-enertiaeqpcode="100/310/013" data-lastcost="231">ZNIPI10 1" LITTLE JOE REGULATOR
+      35-80 LB (DNOW)</option>
+    <option value="1001874" data-enertiaeqpcode="100/310/014" data-lastcost="128.5">ZNIPI10 BELGAS P70 REGULATOR PN
+      P07004030010000</option>
+    <option value="1001341" data-enertiaeqpcode="100/310/008" data-lastcost="66.28">KPK ZNIPI10 regulator PN AC-R-2545
+    </option>
+    <option value="1001360" data-enertiaeqpcode="100/310/009" data-lastcost="638">KWS MHW-422 Regulator for Kubota
+      DG972</option>
+    <option value="1001197" data-enertiaeqpcode="100/310/006" data-lastcost="234.7">KPK 448923 REG PRSR 1 IN 15-40 W/
+      1/4 ORFICE/ BELGAS</option>
+    <option value="1001198" data-enertiaeqpcode="100/310/007" data-lastcost="130.6">KPK 1018447 REG OZ 1 IN THD 1/4
+      ORIFICE/ BELGAS</option>
+    <option value="1001500" data-enertiaeqpcode="100/310/011" data-lastcost="62.55">KPK 489951 REG LP 1/4 IN 5-35 LB
+      FSH 67CR-206 / Fisher</option>
+    <option value="1001497" data-enertiaeqpcode="100/310/010" data-lastcost="506.59">KWS 339285 Reg Bk PRSR 2 IN
+      230-SGT BP THD DI / Kimray</option>
+    <option value="1001018" data-enertiaeqpcode="100/310/004" data-lastcost="103.47">KWS ZNIPV10 Requlator, Belgas
+      Pancake Sytle (DNOW)</option>
+    <option value="1001032" data-enertiaeqpcode="100/310/005" data-lastcost="49.71">KWS 71763 Reg F/Intermeter FSH
+      67R-206 (DNOW)</option>
+    <option value="1000945" data-enertiaeqpcode="100/310/003" data-lastcost="91.3">KPK 85794 Reg Prsr 1/4/ IN TY PHP
+      (DNOW)</option>
+    <option value="1000797" data-enertiaeqpcode="100/310/002" data-lastcost="49.71">KPK 71763 Reg F/Intermeter FSH
+      67R-206 (DNOW)</option>
+    <option value="1000476" data-enertiaeqpcode="100/315/001" data-lastcost="4.45">Piston 4 1/2" CSG ACT MDL R
+      240-3771-144</option>
+    <option value="1000478" data-enertiaeqpcode="100/320/001" data-lastcost="4.74">USE FIRST Seating Cup 2.00 R 20-13
+      110k HS41</option>
+    <option value="1000479" data-enertiaeqpcode="100/320/002" data-lastcost="1.79">Fiber 1 1/4 x 20 22266</option>
+    <option value="1000480" data-enertiaeqpcode="100/320/003" data-lastcost="6.14">Seating Cup 2.50 R 25-13 (HS51)
+    </option>
+    <option value="1000482" data-enertiaeqpcode="100/320/005" data-lastcost="6.68">Hi Temp 1 1/4 x 20 22266T</option>
+    <option value="1000746" data-enertiaeqpcode="100/320/011" data-lastcost="1.79">Return Rings-WH-244 Smalley
+      (Goldend Industrial Supply)</option>
+    <option value="1000736" data-enertiaeqpcode="100/320/010" data-lastcost="4.52">24 153 23-S O- Ring (Black) (H.G.
+      Makelim)</option>
+    <option value="1001361" data-enertiaeqpcode="100/320/013" data-lastcost="1.32">KWS MHW-496 O ring ussed on
+      regulator MHW-4</option>
+    <option value="1001768" data-enertiaeqpcode="100/320/016" data-lastcost="14.09">45008 - 435 Mandrel O-Ring
+      (Don-Nan)</option>
+    <option value="1001710" data-enertiaeqpcode="100/320/014" data-lastcost="2.35">75335 O-RG SN-60-62 STD SVC F/ ADJ
+      CHOKE / CACTUSFLOW 224022</option>
+    <option value="1001738" data-enertiaeqpcode="100/320/015" data-lastcost="0.25">ZNIPI10 #491 KIMRAY O-RING (DNOW)
+    </option>
+    <option value="1000483" data-enertiaeqpcode="100/325/001" data-lastcost="3.16">Protector Bowen</option>
+    <option value="1001063" data-enertiaeqpcode="100/325/002" data-lastcost="1.23">KWS 52607 Protector (Kimball
+      Midwest)</option>
+    <option value="1001064" data-enertiaeqpcode="100/325/003" data-lastcost="1.39">KWS 52608 Protector (Kimball
+      Midwest)</option>
+    <option value="1000484" data-enertiaeqpcode="100/330/001" data-lastcost="19.82">Stuffing Box 9904300</option>
+    <option value="1000485" data-enertiaeqpcode="100/335/015" data-lastcost="36.14">Roller Rod Guide Coupling for 3/4"
+      rod x 2-3/8" tubing UHMW Rollers 2034S-UHMW</option>
+    <option value="1000486" data-enertiaeqpcode="100/335/002" data-lastcost="83.98">Polished, P Stl-1 1/4 x 3/4
+      265N11076</option>
+    <option value="1000487" data-enertiaeqpcode="100/335/003" data-lastcost="100.92">Valve, 7/8-Api-R1125-19 5x55-199
+    </option>
+    <option value="1000489" data-enertiaeqpcode="100/335/005" data-lastcost="134.42">Polished, 1 1/4 x 22 3/4 Pins
+      Piston STL 71400222 651D22W-C 189214</option>
+    <option value="1000491" data-enertiaeqpcode="100/335/007" data-lastcost="50.84">Pony 7/8x2 S67 D L/C 717-00267
+      (38075-T 7/8" X 2' D Alloy Pony L/Cplg Don-Nan )</option>
+    <option value="1000492" data-enertiaeqpcode="100/335/008" data-lastcost="53.71">Pony 7/8x4 S67 D L/C 717-00467
+    </option>
+    <option value="1000493" data-enertiaeqpcode="100/335/009" data-lastcost="77.46">Pony 7/8x6 S67 D L/C 717-00667
+    </option>
+    <option value="1000494" data-enertiaeqpcode="100/335/010" data-lastcost="78.52">Pony 7/8x8 S67 D L/C 717-00867
+      (38078-T 7/8" X 8' D Alloy Pony L/Cplg Don-Nan )</option>
+    <option value="1000496" data-enertiaeqpcode="100/335/012" data-lastcost="120.91">Valve 0.687x180 IN 8620 Alloy THD
+      L2220068-15 33H 221466 222090 222013</option>
+    <option value="1000717" data-enertiaeqpcode="100/335/025" data-lastcost="87.73">416812 THREAD ROD</option>
+    <option value="1000568" data-enertiaeqpcode="100/335/014" data-lastcost="51.44">Rod, Pny 3/4X2 S67 D L/C 712-00267
+    </option>
+    <option value="1000646" data-enertiaeqpcode="100/335/023" data-lastcost="70.32">Rod, PNY 3/4X8 S67 D L/C 712-00867
+    </option>
+    <option value="1000647" data-enertiaeqpcode="100/335/024" data-lastcost="120">Rod, Sucker 3/4 &amp; 7/8 Sucker Rod
+    </option>
+    <option value="1000642" data-enertiaeqpcode="100/335/022" data-lastcost="61.29">Rod, Pny 3/4X2 S67 D L/C 712-00667
+    </option>
+    <option value="1000601" data-enertiaeqpcode="100/335/016" data-lastcost="54.81">Rod-Pny 3/4X4 S67 D L/C 712-00467
+    </option>
+    <option value="1001730" data-enertiaeqpcode="100/335/038" data-lastcost="59">38076-T 7/8" X 4' D Alloy Pony L/Cplg
+      (Don-Nan)</option>
+    <option value="1001731" data-enertiaeqpcode="100/335/039" data-lastcost="60.87">38077-T 7/8" X 6' D Alloy Pony
+      L/Cplg (Don-Nan)</option>
+    <option value="1001692" data-enertiaeqpcode="100/335/037" data-lastcost="10.15">3/4" Sucker Rod</option>
+    <option value="1001688" data-enertiaeqpcode="100/335/036" data-lastcost="12.17">7/8" Sucker Rod</option>
+    <option value="1001602" data-enertiaeqpcode="100/335/035" data-lastcost="35.26">QC16444PR Rod Inserts
+      (compression)</option>
+    <option value="1001876" data-enertiaeqpcode="100/335/040" data-lastcost="6">67225 WICK LUB 1-1/4 IN F/ POL RD 2/ST
+      / NOVHERCULE 21102002 (DNOW)</option>
+    <option value="1001877" data-enertiaeqpcode="100/335/041" data-lastcost="6">11458 WICK REPLACEMENT POLISHED ROD
+      LUB 1-1/2 IN SET R&amp;M ENERGY SYSTEMS 21102006 (DNOW)</option>
+    <option value="1001880" data-enertiaeqpcode="100/335/042" data-lastcost="265.46">33B130 1-1/4 x 1-1/2 x 10 Pol Rd
+      Ln (Don-Nan)</option>
+    <option value="1001916" data-enertiaeqpcode="100/335/043" data-lastcost="142.08">190047 Rod, Polished, 1-1/4x22
+      7/8 Pin S Piston Stl</option>
+    <option value="1001173" data-enertiaeqpcode="100/335/030" data-lastcost="120.76">71400322 ROD, POLISHED, 1-1/4X22
+      7/8 PINS PISTOL STL</option>
+    <option value="1001174" data-enertiaeqpcode="100/335/031" data-lastcost="54.14">Rod, Valve 0.6875X 132 8620
+      Threaded 3X55-132</option>
+    <option value="1001160" data-enertiaeqpcode="100/335/026" data-lastcost="84.34">ROD, PNY 1X2 S67 D L/C 722-00267
+    </option>
+    <option value="1001161" data-enertiaeqpcode="100/335/027" data-lastcost="96.44">ROD, PNY 1X4 S 67 D L/C 722-00467
+    </option>
+    <option value="1001162" data-enertiaeqpcode="100/335/028" data-lastcost="109.44">ROD, PNY 1X6 D L/C 722-00667
+    </option>
+    <option value="1001163" data-enertiaeqpcode="100/335/029" data-lastcost="123.1">ROD, PNY 1X8 S67 D L/C 722-00867
+    </option>
+    <option value="1001426" data-enertiaeqpcode="100/335/034" data-lastcost="71.32">VR1-25 Valve rod 11/16" Steel
+      25'(6-1)</option>
+    <option value="1001399" data-enertiaeqpcode="100/335/033" data-lastcost="2.28">Rod, Valve 0.688X300 8620 Alloy
+      Threaded (IN FEET) L2220068-25 BH (11/16" CS VALVE ROD 114F Quinn) (WF 221466)</option>
+    <option value="1001397" data-enertiaeqpcode="100/335/032" data-lastcost="161.95">Roller Rod guide coupling for
+      7/8" rod in 2-3/8" tubing</option>
+    <option value="1001972" data-enertiaeqpcode="100/335/044" data-lastcost="71.09">217893 ROD, VALVE 0.688X240 8620
+      ALLOY NON-THREADED (DNOW)</option>
+    <option value="1001477" data-enertiaeqpcode="100/350/004" data-lastcost="200.76">37C103A 1" X 3' Sand Screen 12
+      Slot</option>
+    <option value="1001952" data-enertiaeqpcode="100/350/006" data-lastcost="174.68">1199284 SCREEN, SAND 1 IN X 3 FT
+      10 SLOT 304SS (weatherford)</option>
+    <option value="1000506" data-enertiaeqpcode="100/350/003" data-lastcost="174.69">Slot Sand Screen
+      1x3slotsandscreen</option>
+    <option value="1000507" data-enertiaeqpcode="100/355/001" data-lastcost="0.65">Shs 1/4"-20 NC X 5/1 HA1020
+    </option>
+    <option value="1000508" data-enertiaeqpcode="100/355/002" data-lastcost="0.77">5/16 X 1/2 Flat Head HB1002
+    </option>
+    <option value="1000509" data-enertiaeqpcode="100/355/003" data-lastcost="1.14">SHC 1/4" -28 HC1010</option>
+    <option value="1000510" data-enertiaeqpcode="100/355/004" data-lastcost="0.62">Button Head 3/8-16 HM1032</option>
+    <option value="1000713" data-enertiaeqpcode="100/355/005" data-lastcost="0.89">380812 Cap Screw</option>
+    <option value="1000743" data-enertiaeqpcode="100/355/006" data-lastcost="0.89">380810 Cap Screw (Kimball Midwest)
+    </option>
+    <option value="1000744" data-enertiaeqpcode="100/355/007" data-lastcost="3.06">456093 Metric CS (Kimball Midwest)
+    </option>
+    <option value="1001129" data-enertiaeqpcode="100/355/018" data-lastcost="2.52">KWS 381218 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001130" data-enertiaeqpcode="100/355/019" data-lastcost="2.9">KWS 381220 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001131" data-enertiaeqpcode="100/355/020" data-lastcost="5.45">KWS 381614 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001132" data-enertiaeqpcode="100/355/021" data-lastcost="2.26">KWS 381212 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001142" data-enertiaeqpcode="100/355/022" data-lastcost="2.66">KWS 381210 Cap Screw</option>
+    <option value="1001143" data-enertiaeqpcode="100/355/023" data-lastcost="1.37">KWS 380820 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001144" data-enertiaeqpcode="100/355/024" data-lastcost="1.53">KWS 380824 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001145" data-enertiaeqpcode="100/355/025" data-lastcost="2.34">KWS 381214 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001146" data-enertiaeqpcode="100/355/026" data-lastcost="5.49">KWS 381616 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001147" data-enertiaeqpcode="100/355/027" data-lastcost="5.56">KWS 381618 cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001148" data-enertiaeqpcode="100/355/028" data-lastcost="8.63">KWS 381628 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001149" data-enertiaeqpcode="100/355/029" data-lastcost="4.56">KWS Cap Screw 381232</option>
+    <option value="1001089" data-enertiaeqpcode="100/355/016" data-lastcost="4.8">KWS 381612 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001090" data-enertiaeqpcode="100/355/017" data-lastcost="2.99">KWS 381216 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1000937" data-enertiaeqpcode="100/355/015" data-lastcost="306.32">KPK 407779 Screw Mizer Non-Bleed
+      Adjustment (DNOW)</option>
+    <option value="1000808" data-enertiaeqpcode="100/355/008" data-lastcost="6.74">KWS 381624 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1000809" data-enertiaeqpcode="100/355/009" data-lastcost="0.8">KWS 380806 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1000810" data-enertiaeqpcode="100/355/010" data-lastcost="0.85">KWS 380808 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1000816" data-enertiaeqpcode="100/355/011" data-lastcost="1.01">KWS 380812 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1000821" data-enertiaeqpcode="100/355/012" data-lastcost="1.09">KWS 380814 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1000822" data-enertiaeqpcode="100/355/013" data-lastcost="1.21">KWS 380816 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1000823" data-enertiaeqpcode="100/355/014" data-lastcost="0.16">KWS 380404 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001955" data-enertiaeqpcode="100/355/053" data-lastcost="7.73">5469 UNION HEX HEAD U 1/4 IN CLASS
+      3000 THREADED A/SA105 FORGED CARBON
+      STEEL BLACK MSS SP-83 (DNOW)</option>
+    <option value="1001372" data-enertiaeqpcode="100/355/044" data-lastcost="4.68">KWS 381412 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001373" data-enertiaeqpcode="100/355/045" data-lastcost="3.63">KWS 381414 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001375" data-enertiaeqpcode="100/355/047" data-lastcost="4.08">KWS 381416 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001376" data-enertiaeqpcode="100/355/048" data-lastcost="4.35">KWS 381420 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001377" data-enertiaeqpcode="100/355/049" data-lastcost="5.69">KWS 381424 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001378" data-enertiaeqpcode="100/355/050" data-lastcost="6.09">KWS 381432 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001363" data-enertiaeqpcode="100/355/043" data-lastcost="0.76">KWS MHW-494 Screw</option>
+    <option value="1001436" data-enertiaeqpcode="100/355/052" data-lastcost="2.5">SSS037C037 3/8-16 UNC X 3/8 Socket
+      Set Screw</option>
+    <option value="1001155" data-enertiaeqpcode="100/355/030" data-lastcost="3.76">381224 Cap Screw (Kimball Midwest)
+    </option>
+    <option value="1001156" data-enertiaeqpcode="100/355/031" data-lastcost="2.99">381222 Cap Screw (Kimball Midwest)
+    </option>
+    <option value="1001201" data-enertiaeqpcode="100/355/032" data-lastcost="10.28">KWS 381632 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001202" data-enertiaeqpcode="100/355/033" data-lastcost="6.09">KWS 381620 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001223" data-enertiaeqpcode="100/355/034" data-lastcost="9.56">KWS 381640 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001225" data-enertiaeqpcode="100/355/035" data-lastcost="1.02">390428 Cap Screw (Kimball Midwest)
+    </option>
+    <option value="1001350" data-enertiaeqpcode="100/355/042" data-lastcost="4.06">7-16-20 x 3/8 Slotted Headless
+      Shear Screw (D &amp; L Oil Tools)</option>
+    <option value="1001289" data-enertiaeqpcode="100/355/040" data-lastcost="19.13">KWS 382040 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001290" data-enertiaeqpcode="100/355/041" data-lastcost="23.58">KWS 382048 Cap Screw (Kimball
+      Midwest)</option>
+    <option value="1001278" data-enertiaeqpcode="100/355/036" data-lastcost="13.26">KWS 382024 CAP SCREW (Kimball
+      Midwest)</option>
+    <option value="1001279" data-enertiaeqpcode="100/355/037" data-lastcost="12.35">KWS 382028 CAP SCREW (Kimball
+      Midwest)</option>
+    <option value="1001280" data-enertiaeqpcode="100/355/038" data-lastcost="13.51">KWS 382032 CAP SCREW (Kimball
+      Midwest)</option>
+    <option value="1001281" data-enertiaeqpcode="100/355/039" data-lastcost="15.33">KWS 382036 CAP SCREW (Kimball
+      Midwest)</option>
+    <option value="1001300" data-enertiaeqpcode="100/360/013" data-lastcost="36.49">KPK ZNIPI10 2 IN Clapper Assembly
+      w/ Buna Seal</option>
+    <option value="1001359" data-enertiaeqpcode="100/360/014" data-lastcost="420.05">KPK 512631 REP TRM SET 1 IN CB F
+      / 2 IN HPMV / KIMRAY</option>
+    <option value="1001398" data-enertiaeqpcode="100/360/015" data-lastcost="14.09">450300 W2W Tubing Hanger Seal
+    </option>
+    <option value="1001538" data-enertiaeqpcode="100/360/017" data-lastcost="18.14">KPK 67543 DSC ST 12 GT &amp; Mt
+      KMRY 159 / Kimray</option>
+    <option value="1001873" data-enertiaeqpcode="100/360/021" data-lastcost="60.72">QC12024721602 SEAL OIL CRANKSHAFT
+      2.250ID</option>
+    <option value="1001811" data-enertiaeqpcode="100/360/019" data-lastcost="83.75">516148 REP TRM SET 1/2 IN CS F/ 1
+      IN 1400 SMT S / KIMRAY T2839 (DNOW)</option>
+    <option value="1001821" data-enertiaeqpcode="100/360/020" data-lastcost="83.75">516148 REP TRM SET 1/2 IN CS F/ 1
+      IN 1400 SMT S / KIMRAY T2839 (DNOW)</option>
+    <option value="1001665" data-enertiaeqpcode="100/360/018" data-lastcost="36.45">WTD-11-002 Disc, Friction, Split,
+      120degree segments, TD Style C111/SP111 Mechanical Power Take-Off (Mac's)</option>
+    <option value="1000884" data-enertiaeqpcode="100/360/008" data-lastcost="15.49">KPK 810654 DSC ST 312 GT &amp; MT
+      (DNOW)</option>
+    <option value="1000886" data-enertiaeqpcode="100/360/009" data-lastcost="104.72">KPK 516143 REP TRM SET 3/4 IN CS
+      F (DNOW)</option>
+    <option value="1000887" data-enertiaeqpcode="100/360/010" data-lastcost="83.32">KPK 516147 REP TRM SET 3/8 IN CS F
+      (DNOW)</option>
+    <option value="1000888" data-enertiaeqpcode="100/360/011" data-lastcost="73.3">KPK 1013690 TRM SET 3/8 IN Non
+      Freeze (DNOW)</option>
+    <option value="1000877" data-enertiaeqpcode="100/360/006" data-lastcost="7.65">KPK 85802 Round Disc 3 IN (DNOW)
+    </option>
+    <option value="1000878" data-enertiaeqpcode="100/360/007" data-lastcost="5">KPK 85803 Round Disc 2 1/2 IN (DNOW)
+    </option>
+    <option value="1001046" data-enertiaeqpcode="100/360/012" data-lastcost="3.35">KWS 85803 Round Disc 2 1/2 IN
+      (DNOW)</option>
+    <option value="1000737" data-enertiaeqpcode="100/360/005" data-lastcost="46.91">WTD-10-010 Disc, Friction, Split,
+      120 Segments, TD Style C110 Mech. Power Take Off (Mac's Mountain States)</option>
+    <option value="1000735" data-enertiaeqpcode="100/360/004" data-lastcost="4.94">25 032 14-S Seal, Valveband (H.G.
+      Makelim)</option>
+    <option value="1000671" data-enertiaeqpcode="100/360/002" data-lastcost="14.25">BRG, Pilot, Sealed, TD Style C
+      Mechanical Power Take-Off .25mmx52mm WTD-07-001</option>
+    <option value="1000992" data-enertiaeqpcode="100/361/001" data-lastcost="13.37">KPK 121813 SLNT THD 1 Pt. Can Blu
+      PTFE/Brush Top (Sealant) - (DNOW)</option>
+    <option value="1000993" data-enertiaeqpcode="100/361/002" data-lastcost="15.86">KWS 121813 SLNT THD 1 Pt. Can Blu
+      PTFE/Brush Top (Sealant) - (DNOW)</option>
+    <option value="1000638" data-enertiaeqpcode="100/365/008" data-lastcost="327.56">Seatr, Valve 3.750 Tungsten
+      Carbide API 90170SL</option>
+    <option value="1000562" data-enertiaeqpcode="100/365/006" data-lastcost="76.14">Valve 2 Tungsten Carbide 50170SL
+      BH (2" TC SEAT 11KC Quinn)</option>
+    <option value="1000512" data-enertiaeqpcode="100/365/001" data-lastcost="10">Valve 1.250 Tungsten Crbd Hardness
+      87-88 HRA 20170SL BH (1 1/4" TC SEAT 11DC Quinn) 01S02</option>
+    <option value="1000513" data-enertiaeqpcode="100/365/002" data-lastcost="21.5">Tung Carb, 1 1/2, Api 30170SL (1
+      1/2" TC SEAT 11FC Quinn) (01S03 Don-Nan)</option>
+    <option value="1000514" data-enertiaeqpcode="100/365/003" data-lastcost="75.01">Valve 1.750 Tungsten Crbd Hardness
+      87-88 HRA 40170SL 11HC 181534 196233</option>
+    <option value="1000515" data-enertiaeqpcode="100/365/004" data-lastcost="100.44">Tung Carb, 2 1/4 60170SL BH (2
+      1/4" TC SEAT 11MC Quinn)</option>
+    <option value="1000516" data-enertiaeqpcode="100/365/005" data-lastcost="94.1">Tung Carb, 2 3/4, API 80170SL
+    </option>
+    <option value="1001571" data-enertiaeqpcode="100/365/013" data-lastcost="93.62">80SN4 2-1/2 Seating Shoe, Tubing
+      Pum</option>
+    <option value="1001954" data-enertiaeqpcode="100/365/014" data-lastcost="14.51">11DS Seat only - stainless1- 1/4"
+    </option>
+    <option value="1001522" data-enertiaeqpcode="100/365/012" data-lastcost="47.65">BSA033053 1-1/2 Titanium Seat,
+      15/16 Tit. Ball</option>
+    <option value="1001515" data-enertiaeqpcode="100/365/011" data-lastcost="51.73">BSA044073 1-3/4 Carb Seat, 1-1/8
+      Tit. Ba</option>
+    <option value="1001421" data-enertiaeqpcode="100/365/009" data-lastcost="15.47">USE 1st 01S02 1-1/4" Carbide Seat
+      20170SL 11DC</option>
+    <option value="1001422" data-enertiaeqpcode="100/365/010" data-lastcost="26.64">01S04 1-3/4" Carbide Seat</option>
+    <option value="1000818" data-enertiaeqpcode="100/370/002" data-lastcost="189.95">KPK 913NLU0000T -Cooper Standard
+      Coolant Level Sensor (Mixer &amp; Plant Parts Mfg.)</option>
+    <option value="1000656" data-enertiaeqpcode="100/372/001" data-lastcost="500">Separator 250psi 225-300</option>
+    <option value="1001442" data-enertiaeqpcode="100/372/004" data-lastcost="800">Separator 1000HLP "1985" (Ram-CO
+      Services)</option>
+    <option value="1001443" data-enertiaeqpcode="100/372/005" data-lastcost="900">Separator 500VHLP "LEED 2007"
+      (Ram-CO Services)</option>
+    <option value="1001444" data-enertiaeqpcode="100/372/006" data-lastcost="700">Separator 1000 OLMAN HEATH HLP
+      (Ram-CO Services)</option>
+    <option value="1001330" data-enertiaeqpcode="100/372/003" data-lastcost="5000">500# Separator (Anadarko)</option>
+    <option value="1001263" data-enertiaeqpcode="100/373/003" data-lastcost="321.1">CLUTCHASSY-001 Clutch assembly 1"
+      shaft</option>
+    <option value="1001264" data-enertiaeqpcode="100/373/004" data-lastcost="275.98">CLUTCHASSY-002 Clutch assembly
+      for GX690</option>
+    <option value="1001265" data-enertiaeqpcode="100/373/005" data-lastcost="290.57">SHAFT-13 1-1/8 Shaft, stub, for
+      Kubota</option>
+    <option value="1000685" data-enertiaeqpcode="100/373/001" data-lastcost="248.09">Shaft-03 Shaft 3cyl Kubota 2x40
+      (EDI)</option>
+    <option value="1000688" data-enertiaeqpcode="100/373/002" data-lastcost="82.26">Shaft -05 1 1/4 Jack Shaft (EDI)
+    </option>
+    <option value="1000747" data-enertiaeqpcode="100/380/003" data-lastcost="152.91">Slip, 5.500 CRBD U TY ALLOY STL
+      (SLIP, CRBD,UPR,STRADASET 1)- 644-55-110 (Weatherford)</option>
+    <option value="1000748" data-enertiaeqpcode="100/380/004" data-lastcost="95.81">Slip, 5.500 WICKER U TY LOW CSTL
+      -600-55-125XX (Weatherford)</option>
+    <option value="1000749" data-enertiaeqpcode="100/380/005" data-lastcost="397.11">SLEEVE, LOWER SLIP TS-BP 5.5IN
+      TBD 724-55-912 (Weatherford)</option>
+    <option value="1000521" data-enertiaeqpcode="100/380/002" data-lastcost="20.02">(Cast) 43BA12</option>
+    <option value="1001732" data-enertiaeqpcode="100/380/006" data-lastcost="28.61">02042-5-1/2" Slip (Don-Nan)
+    </option>
+    <option value="1001733" data-enertiaeqpcode="100/380/007" data-lastcost="1.74">02041-5-1/2" Slip Spring (Don-Nan)
+    </option>
+    <option value="1001943" data-enertiaeqpcode="100/385/003" data-lastcost="2.23">SLIP SPRING 3/8 45BA17 151618
+    </option>
+    <option value="1000522" data-enertiaeqpcode="100/385/001" data-lastcost="72.14">Slip &amp; Spring Assembly 43BA19
+    </option>
+    <option value="1000523" data-enertiaeqpcode="100/385/002" data-lastcost="140.5">Slip &amp; Spring Assembly 45BA19
+    </option>
+    <option value="1000524" data-enertiaeqpcode="100/390/001" data-lastcost="150">3/4 X 7/8 Slips for 2" Baby Red
+      Fishing Tool EE-2-BS12-20</option>
+    <option value="1000525" data-enertiaeqpcode="100/390/002" data-lastcost="127.07">5/8 X 3/4 Slips for 2" Baby Red
+      Fishing Too EE-2-BS3-20l</option>
+    <option value="1000527" data-enertiaeqpcode="100/395/002" data-lastcost="7.81">Drag, BA-A 0INx0IN TBD 43BA13
+    </option>
+    <option value="1000528" data-enertiaeqpcode="100/395/003" data-lastcost="1.35">Slip, ANC 4 1/2 43BA17</option>
+    <option value="1000529" data-enertiaeqpcode="100/395/004" data-lastcost="8">Drag, BA-A 5 1/2 TAC 45BA13</option>
+    <option value="1000752" data-enertiaeqpcode="100/395/010" data-lastcost="651.3">KPS 1076529 Hatch Thief Spr LLD
+      Enchanced Sealing MDL (DNOW)</option>
+    <option value="1000753" data-enertiaeqpcode="100/395/011" data-lastcost="45.89">KPS 508279 SPR 16 oz/660 &amp;
+      ES-660 SPR LDD Thief (DNOW)</option>
+    <option value="1000591" data-enertiaeqpcode="100/395/008" data-lastcost="9.97">Spring, UPR Slip 5.5 071-55-902
+    </option>
+    <option value="1001942" data-enertiaeqpcode="100/395/015" data-lastcost="18.37">SPRING, DRAG BA-A 5-1/2 TAC 45 BA
+      13 143219</option>
+    <option value="1001753" data-enertiaeqpcode="100/395/014" data-lastcost="51.14">600-45-920 SPRING,FLWR,ASI
+      PKR,4.500 Part 161946 (weatherford)</option>
+    <option value="1001401" data-enertiaeqpcode="100/395/013" data-lastcost="140.5">Slip Spring Assy 45BA19</option>
+    <option value="1001367" data-enertiaeqpcode="100/395/012" data-lastcost="0.88">KPK 527748 SPR KMRY 108</option>
+    <option value="1001402" data-enertiaeqpcode="100/397/008" data-lastcost="66.9">X SHEET - STD 3/4 #9 X 4 X8X57
+      .6:LB C62017A</option>
+    <option value="1001529" data-enertiaeqpcode="100/397/010" data-lastcost="20.74">C10004A Angle 1 X 1 X 3/16' X 20'
+      (23.2LBS)</option>
+    <option value="1001530" data-enertiaeqpcode="100/397/011" data-lastcost="470.9">C60201A Sheet 1/2" X 4' X 8' (653
+      LBS)</option>
+    <option value="1001531" data-enertiaeqpcode="100/397/012" data-lastcost="61.01">C80155H P-HINGE 4" X .375" X 72"
+      (49803)</option>
+    <option value="1001532" data-enertiaeqpcode="100/397/013" data-lastcost="127.27">C94918S SCH-80s A53 24" X .500 X
+      21'</option>
+    <option value="1001533" data-enertiaeqpcode="100/397/014" data-lastcost="783.28">C99173N Sheet 1/2" X 5' X 10'
+      (1021LBS)</option>
+    <option value="1001460" data-enertiaeqpcode="100/397/009" data-lastcost="38.18">Angle 2 X 2 X 1/4" X 20' (63.8LBS)
+      C10022A</option>
+    <option value="1000654" data-enertiaeqpcode="100/397/007" data-lastcost="277.85">Sheet 3/16" X 5' X 10' X 383 LB
+      C60108A</option>
+    <option value="1000890" data-enertiaeqpcode="100/399/001" data-lastcost="37.1">KPK 84757 SB Assy F/1 IN HPMV
+      (Stuffing Box) -(DNOW)</option>
+    <option value="1000891" data-enertiaeqpcode="100/399/002" data-lastcost="64.72">KPK 562027 SB Assy F/ 2 IN HPMV
+      (Stuffing Box) -(DNOW)</option>
+    <option value="1001847" data-enertiaeqpcode="100/399/003" data-lastcost="40.41">ZNIPI10 PACKING STUFFING BOX 1-3/4
+      COMP H (DNOW)</option>
+    <option value="1001439" data-enertiaeqpcode="100/404/002" data-lastcost="300">800 BBL Water Tank (Ram-CO Services)
+    </option>
+    <option value="1001440" data-enertiaeqpcode="100/404/003" data-lastcost="300">100 BBL Water Tank (Ram-CO Services)
+    </option>
+    <option value="1001441" data-enertiaeqpcode="100/404/004" data-lastcost="300">200 BBL Water Tank (Ram-CO Services)
+    </option>
+    <option value="1000983" data-enertiaeqpcode="100/404/001" data-lastcost="7954.53">KPS ZNIPI10 Tank, Steel
+      Production 300 Barrel AP (DNOW)</option>
+    <option value="1000974" data-enertiaeqpcode="100/405/009" data-lastcost="19.22">KPK 3598 Swage U 3 IN C 2 IN Std
+      Threaded both ends carbon steel A234 (DNOW)</option>
+    <option value="1000975" data-enertiaeqpcode="100/405/010" data-lastcost="24.88">KPK 4418 Swage 3 IN X 2 IN XS
+      Threaded Both Ends Carbon Steel A234 (DNOW)</option>
+    <option value="1000867" data-enertiaeqpcode="100/405/008" data-lastcost="38.75">KWS 4368 Swage 4 IN X 3 IN STD
+      Threaded Both Ends Carbon Steel A234 (DNOW)</option>
+    <option value="1001041" data-enertiaeqpcode="100/405/011" data-lastcost="52.25">KWS 4398 Swage 3 IN X 1 IN
+      Threaded Both Ends Carbon Steel A234 (DNOW)</option>
+    <option value="1001140" data-enertiaeqpcode="100/405/012" data-lastcost="18.09">KPK 46014 SWAGE 2 IN X 1 IN XS
+      THREADED BOTH ENDS CARBON STEAL A234</option>
+    <option value="1000778" data-enertiaeqpcode="100/405/007" data-lastcost="18.09">KWS 46014 Swage 2 In X 1 IN XS
+      Threaded Both Ends Carbon Steel A234 (DNOW)</option>
+    <option value="1000776" data-enertiaeqpcode="100/405/006" data-lastcost="24.88">KWS 4418 Swage 3 IN X 2 IN XS
+      Threaded Both Ends Carbon Steel A234 (DNOW)</option>
+    <option value="1000771" data-enertiaeqpcode="100/405/005" data-lastcost="30.48">KWS 4378 Swage 4 IN X 2 IN STD
+      Threaded Both Ends Carbon Steel A234 (DNOW)</option>
+    <option value="1000767" data-enertiaeqpcode="100/405/004" data-lastcost="26.85">KWS 3598 Swage U 3 IN C 2 IN Std
+      Threaded both ends carbon steel A234 (DNOW)</option>
+    <option value="1000760" data-enertiaeqpcode="100/405/002" data-lastcost="27.98">KPS 4368 Swage 4 IN X 3 IN STD
+      Threaded Both Ends Carbon Steel A234 (DNOW)</option>
+    <option value="1000761" data-enertiaeqpcode="100/405/003" data-lastcost="30.48">KPS 4378 Swage 4 IN X 2 IN STD
+      Threaded Both Ends Carbon Steel A234 (DNOW)</option>
+    <option value="1001323" data-enertiaeqpcode="100/405/013" data-lastcost="14.39">KPK 3612 Swage U 1-1/2 IN X 1 IN
+      XS Threaded Both Ends Carbon Steel</option>
+    <option value="1001501" data-enertiaeqpcode="100/406/002" data-lastcost="42.32">ZNIPI10 Thermometer 6" 0/250 Glass
+      1/2" NPT</option>
+    <option value="1001502" data-enertiaeqpcode="100/406/003" data-lastcost="48.74">ZNIPI10 Thermometer 12" 0/250
+      Glass 1/2" NPT</option>
+    <option value="1001825" data-enertiaeqpcode="100/406/005" data-lastcost="781">ZNIPF30 THERMOSTAT, TANK
+      MD91000XT-RX01-15-B01 (DNOW)</option>
+    <option value="1001807" data-enertiaeqpcode="100/406/004" data-lastcost="53.25">ZNIPI10 WIKA 33025-50/550F 2-1/2
+      STEM 1/2 NPT (DNOW)</option>
+    <option value="1000726" data-enertiaeqpcode="100/406/001" data-lastcost="15.83">19434-73014 THERMOSTAT ASSY (H.G.
+      Makelim)</option>
+    <option value="1000660" data-enertiaeqpcode="100/407/001" data-lastcost="80.54">Electronic Timer G0759936</option>
+    <option value="1000569" data-enertiaeqpcode="100/410/006" data-lastcost="732.13">Spring Loaded Retreiving Tool
+      4-1/2" X 2-3/8"</option>
+    <option value="1000783" data-enertiaeqpcode="100/410/011" data-lastcost="40.38">KPK 386992 Tape Measure RE 25 FT
+      1/2 IN SAE Ustape (DNOW)</option>
+    <option value="1000798" data-enertiaeqpcode="100/410/012" data-lastcost="3.75">KPK 4290 Paste Waterfinding 3 oz TB
+      Golden BRN TU (DNOW)</option>
+    <option value="1000799" data-enertiaeqpcode="100/410/013" data-lastcost="79.57">KPK 745735 Tape Guaging 1/2 In
+      Width 25 Ft Long (DNOW)</option>
+    <option value="1000536" data-enertiaeqpcode="100/410/002" data-lastcost="502.5">Hooks, Complete</option>
+    <option value="1000538" data-enertiaeqpcode="100/410/004" data-lastcost="519.89">On-Off ZNIPI10</option>
+    <option value="1000539" data-enertiaeqpcode="100/410/005" data-lastcost="0">Mechanical Setting</option>
+    <option value="1001137" data-enertiaeqpcode="100/410/028" data-lastcost="20.78">KPK 4385 Oiler L/Spout 32 OZ /
+      Golden Rod 120A</option>
+    <option value="1001138" data-enertiaeqpcode="100/410/029" data-lastcost="5.71">KPK 64671 Spout FLX 12 IN F/Oiler
+      Golden Rd 301025 / Golden Rd</option>
+    <option value="1001125" data-enertiaeqpcode="100/410/027" data-lastcost="28.03">KPK 67074 Wrnch Chocke f/FC-140
+      (DNOW)</option>
+    <option value="1001119" data-enertiaeqpcode="100/410/026" data-lastcost="24.28">KPK 5540 GRSE Gun Hand Held 16 oz
+      Cyl (DNOW)</option>
+    <option value="1001088" data-enertiaeqpcode="100/410/025" data-lastcost="15.59">KPK 74493 Wire Tie 16 Guage 5
+      Pound Spool (DNOW)</option>
+    <option value="1001033" data-enertiaeqpcode="100/410/024" data-lastcost="3.29">KWS 4290 Paste Waterfinding 3 oz TB
+      Golden BRN TU (DNOW)</option>
+    <option value="1000982" data-enertiaeqpcode="100/410/023" data-lastcost="1.36">KWS 65491 Brush Scrtch CS 4X19 Rows
+      10 IN Oal Wood (DNOW)</option>
+    <option value="1000941" data-enertiaeqpcode="100/410/017" data-lastcost="438.9">KPK 762974 CNTL Dev Cantilever
+      Snap Actg HD w/ Mize (DNOW_</option>
+    <option value="1000956" data-enertiaeqpcode="100/410/018" data-lastcost="34.35">KPK 78967 Bob Plumb 20 oz Brss Us
+      Tpe (DNOW)</option>
+    <option value="1000957" data-enertiaeqpcode="100/410/019" data-lastcost="12.65">KPK 729596 WPR Line MTl Similar
+      Little Joe US Tpe (DNOW)</option>
+    <option value="1000958" data-enertiaeqpcode="100/410/020" data-lastcost="1.55">KPK 65491 Brush Scrtch CS 4X19 Rows
+      10 IN Oal Wood (DNOW)</option>
+    <option value="1000959" data-enertiaeqpcode="100/410/021" data-lastcost="20.78">KWS 4385 Oil L/ Spout 32 oz (DNOW)
+    </option>
+    <option value="1000961" data-enertiaeqpcode="100/410/022" data-lastcost="5.71">KWS 64671 Spout Flx 12 IN F Oiler
+      Golden Rd )(DNOW)</option>
+    <option value="1000926" data-enertiaeqpcode="100/410/015" data-lastcost="21.4">KPK 243015 Chart Recorder 0-100 PCT
+      8 Day (DNOW)</option>
+    <option value="1000927" data-enertiaeqpcode="100/410/016" data-lastcost="22.2">KPK 255662 Chart Recorder 0-10 Flow
+      8 Day 12 IN 100 (DNOW)</option>
+    <option value="1001843" data-enertiaeqpcode="100/410/088" data-lastcost="355.76">ZNIPP50 GRPL BSKT F/ 2-3/8 CATCH
+      (B1837) (DNOW)</option>
+    <option value="1001844" data-enertiaeqpcode="100/410/089" data-lastcost="135.53">ZNIPP50 GRPL BSKT CONTL (A1838)
+      (DNOW)</option>
+    <option value="1001740" data-enertiaeqpcode="100/410/085" data-lastcost="59.42">ZNIPI10 WEED BURNER (DNOW)
+    </option>
+    <option value="1001741" data-enertiaeqpcode="100/410/086" data-lastcost="9.4">665727 CLNR TIP KING F/ OXYGEN/FUEL
+      CUTTG TIP R / RADNOR 64002384 (DNOW)</option>
+    <option value="1001805" data-enertiaeqpcode="100/410/087" data-lastcost="23.84">ZNIPI20 CHART REC 11.125 IN CHART
+      SZ 1 HOUR (DNOW)</option>
+    <option value="1001875" data-enertiaeqpcode="100/410/090" data-lastcost="7.36">65138 BRSH FENDER WASH 2 IN TRM X 3
+      IN WD X 20 / MAGNOLIA 45 (DNOW)</option>
+    <option value="1001935" data-enertiaeqpcode="100/410/092" data-lastcost="21.5">144113 ABSRBT LOOSE 30 LB BG
+      CELLULOSE ABSORBS / OILGATOR GS10 NOT HAZARDOUS FOR DOT</option>
+    <option value="1001946" data-enertiaeqpcode="100/410/093" data-lastcost="38.7">333668 WHEEL CUTTER .665 IN BLD
+      EXPOSURE MDL E- / RIDGID 75557</option>
+    <option value="1001957" data-enertiaeqpcode="100/410/094" data-lastcost="8.91">ZGSK 1/16" Non-asbestos Sheet
+      60"x120" (1 unit sold as 28 lbs) (DNOW)</option>
+    <option value="1001965" data-enertiaeqpcode="100/410/095" data-lastcost="45.3">ZMIL 3" JIFFY CLAMP (DNOW)</option>
+    <option value="1001966" data-enertiaeqpcode="100/410/096" data-lastcost="51.25">ZMIL 4" JIFFY CLAMP</option>
+    <option value="1001888" data-enertiaeqpcode="100/410/091" data-lastcost="5.03">739747 MRKR PNT YEL MED TIP ACRY
+      BRITE-MARK MED / DYKEM 84004 "UN1263, PAINT, 3, III LIMITED QUANTITY, MARINE POLLUTANT (COPPER, ZINC) - (DNOW)
+    </option>
+    <option value="1001693" data-enertiaeqpcode="100/410/083" data-lastcost="458.03">ZNIPI10 H1212-114421 Heater
+      (DNOW)</option>
+    <option value="1001712" data-enertiaeqpcode="100/410/084" data-lastcost="169.95">355113 O-RG SN-60-62 STD SVC F/
+      ADJ CHOKE / CACTUSFLOW 224022 (DNOW)</option>
+    <option value="1001570" data-enertiaeqpcode="100/410/077" data-lastcost="4.55">KPK 749076 Powder Baby Powder 9 oz
+      BTL J &amp; J BabyPW</option>
+    <option value="1001586" data-enertiaeqpcode="100/410/079" data-lastcost="25.62">KWS 73738 TB Cutter Telescoping
+      1/8 IN</option>
+    <option value="1001581" data-enertiaeqpcode="100/410/078" data-lastcost="15.55">LOV 68514411494 L/AL099/100 Spider
+      Sox</option>
+    <option value="1001610" data-enertiaeqpcode="100/410/080" data-lastcost="210.05">ZMIL SIGHT WINDOW LG2TL 2" SS
+      WM-20043 (DNOW)</option>
+    <option value="1001625" data-enertiaeqpcode="100/410/081" data-lastcost="0.2">ZNIPI10 FERRULE 5/16 IN COMP SLEEVE
+      60A-5 (DNOW)</option>
+    <option value="1001626" data-enertiaeqpcode="100/410/082" data-lastcost="0.2">63790 FERR 3/8 IN TB BRSS /
+      ANDERSONCO 60A6</option>
+    <option value="1001479" data-enertiaeqpcode="100/410/075" data-lastcost="210.05">KPK ZNIPF30 Sight Window, 2" MNPT
+      SPI-550-2</option>
+    <option value="1001471" data-enertiaeqpcode="100/410/074" data-lastcost="511.95">KWS 807896 Flame Arrestor INLN 2
+      IN CS BD Alum Cell / Wenco</option>
+    <option value="1001524" data-enertiaeqpcode="100/410/076" data-lastcost="97.68">MHW-122 Coolant level sensor water
+      lev</option>
+    <option value="1001437" data-enertiaeqpcode="100/410/071" data-lastcost="3.23">ZNIPP50 SL KNCKR F/ 3-3/4 OD BMP
+      SUB W/1-1/4 ID</option>
+    <option value="1001438" data-enertiaeqpcode="100/410/072" data-lastcost="5.38">ZNIPP50 PRTCTR RG F/ 3-3/4 OD BMP
+      SUB W/1-1/4 ID</option>
+    <option value="1001434" data-enertiaeqpcode="100/410/069" data-lastcost="41.38">57745920 Follower Spring F/4-1/2"
+      X 2-3/8" Spring Loaded Retrieving Tool</option>
+    <option value="1001435" data-enertiaeqpcode="100/410/070" data-lastcost="238">57745610 Top Sub F/4-1/2" X 2=3/8"
+      Spring Loaded Retrieving Tool</option>
+    <option value="1001450" data-enertiaeqpcode="100/410/073" data-lastcost="12.05">KPK 386973 TPE Measure 1 IN WD X
+      25 FT LG STL BLD P / USHAPE</option>
+    <option value="1001396" data-enertiaeqpcode="100/410/068" data-lastcost="1.13">KPK 4235 Crayon Pnt Yel STF TIP
+      Weather &amp; UV RES</option>
+    <option value="1001379" data-enertiaeqpcode="100/410/067" data-lastcost="677.56">73766113RH-FPP On-Off, FPP, 7/8 X
+      2-1/4 RH, DS</option>
+    <option value="1001322" data-enertiaeqpcode="100/410/057" data-lastcost="17.01">KPK 558277 Hacksaw FRM Tension
+      Contoured HDL 10 IN / NICHOLSON</option>
+    <option value="1001313" data-enertiaeqpcode="100/410/054" data-lastcost="1.37">ZNIPI10 Syringe For Glue Pack
+    </option>
+    <option value="1001316" data-enertiaeqpcode="100/410/056" data-lastcost="485.5">692762 Tool JMR New / Bigskyener
+      New Tool</option>
+    <option value="1001301" data-enertiaeqpcode="100/410/052" data-lastcost="35.31">KPK 64967 Plumb Bob 20 Oz
+      BRSS/Lufkin</option>
+    <option value="1001305" data-enertiaeqpcode="100/410/053" data-lastcost="110.56">KPK 8601 Clamp Pol RD 1-1/4 IN 2
+      bolt STL Zinc PH</option>
+    <option value="1001334" data-enertiaeqpcode="100/410/063" data-lastcost="397.06">KPK ZNIPI10 12x12 BX SERIES
+      CATA-DYNE HEATER 12 VOLT PREHEAT</option>
+    <option value="1001325" data-enertiaeqpcode="100/410/058" data-lastcost="28.9">KPK 373443 Pen Chart rec GRN 6-PACK
+      82-79-3414-06</option>
+    <option value="1001326" data-enertiaeqpcode="100/410/059" data-lastcost="28.9">KPK 373446 Pen Chart Rec Blu 6-Pack
+      82-72-3113-06</option>
+    <option value="1001327" data-enertiaeqpcode="100/410/060" data-lastcost="28.9">KPK 373444 Pen Chart Rec Red MP
+      82-79-3312-06 Marke</option>
+    <option value="1001328" data-enertiaeqpcode="100/410/061" data-lastcost="280.23">KPK ZNIPP50 6x6 Catalytic Heater
+      PN H0606-214421</option>
+    <option value="1001329" data-enertiaeqpcode="100/410/062" data-lastcost="567.15">KPK ZNIPP50 12x24 Catalytic
+      Heater PN H1224-214421</option>
+    <option value="1001342" data-enertiaeqpcode="100/410/064" data-lastcost="4.04">KPK 64660 Babbit Spcl Federated no
+      4</option>
+    <option value="1001357" data-enertiaeqpcode="100/410/065" data-lastcost="585">ZNIPI20 Tool Hook JMR - ON/OFF Tool
+    </option>
+    <option value="1001358" data-enertiaeqpcode="100/410/066" data-lastcost="2538.11">ZNIPP50 GRPL SPR 1-7/8 OD
+      GRS-23/1344</option>
+    <option value="1001268" data-enertiaeqpcode="100/410/047" data-lastcost="0.2">KPK 63787 FERR 1/4 IN TB BRSS /
+      ANDERSONCO 60A4</option>
+    <option value="1001269" data-enertiaeqpcode="100/410/048" data-lastcost="7.5">730645 TPE BAR PLYETHYL 3 IN X 1000
+      FT 3 MIL YE-- 1199476 (DNOW)</option>
+    <option value="1001270" data-enertiaeqpcode="100/410/049" data-lastcost="79.57">KPK 1035148 TPE GAUGING 25 FT 1/2
+      IN PL STL</option>
+    <option value="1001276" data-enertiaeqpcode="100/410/050" data-lastcost="2.01">KPK 744596 BLD HACKSAW HAND
+      BI-METAL 12 IN LG 1/2</option>
+    <option value="1001277" data-enertiaeqpcode="100/410/051" data-lastcost="33.8">KPK 733070 POT DRIP DUCT 300 LB
+      KMRY YAM</option>
+    <option value="1001224" data-enertiaeqpcode="100/410/044" data-lastcost="89.43">KWS 820236 Silv &amp; Dem (Kimball
+      Midwest)</option>
+    <option value="1001229" data-enertiaeqpcode="100/410/045" data-lastcost="98.75">KWS 820240 Silv &amp; Dem (Kimball
+      Midwest)</option>
+    <option value="1001230" data-enertiaeqpcode="100/410/046" data-lastcost="8.79">KWS 80777C Hard-Kut (Kimball
+      Midwest)</option>
+    <option value="1001205" data-enertiaeqpcode="100/410/039" data-lastcost="138.78">355208 CHOKE FLOW BEAN CFC-140
+      AS/TC</option>
+    <option value="1001211" data-enertiaeqpcode="100/410/041" data-lastcost="6.91">KPK 64059 REPLACEMENT HANDLE SLEDGE
+      30 IN OAL WOOD</option>
+    <option value="1001217" data-enertiaeqpcode="100/410/042" data-lastcost="790.85">KPK 807898 Flame Arrestor INLN 2
+      IN CS BD ALUM CELL</option>
+    <option value="1001218" data-enertiaeqpcode="100/410/043" data-lastcost="36.14">KWS 76176 Pad Absorbent 17 IN X 19
+      IN X 3/8 IN Polypropylene</option>
+    <option value="1001208" data-enertiaeqpcode="100/410/040" data-lastcost="27.08">KPK 4187 PIN CUTTER WHEEL MDL 3S
+      4S/ RIDGID</option>
+    <option value="1001192" data-enertiaeqpcode="100/410/035" data-lastcost="94">795106 PLT ASSY F/ FLAME ARRESTED
+      BURNERS 1000-</option>
+    <option value="1001193" data-enertiaeqpcode="100/410/036" data-lastcost="115.4">KPK 71056 TPE MEASURE OPEN REEL 25
+      PT 1/2 IN</option>
+    <option value="1001194" data-enertiaeqpcode="100/410/037" data-lastcost="0.81">KPK 816104 BLD HACKSAW HAND
+      MOLYBDENUM ALY 12 IN</option>
+    <option value="1001169" data-enertiaeqpcode="100/410/032" data-lastcost="79.57">KPK 745735 TPE Gauging 1/2 IN WD
+      25 FT LG (DNOW)</option>
+    <option value="1001170" data-enertiaeqpcode="100/410/033" data-lastcost="12.65">KPK729596 WPR LINE MTL SIMILAR
+      LITTLE JOE (DNOW)</option>
+    <option value="1001171" data-enertiaeqpcode="100/410/034" data-lastcost="24.05">662443 ORF 1/4 IN /FLAMECO
+    </option>
+    <option value="1001970" data-enertiaeqpcode="100/410/097" data-lastcost="49.4">ZMIL DESCO 625 B STICK GREEN (DNOW)
+    </option>
+    <option value="1001971" data-enertiaeqpcode="100/410/098" data-lastcost="19.15">ZMIL DESCO 600 B STICK BROWN
+      (DNOW)</option>
+    <option value="1000659" data-enertiaeqpcode="100/415/001" data-lastcost="36.02">Jefferson Electric 631-1101-300
+      Transformer</option>
+    <option value="1000986" data-enertiaeqpcode="100/417/004" data-lastcost="84.49">KWS 97306 Transition 4 IN SDR-11
+      Weld Black B44400911B (DNOW)</option>
+    <option value="1000870" data-enertiaeqpcode="100/417/002" data-lastcost="20.74">KWS 71852 Trans 1 IN X 1 IN M THD
+      INT EPX (DNOW)</option>
+    <option value="1000871" data-enertiaeqpcode="100/417/003" data-lastcost="35.32">KWS 73808 Transition 3 IN Threaded
+      Polyethyene SDR-11 Plain End 3408 Black (DNOW)</option>
+    <option value="1000848" data-enertiaeqpcode="100/417/001" data-lastcost="17.5">KWS 71500 Trans 2 IN X 2 IN M THD
+      INT EPX (DNOW)</option>
+    <option value="1001354" data-enertiaeqpcode="100/417/005" data-lastcost="34.66">KWS 721984 Transition 2 IN
+      Threaded Internally Coated</option>
+    <option value="1001355" data-enertiaeqpcode="100/417/006" data-lastcost="60.05">KWS 71501 Trans FTG 3 IN X 3 IN M
+      THD SDR-11</option>
+    <option value="1001661" data-enertiaeqpcode="100/417/007" data-lastcost="144.66">ZNIPF30 TRANSITION, 3" WELDABLE
+      SDR11 (DNOW)</option>
+    <option value="1001961" data-enertiaeqpcode="100/417/012" data-lastcost="114.35">4022 TEE U 4 IN CLASS 150
+      THREADED MALLEABLE IRON BLACK (DNOW)</option>
+    <option value="1001922" data-enertiaeqpcode="100/417/010" data-lastcost="62.22">71506 TRANS 3 IN SDR-11 BW X BW
+      BLK POLY / CENTRALPLA 650030300810 (DNOW)</option>
+    <option value="1001945" data-enertiaeqpcode="100/417/011" data-lastcost="265.6">ZMIL 3" TFWE IPS DR11 TRANSITION
+      WELD END CP-TFWE0300UB (DNOW)</option>
+    <option value="1001872" data-enertiaeqpcode="100/417/009" data-lastcost="78.71">ZNIPI10 3" TRANSITION TF WE 3" IPS
+      DR11 CP-TFWE030011B (DNOW)</option>
+    <option value="1001802" data-enertiaeqpcode="100/417/008" data-lastcost="83.21">ZNIPI10 TRANSITION 4 IN SDR11 WELD
+      BLACK</option>
+    <option value="1001925" data-enertiaeqpcode="100/418/010" data-lastcost="43.87">73730 TB CUTTER TELESCOPING 1/8 IN
+      - 1-1/8 IN / RIDGID 31622 (DNOW)</option>
+    <option value="1001666" data-enertiaeqpcode="100/418/003" data-lastcost="2.5">2 7/8" x 6.5# J55 Drift &amp; Tested
+      Tubing (LRM)</option>
+    <option value="1001689" data-enertiaeqpcode="100/418/004" data-lastcost="8.94">5 1/2 x 15.5# J55 (LRM)</option>
+    <option value="1001725" data-enertiaeqpcode="100/418/005" data-lastcost="110.33">2 1/16" 3.25# 10RIJ, Whiteband
+      Tubing</option>
+    <option value="1001744" data-enertiaeqpcode="100/418/006" data-lastcost="241.42">3 1/2" 9.2# FP1 Flush Joint
+      Tubing (Cressman Tubular)</option>
+    <option value="1001745" data-enertiaeqpcode="100/418/007" data-lastcost="312.5">3 1/2" 9.2# J55 EUE x FP1 pin x
+      Over Tubing (Cressman Tubular)</option>
+    <option value="1001746" data-enertiaeqpcode="100/418/008" data-lastcost="437.5">3 1/2" 9.2# Lift Nubbins (Cressman
+      Tubular)</option>
+    <option value="1001747" data-enertiaeqpcode="100/418/009" data-lastcost="312.5">3 1/2" 9.2# J55 FP1 Pin x FP1 Box
+      (Cressman Tubular)</option>
+    <option value="1001599" data-enertiaeqpcode="100/418/001" data-lastcost="40">2 3/8 4.5# J55 EUE 8rd R2</option>
+    <option value="1001600" data-enertiaeqpcode="100/418/002" data-lastcost="68.94">2 3/8 4.5# J55 EUE 8rd R2</option>
+    <option value="1001926" data-enertiaeqpcode="100/420/002" data-lastcost="52.25">52520050 RDK F/ 2-3/8" SC Tension
+      Unloader</option>
+    <option value="1000540" data-enertiaeqpcode="100/420/001" data-lastcost="50.5">Tension, RDK F/2 3/8" SC</option>
+    <option value="1000541" data-enertiaeqpcode="100/425/001" data-lastcost="71.01">C 2-1/4, S 1-3/8 Api 60170
+    </option>
+    <option value="1000614" data-enertiaeqpcode="100/425/006" data-lastcost="28.79">Ball (A1) Seat (C1) 1.062
+      SSTL-Ball Tuncar Seat 10170</option>
+    <option value="1000762" data-enertiaeqpcode="100/425/007" data-lastcost="209.44">KWS 869807 VLV RLF 2 IN NPT Set
+      at 14 oz (DNOW)</option>
+    <option value="1000763" data-enertiaeqpcode="100/425/008" data-lastcost="68.75">KWS 5071 VLV BL FLTG 2 THD 1000 RP
+      2 PC A395 (DNOW)</option>
+    <option value="1000764" data-enertiaeqpcode="100/425/009" data-lastcost="115.25">KWS 6968 VLV BL FLTG 2 THD 3000
+      RP 2 PC A105 (DNOW)</option>
+    <option value="1000845" data-enertiaeqpcode="100/425/015" data-lastcost="24.47">KWS 78595 VLV BL FLTG 1 IN THD
+      2000 RP 1 PC A216 (DNOW)</option>
+    <option value="1000837" data-enertiaeqpcode="100/425/014" data-lastcost="24.1">KPK 6338 Valve Needle 1/2 IN 6000
+      LB (DNOW)</option>
+    <option value="1000825" data-enertiaeqpcode="100/425/013" data-lastcost="266.46">KPK 869807 VLV RLF 2 IN NPT Set
+      at 14 oz (DNOW)</option>
+    <option value="1000802" data-enertiaeqpcode="100/425/012" data-lastcost="24.8">KPK 86284 STM VLV UPR F/ 2 IN 212
+      MTR VLV(DNOW)</option>
+    <option value="1000785" data-enertiaeqpcode="100/425/010" data-lastcost="12.8">KPK 326799 VLV BL FLTG 1/4 In THD
+      600 RP 2 PC SCRD(DNOW)</option>
+    <option value="1000786" data-enertiaeqpcode="100/425/011" data-lastcost="64.22">KPK 67550 STM LWR F/KMRY 2 IN
+      Diaph Mtr Valve (DNOW)</option>
+    <option value="1000985" data-enertiaeqpcode="100/425/023" data-lastcost="132.25">KWS 74958 VL BL FLTG 3 IN THD 750
+      RP 2 PC (DNOW)</option>
+    <option value="1000894" data-enertiaeqpcode="100/425/020" data-lastcost="18.84">KPK 86298 DSC VLV MTR F/ 3 IN 325
+      (DNOW)</option>
+    <option value="1000895" data-enertiaeqpcode="100/425/021" data-lastcost="40.3">KPK 872143 STM Assy 304 SS F/KMRY 4
+      IN 412 FMT DB (DNOW)</option>
+    <option value="1000897" data-enertiaeqpcode="100/425/022" data-lastcost="50.56">KPK 546638 STM CLC F/ 325 SOA
+      Kimray (DNOW)</option>
+    <option value="1000879" data-enertiaeqpcode="100/425/016" data-lastcost="25.95">KPK 67549 STM Assy 2 IN Diaph Mtr
+      Vlv (Valve Stem)(DNOW)</option>
+    <option value="1000881" data-enertiaeqpcode="100/425/017" data-lastcost="35.55">KPK 86285 STM VLV LWR F/ 2 IN 212
+      MTR VLV(DNOW)</option>
+    <option value="1000882" data-enertiaeqpcode="100/425/018" data-lastcost="116.3">KPK 405608 ST Valve RMV 2 IN
+      (DNOW)</option>
+    <option value="1000883" data-enertiaeqpcode="100/425/019" data-lastcost="6.88">KPK 229306 STM Valve 2 IN BP G Ser
+      (DNOW)</option>
+    <option value="1001034" data-enertiaeqpcode="100/425/027" data-lastcost="9.84">KWS 326799 VLV BL FLTG 1/4 In THD
+      600 RP 2 PC SCRD(DNOW)</option>
+    <option value="1001004" data-enertiaeqpcode="100/425/024" data-lastcost="24.47">KPK 78595 VLV BL FLTG 1 IN THD
+      2000 RP 1 PC A216 (DNOW)</option>
+    <option value="1001042" data-enertiaeqpcode="100/425/028" data-lastcost="22.67">KWS 6338 Valve Needle 1/2 IN 6000
+      LB (DNOW)</option>
+    <option value="1001023" data-enertiaeqpcode="100/425/025" data-lastcost="17.75">KWS 67549 STM Assy 2 IN Diaph Mtr
+      Vlv (Valve Stem)(DNOW)</option>
+    <option value="1001024" data-enertiaeqpcode="100/425/026" data-lastcost="6.88">KWS 229306 STM Valve 2 IN BP G Ser
+      (DNOW)</option>
+    <option value="1001082" data-enertiaeqpcode="100/425/030" data-lastcost="78.75">KPK 258453 Switch Micro VLV 3 WY
+      (DNOW)</option>
+    <option value="1001079" data-enertiaeqpcode="100/425/029" data-lastcost="11.65">KWS 67528 Nut Diaph 2 IN VLV
+      (DNOW)</option>
+    <option value="1001133" data-enertiaeqpcode="100/425/031" data-lastcost="17.39">2 3/8 Seal Kit W/Spring</option>
+    <option value="1001141" data-enertiaeqpcode="100/425/032" data-lastcost="20.85">KWS 145444 Vlve CHECK INLINE 1/4
+      IN THREADED MALE X FEMALE 6k PSI</option>
+    <option value="1001920" data-enertiaeqpcode="100/425/063" data-lastcost="36">1209163 VLV SAF RLF 1/2 IN F THD X M
+      THD SET AT / APOLLOVALV 1740103 (DNOW)</option>
+    <option value="1001939" data-enertiaeqpcode="100/425/064" data-lastcost="310.51">ZVLV PRV MERCER 2" MNPT
+      91-43F51V09P21-125</option>
+    <option value="1001794" data-enertiaeqpcode="100/425/058" data-lastcost="10.91">810650 CG F/ 1 IN HP MTR VLV KMRY
+      2837 / KIMRAY 2837 (DNOW)</option>
+    <option value="1001754" data-enertiaeqpcode="100/425/057" data-lastcost="355.04">QC16671GU VALVE ASSY. SUCTION
+      270NG (compression leasing)</option>
+    <option value="1001845" data-enertiaeqpcode="100/425/059" data-lastcost="24.95">810657 GDE STM 2 IN MA 3W KMRY
+      2463 / KIMRAY 2463 (DNOW)</option>
+    <option value="1001869" data-enertiaeqpcode="100/425/061" data-lastcost="15.47">78672 VLV BL FLTG 1/4 IN THD 2000
+      RP 2 PC BD A / KF 5000P11</option>
+    <option value="1001870" data-enertiaeqpcode="100/425/062" data-lastcost="51.14">295784 VLV BTFL RS 3 IN 200
+      WAFER-BODY ST DI BD / CCINDUSTRI BF030LWDD1BL (DNOW)</option>
+    <option value="1001852" data-enertiaeqpcode="100/425/060" data-lastcost="57.15">295785 VLV BTFL RS 4 IN 200
+      WAFER-BODY ST DI BD / CCINDUSTRI BF040LWDD1BL (DNOW)</option>
+    <option value="1001609" data-enertiaeqpcode="100/425/051" data-lastcost="136.5">1131358 VLV CNTL 1 IN 300 SCRD DI
+      BD MDL 130 SMT / KIMRAY (DNOW)</option>
+    <option value="1001606" data-enertiaeqpcode="100/425/050" data-lastcost="16.25">ZNIPV10 KIMRAY BLEED VALVE YBF1
+    </option>
+    <option value="1001615" data-enertiaeqpcode="100/425/052" data-lastcost="261.7">ZNIPV10 KIMRAY 2" 125# DA MTR VLV
+      EMC2 212SMTDA</option>
+    <option value="1001736" data-enertiaeqpcode="100/425/055" data-lastcost="462.95">793571 VLV DUMP 2 IN THD MTR OPER
+      250 SMA PB PO / KIMRAY ELA (DNOW)</option>
+    <option value="1001737" data-enertiaeqpcode="100/425/056" data-lastcost="336.2">1131354 VLV CNTL 2 IN 400 SCRD DI
+      BD MDL 212 SMA / KIMRAY EKI (DNOW)</option>
+    <option value="1001714" data-enertiaeqpcode="100/425/054" data-lastcost="35.61">ZNIPI10 PRESSURE RELIEF VALVE
+      APOLLO 1740103 1/2" NPT M X F 125 PSI (DNOW)</option>
+    <option value="1001709" data-enertiaeqpcode="100/425/053" data-lastcost="14.74">326800 VLV BL FLTG 3/4 IN THD 600
+      RP 2 PC SCRD / KF (DNOW)</option>
+    <option value="1001356" data-enertiaeqpcode="100/425/043" data-lastcost="28.4">KPK 810655 DSC ST RET FOA / KIMRAY
+    </option>
+    <option value="1001303" data-enertiaeqpcode="100/425/041" data-lastcost="30.35">KPK ZNIPV10 Valve Exhaust Jumbo
+      JEV-F4F4</option>
+    <option value="1001298" data-enertiaeqpcode="100/425/040" data-lastcost="12">KPK 326798 VLV VL FLTG 1/2 IN THD 600
+      FP 2 PC SCRD/ KF</option>
+    <option value="1001286" data-enertiaeqpcode="100/425/039" data-lastcost="6.09">KPK 742971 STM 112 SMT-DAB 1IN/
+      KIMRAY</option>
+    <option value="1001172" data-enertiaeqpcode="100/425/035" data-lastcost="19.76">KPK 6337 VLV NDL STR PATH 1/4 IN M
+      X F 600 CS</option>
+    <option value="1001166" data-enertiaeqpcode="100/425/034" data-lastcost="4.6">65334 HDL ASSY CAMP &amp; GRV
+      3IN-5IN BRASS INVLIC/ DIXON VLV</option>
+    <option value="1001154" data-enertiaeqpcode="100/425/033" data-lastcost="64">KWS 157572 VLV CK 2 IN THD 1000 DI/
+      TULSAVALVE TV 21033</option>
+    <option value="1001209" data-enertiaeqpcode="100/425/036" data-lastcost="70.35">KWS 145422 VLV CK SWG 2 IN THD
+      2000 SCRD CVR A395</option>
+    <option value="1001252" data-enertiaeqpcode="100/425/037" data-lastcost="10.58">Smith Cooper 4in 250W Valves
+    </option>
+    <option value="1001253" data-enertiaeqpcode="100/425/038" data-lastcost="10.57">Smith Cooper 3in Valves</option>
+    <option value="1001449" data-enertiaeqpcode="100/425/044" data-lastcost="16.25">KPK 16322 VLV BL FLTG 1/2 IN THD
+      2000 RP UNIBD A21/KF</option>
+    <option value="1001537" data-enertiaeqpcode="100/425/049" data-lastcost="74.66">KWS 183824 VLV CK SWG 1 IN THD
+      1000 FP 2 PC SCRD BD / BALON</option>
+    <option value="1001456" data-enertiaeqpcode="100/425/045" data-lastcost="167.47">ZNIPI10 WM-W2601EV10425 1" SRV
+      @425</option>
+    <option value="1001481" data-enertiaeqpcode="100/425/046" data-lastcost="554.98">KWS 88942 VLV BL 2 In UN END 2000
+      CS / MARPAC E790TT</option>
+    <option value="1001482" data-enertiaeqpcode="100/425/047" data-lastcost="310.51">KPK ZNIPV10 PRV Mercer 2" MNPT PN
+    </option>
+    <option value="1001492" data-enertiaeqpcode="100/425/048" data-lastcost="450">Rex Roth HC-Valve (M&amp; C Sales)
+    </option>
+    <option value="1000545" data-enertiaeqpcode="100/430/001" data-lastcost="122.07">2.000 Seat TIT Crbd 73 Hrc Ball
+      1.250 50180</option>
+    <option value="1001974" data-enertiaeqpcode="100/430/002" data-lastcost="50">VLV, BALL (A1) SEAT (A1) 2.750
+      SSTL-BALL SSTL-SEAT (WEATHERFORD)</option>
+    <option value="1000546" data-enertiaeqpcode="100/435/001" data-lastcost="0.38">Lock, 3/8" Ext. HM1035</option>
+    <option value="1000740" data-enertiaeqpcode="100/435/003" data-lastcost="0.6">373808 Washer (Kimball Midwest)
+    </option>
+    <option value="1000741" data-enertiaeqpcode="100/435/004" data-lastcost="4.42">374820 Washer (Kimball Midwest)
+    </option>
+    <option value="1000742" data-enertiaeqpcode="100/435/005" data-lastcost="0.87">374812 Washer (Kimball Midwest)
+    </option>
+    <option value="1001104" data-enertiaeqpcode="100/435/015" data-lastcost="0.19">KWS 373906 Washer (Kimball Midwest)
+    </option>
+    <option value="1001092" data-enertiaeqpcode="100/435/013" data-lastcost="0.15">KWS 373804 Washer (Kimball Midwest)
+    </option>
+    <option value="1001093" data-enertiaeqpcode="100/435/014" data-lastcost="0.06">KWS 374804 Washer (Kimball Midwest)
+    </option>
+    <option value="1000811" data-enertiaeqpcode="100/435/009" data-lastcost="0.72">KWS 373808 Washer (Kimball Midwest)
+    </option>
+    <option value="1000812" data-enertiaeqpcode="100/435/010" data-lastcost="0.38">KWS 374808 Washer (Kimball Midwest)
+    </option>
+    <option value="1000813" data-enertiaeqpcode="100/435/011" data-lastcost="3.81">KWS 3738161 Washer (Kimball
+      Midwest)</option>
+    <option value="1000814" data-enertiaeqpcode="100/435/012" data-lastcost="4.12">KWS 3738201 Washer (Kimball
+      Midwest)</option>
+    <option value="1000805" data-enertiaeqpcode="100/435/006" data-lastcost="1.57">KWS 374812 Washer (Kimball Midwest)
+    </option>
+    <option value="1000806" data-enertiaeqpcode="100/435/007" data-lastcost="2.71">KWS 374816 Washer (Kimball Midwest)
+    </option>
+    <option value="1000807" data-enertiaeqpcode="100/435/008" data-lastcost="2.15">KWS 373812 Washer (Kimball Midwest)
+    </option>
+    <option value="1001509" data-enertiaeqpcode="100/435/020" data-lastcost="5.22">HS51 2-1/2" Spacer, Holddown, HR
+    </option>
+    <option value="1001413" data-enertiaeqpcode="100/435/019" data-lastcost="5">HS41 2" Spacer, Holddown, HR ( 20-13
+      or 110k or 90007879)</option>
+    <option value="1001371" data-enertiaeqpcode="100/435/018" data-lastcost="1.96">KWS 374814 Washer (Kimball Midwest)
+    </option>
+    <option value="1001369" data-enertiaeqpcode="100/435/017" data-lastcost="3.18">KWS 373814 washer (Kimball Midwest)
+    </option>
+    <option value="1001200" data-enertiaeqpcode="100/435/016" data-lastcost="4.24">KWS 3738201 Washer (Kimball
+      Midwest)</option>
+    <option value="1001582" data-enertiaeqpcode="100/435/022" data-lastcost="28.62">LOV L100 1.00 L100 Hub 1" 1/4X1/8
+      KW</option>
+    <option value="1001569" data-enertiaeqpcode="100/435/021" data-lastcost="1.08">KPK 61906 Washer Gauge Glass 5/8 IN
+      Rubber Corning</option>
+    <option value="1000674" data-enertiaeqpcode="100/437/001" data-lastcost="27.29">8633*2BX60 HY-T Wedge</option>
+    <option value="1000692" data-enertiaeqpcode="100/437/002" data-lastcost="27.85">8633*2BX46 HY-T Wedge</option>
+    <option value="1000693" data-enertiaeqpcode="100/437/003" data-lastcost="30.55">8633*2BX43 HY-T Wedge</option>
+    <option value="1000710" data-enertiaeqpcode="100/438/001" data-lastcost="48.7">EG561-68470 WIRE HARNESS</option>
+    <option value="1000548" data-enertiaeqpcode="100/440/002" data-lastcost="17.4">Pump 9 in. Roll 8530.88.0109 BH
+      (97-2 Quinn) 210337</option>
+    <option value="1000838" data-enertiaeqpcode="100/440/003" data-lastcost="1.71">KPK 67383 Tape Threaded Seal 1 IN
+      (DNOW)</option>
+    <option value="1001083" data-enertiaeqpcode="100/440/005" data-lastcost="0.97">KPK 67114 Tape Thread Seal 1/2 IN
+      Width 520 IN Long Teflow Medium Density (DNOW)</option>
+    <option value="1001086" data-enertiaeqpcode="100/440/006" data-lastcost="12.14">KPK 61942 Tpe Pipe Wrap 2 IN WD
+      100 Ft LG Polyviny (DNOW)</option>
+    <option value="1000994" data-enertiaeqpcode="100/440/004" data-lastcost="1.71">KWS 67383 Tape Threaded Seal 1 IN
+      (DNOW)</option>
+    <option value="1001336" data-enertiaeqpcode="100/440/008" data-lastcost="1.95">KPK 730638 TPE FLGNG PVC 1-3/16 IN
+      x 150 FT</option>
+    <option value="1001333" data-enertiaeqpcode="100/440/007" data-lastcost="1.19">KPK 733151 TPE THD SEALING 1/2 IN
+      WD 520 N LG 4.0</option>
+    <option value="1001425" data-enertiaeqpcode="100/440/009" data-lastcost="91.04">24OW Roll Ordinance Wrap</option>
+    <option value="1001525" data-enertiaeqpcode="100/445/002" data-lastcost="639.63">3611HB Roper Gear Pump</option>
+    <option value="1000711" data-enertiaeqpcode="100/445/001" data-lastcost="12.14">1E496-73030 ASSY WATER PUMP
+    </option>
+
   </select>
 </div>
-  <script src="js/jquery.min.js"></script>
+  
   <script src="js/outofview.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
